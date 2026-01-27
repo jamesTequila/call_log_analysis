@@ -1,0 +1,773 @@
+Queue,Call Time,Caller ID,Agent,Waiting Time,Polling Attempts,Agent State,customer_type,week,week_start
+501 Sales Queue,2025-11-30 15:53:21,+35389672c11b,210 Sales SalesPos 1,00:00:52,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 15:21:16,+3538d0d9c7b7,209 Carey David,00:01:07,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 15:12:02,+353892e2d7c1,207 McEndoo Mark,00:01:10,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 15:00:12,+3538e391c286,216 Colin McCormac,00:05:04,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 13:41:02,+3538eca7dd70,216 Colin McCormac,00:01:18,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 13:36:36,+35386e720758,203 Amrish Sumrath,00:01:03,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 13:35:31,+35381012f464,216 Colin McCormac,00:02:39,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 13:35:23,+353842e4a8d5,221 Sales Pos 5,00:02:09,9,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 13:20:57,+353850558404,211 Darragh Leavy,00:00:37,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 12:35:06,+3538b9429026,206 Griffin Gordon,00:02:08,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 12:33:33,+35381012f464,217 Joe Gorman,00:02:35,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 12:32:54,+35381d45a820,206 Griffin Gordon,00:02:00,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 12:28:54,+35381012f464,207 McEndoo Mark,00:01:05,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 11:38:57,+3538aaa22a23,220 Collier Bernard,00:01:00,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:58:24,+35386a50fede,217 Joe Gorman,00:00:30,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:57:20,+35386a50fede,211 Darragh Leavy,00:00:45,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:56:41,+35380274ff5b,217 Joe Gorman,00:00:24,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:54:48,+35380274ff5b,211 Darragh Leavy,00:01:15,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:54:36,+35386a50fede,213 Abu Nihal,00:01:28,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:11:56,+3538b493b3da,208 Sales N,00:00:39,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:11:22,+3538cce2bf73,208 Sales N,00:01:06,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:11:01,+35387e182ab5,220 Collier Bernard,00:01:39,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-30 10:06:17,+35380793705e,210 Sales SalesPos 1,00:02:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:48:11,+3538c2574984,217 Joe Gorman,00:02:53,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:33:52,+3538bfb51c5c,204 Tohill Gerard,00:09:31,15,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:33:25,+3538e3c49290,211 Darragh Leavy,00:00:20,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:33:05,+353828828e22,209 Carey David,00:02:32,8,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:30:19,+3538e6e8e996,211 Darragh Leavy,00:02:13,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:22:52,+3538f4932899,207 McEndoo Mark,00:02:25,5,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:17:50,+3538eb19a6b0,209 Carey David,00:01:28,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:10:09,+35389672c11b,203 Amrish Sumrath,00:01:55,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:07:54,+35389672c11b,203 Amrish Sumrath,00:01:21,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 17:00:36,+35387033adaa,206 Griffin Gordon,00:02:55,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:59:19,+35389cbcd90e,206 Griffin Gordon,00:02:41,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:54:22,+3538c629532a,210 Sales SalesPos 1,00:10:21,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:53:15,+35387033adaa,216 Colin McCormac,00:02:56,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:50:57,+3538e340633f,206 Griffin Gordon,00:02:33,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:49:20,+3538ff5768d1,213 Abu Nihal,00:00:25,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:48:19,+353871e2d960,210 Sales SalesPos 1,00:03:16,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:46:10,+3538ff5768d1,209 Carey David,00:03:06,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:45:48,+3538315ef3ce,220 Collier Bernard,00:04:43,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:39:42,+3538315ef3ce,217 Joe Gorman,00:02:11,8,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:37:08,+3538974365fe,216 Colin McCormac,00:00:59,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:36:32,+3538315ef3ce,209 Carey David,00:01:04,5,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:34:47,+35388d98fede,220 Collier Bernard,00:01:23,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:32:32,+35380b33f7c9,203 Amrish Sumrath,00:05:53,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:30:23,+353868ca3f0c,217 Joe Gorman,00:04:11,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:27:51,+3538315ef3ce,206 Griffin Gordon,00:08:34,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:27:12,+353882a243ff,208 Sales N,00:05:57,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:26:00,+3538974365fe,216 Colin McCormac,00:02:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:13:35,+35385fc85021,203 Amrish Sumrath,00:01:18,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:06:09,+35384040ee13,209 Carey David,00:06:46,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:04:33,+35389672c11b,209 Carey David,00:02:22,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 16:01:12,+35382c9de964,210 Sales SalesPos 1,00:01:04,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:58:59,+353860f70979,206 Griffin Gordon,00:01:00,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:58:53,+353869c54e90,208 Sales N,00:01:18,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:56:32,+3538c2574984,206 Griffin Gordon,00:01:34,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:44:40,+35382c9de964,221 Sales Pos 5,00:02:20,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:39:28,+3538d8b8b863,210 Sales SalesPos 1,00:08:22,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:34:54,+3538e340633f,206 Griffin Gordon,00:02:38,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:31:17,+3538e2c76863,213 Abu Nihal,00:20:00,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:29:43,+353860c1d566,207 McEndoo Mark,00:07:27,20,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:29:11,+3538ea5ad192,216 Colin McCormac,00:09:19,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:26:12,+3538cc209bdd,216 Colin McCormac,00:00:57,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:25:04,+3538cc209bdd,204 Tohill Gerard,00:01:04,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:24:30,+353883822f59,220 Collier Bernard,00:00:20,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:13:29,+35384cba6d40,210 Sales SalesPos 1,00:02:27,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:12:09,+35384cba6d40,208 Sales N,00:00:24,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:10:47,+353899806a17,220 Collier Bernard,00:06:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:10:47,+35382c9de964,216 Colin McCormac,00:03:56,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:06:28,+35385fc85021,211 Darragh Leavy,00:10:52,20,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:06:11,+3538bba1ae2d,203 Amrish Sumrath,00:04:39,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 15:05:18,+35389b13699d,209 Carey David,00:07:29,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:51:55,+3538974365fe,221 Sales Pos 5,00:06:21,16,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:47:08,+35381c15ad4d,216 Colin McCormac,00:00:50,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:46:35,+35388b6ec643,000 Wall Board,00:07:02,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:41:25,+3538fd3a4352,213 Abu Nihal,00:05:12,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:40:23,+3538afc8f08b,210 Sales SalesPos 1,00:07:03,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:38:33,+3538b591276b,207 McEndoo Mark,00:03:17,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:37:10,+353825f6a278,220 Collier Bernard,00:01:35,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:36:39,+3538fca9405e,217 Joe Gorman,00:00:42,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:36:29,+35380be5cba5,217 Joe Gorman,00:01:40,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:35:15,+353807240d30,000 Wall Board,00:02:31,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:32:56,+3538355b9cdc,221 Sales Pos 5,00:04:41,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:32:43,+3538bfb51c5c,206 Griffin Gordon,00:07:31,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:30:25,+353807240d30,211 Darragh Leavy,00:04:46,19,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:29:26,+35380be5cba5,210 Sales SalesPos 1,00:05:16,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:21:38,+3538e46343a2,213 Abu Nihal,00:01:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:19:53,+353853335a20,206 Griffin Gordon,00:05:17,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:19:36,+3538fca9405e,206 Griffin Gordon,00:03:44,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:19:04,+3538e46343a2,217 Joe Gorman,00:01:51,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:16:54,+353853335a20,213 Abu Nihal,00:02:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:16:46,+3538e46343a2,211 Darragh Leavy,00:02:15,4,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:16:38,+3538f546c2cf,206 Griffin Gordon,00:05:43,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:15:18,+3538ebdeb97e,203 Amrish Sumrath,00:02:49,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:14:46,+35383c624450,209 Carey David,00:02:14,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:11:27,+353864492d02,220 Collier Bernard,00:01:00,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:11:11,+3538769f6082,206 Griffin Gordon,00:05:23,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:09:45,+35383c624450,221 Sales Pos 5,00:02:34,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:09:10,+3538769f6082,204 Tohill Gerard,00:01:03,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:06:51,+35383c624450,207 McEndoo Mark,00:01:01,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:04:19,+35389509735e,220 Collier Bernard,00:08:31,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:03:10,+3538dc3e01e6,208 Sales N,00:01:43,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:03:06,+3538fca9405e,207 McEndoo Mark,00:10:56,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:00:40,+3538cf771c77,209 Carey David,00:04:56,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 14:00:37,+353825f6a278,204 Tohill Gerard,00:04:12,17,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:57:22,+353825f6a278,210 Sales SalesPos 1,00:01:14,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:56:58,+35386d6589c6,213 Abu Nihal,00:04:59,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:55:13,+353869b21870,210 Sales SalesPos 1,00:00:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:52:59,+35387c083612,000 Wall Board,00:02:13,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:52:21,+3538ed187911,000 Wall Board,00:02:35,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:51:14,+353846639ddb,220 Collier Bernard,00:06:34,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:48:58,+3538ed187911,211 Darragh Leavy,00:02:31,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:47:46,+35383c624450,220 Collier Bernard,00:06:16,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:45:40,+353862df50db,208 Sales N,00:02:33,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:43:44,+353869b21870,213 Abu Nihal,00:01:59,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:43:01,+3538ed187911,221 Sales Pos 5,00:02:32,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:42:36,+35384b838842,211 Darragh Leavy,00:05:30,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:39:55,+3538cf771c77,203 Amrish Sumrath,00:06:32,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:35:23,+353853335a20,220 Collier Bernard,00:02:25,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:35:00,+35384cba6d40,203 Amrish Sumrath,00:12:48,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:33:46,+35389b5f4167,204 Tohill Gerard,00:02:19,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:32:16,+353853335a20,211 Darragh Leavy,00:01:29,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:31:36,+3538deb9d340,217 Joe Gorman,00:02:57,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:29:15,+35385fc85021,211 Darragh Leavy,00:04:35,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:28:16,+3538de49bea2,217 Joe Gorman,00:00:54,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:28:00,+3538da4abcdf,221 Sales Pos 5,00:02:02,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:27:42,+35384b838842,221 Sales Pos 5,00:09:55,23,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:26:55,+35385fc85021,204 Tohill Gerard,00:01:42,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:26:33,+3538ed187911,204 Tohill Gerard,00:05:09,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:24:20,+353853335a20,203 Amrish Sumrath,00:06:47,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:24:08,+3538e340633f,000 Wall Board,00:02:37,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:20:58,+3538f0848cde,217 Joe Gorman,00:20:00,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:19:45,+35386bd08e03,209 Carey David,00:02:51,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:17:41,+3538ab92250c,220 Collier Bernard,00:05:49,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:15:46,+3538707fb725,204 Tohill Gerard,00:02:43,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:14:49,+353825f6a278,204 Tohill Gerard,00:09:52,11,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:08:21,+35380c1a32c5,211 Darragh Leavy,00:10:11,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:06:46,+35385fc85021,210 Sales SalesPos 1,00:04:13,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:02:17,+35385e51bae0,209 Carey David,00:00:25,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:02:09,+3538486fa22b,203 Amrish Sumrath,00:18:39,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 13:00:33,+3538f0848cde,211 Darragh Leavy,00:20:00,41,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:59:06,+3538fc832dd0,211 Darragh Leavy,00:10:56,20,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:58:26,+3538dc53c14e,209 Carey David,00:20:00,59,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-29 12:54:43,+35385a92d337,213 Abu Nihal,00:09:54,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:40:38,+3538da4abcdf,210 Sales SalesPos 1,00:07:53,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:33:24,+353847e1649d,207 McEndoo Mark,00:04:57,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:33:20,+3538fa3b1119,206 Griffin Gordon,00:00:58,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:31:52,+3538da4abcdf,220 Collier Bernard,00:08:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:27:09,+3538921e3773,221 Sales Pos 5,00:03:30,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:25:10,+3538d889ca95,217 Joe Gorman,00:03:16,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:24:26,+3538fa3b1119,220 Collier Bernard,00:04:08,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:22:54,+3538f2ecb95f,000 Wall Board,00:04:18,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:22:15,+3538c2c5231d,220 Collier Bernard,00:01:15,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:14:36,+3538959e05ca,211 Darragh Leavy,00:00:40,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:11:22,+353887cefa49,206 Griffin Gordon,00:01:28,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:10:14,+353887cefa49,207 McEndoo Mark,00:00:30,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:07:06,+353887cefa49,203 Amrish Sumrath,00:02:27,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:06:15,+3538959e05ca,221 Sales Pos 5,00:01:07,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:03:34,+3538959e05ca,207 McEndoo Mark,00:01:00,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 12:01:11,+3538959e05ca,211 Darragh Leavy,00:00:34,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:59:08,+3538959e05ca,208 Sales N,00:02:00,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:57:40,+3538959e05ca,000 Wall Board,00:01:24,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:55:27,+3538de49bea2,210 Sales SalesPos 1,00:02:58,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:54:20,+3538c2574984,206 Griffin Gordon,00:01:24,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:50:32,+3538e340633f,210 Sales SalesPos 1,00:01:53,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:48:05,+3538de49bea2,208 Sales N,00:05:16,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:45:49,+353861cb71dd,206 Griffin Gordon,00:00:43,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:42:50,+3538f76ae81c,206 Griffin Gordon,00:09:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:29:24,+3538de49bea2,207 McEndoo Mark,00:02:20,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:27:57,+3538bb3b1d72,204 Tohill Gerard,00:02:43,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:18:58,+35387adbe8fa,216 Colin McCormac,00:00:31,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:17:55,+353892674afd,213 Abu Nihal,00:04:57,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-29 11:17:54,+353875a72793,206 Griffin Gordon,00:00:25,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:13:25,+3538cca50f52,211 Darragh Leavy,00:01:06,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:08:46,+3538bbdacf5d,209 Carey David,00:02:25,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:05:49,+3538bbdacf5d,213 Abu Nihal,00:02:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:05:11,+3538f5a1b3c8,203 Amrish Sumrath,00:01:46,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-29 11:04:59,+353875a72793,208 Sales N,00:12:50,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:04:54,+353812d1e177,000 Wall Board,00:01:35,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:04:39,+3538e340633f,206 Griffin Gordon,00:09:11,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 11:03:26,+3538c75f500d,000 Wall Board,00:00:57,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:55:52,+3538c75f500d,206 Griffin Gordon,00:07:29,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:50:48,+3538f5a1b3c8,217 Joe Gorman,00:14:17,0,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-29 10:49:12,+3538afa35663,211 Darragh Leavy,00:03:08,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:43:59,+353891450aa4,220 Collier Bernard,00:04:24,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-29 10:42:19,+35384d248c55,208 Sales N,00:01:02,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:37:07,+3538e7da52a2,208 Sales N,00:02:16,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:32:16,+3538069edb6f,206 Griffin Gordon,00:01:51,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:29:31,+3538c61ca860,210 Sales SalesPos 1,00:05:41,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:27:12,+3538f76ae81c,207 McEndoo Mark,00:05:51,5,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:26:56,+3538b7a670c3,206 Griffin Gordon,00:02:23,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:23:45,+3538c864ba33,206 Griffin Gordon,00:03:33,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:22:54,+353817f15836,216 Colin McCormac,00:05:06,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:22:35,+35384147e00b,207 McEndoo Mark,00:05:33,21,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:18:56,+3538f68cd7bf,208 Sales N,00:01:51,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:13:40,+35381c37f973,207 McEndoo Mark,00:07:07,10,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 10:03:25,+353861f38ec9,208 Sales N,00:02:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 09:41:55,+35383894ebe6,210 Sales SalesPos 1,00:01:21,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 09:21:43,+35387f235de7,000 Wall Board,00:00:24,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 09:20:07,+35387f235de7,208 Sales N,00:01:33,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-29 09:18:51,+3538dcb2525e,203 Amrish Sumrath,00:01:42,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 19:45:03,+35386827d6be,221 Sales Pos 5,00:01:12,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 19:43:58,+3538536fe410,217 Joe Gorman,00:02:40,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 19:43:26,+3538db4d4cf3,211 Darragh Leavy,00:08:40,4,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 19:43:04,+35386ec25542,207 McEndoo Mark,00:06:43,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 19:42:48,+3538d428962f,220 Collier Bernard,00:01:02,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 18:22:05,+35387d501158,207 McEndoo Mark,00:03:06,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 18:10:39,+3538c8c56b7a,211 Darragh Leavy,00:00:53,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 17:55:56,+353819b0a03b,217 Joe Gorman,00:01:21,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 17:51:15,+3538b2d3501a,210 Sales SalesPos 1,00:00:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 15:56:27,+35387fd604ed,000 Wall Board,00:00:25,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 14:18:13,+35389e53d00a,203 Amrish Sumrath,00:00:29,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-28 13:32:36,+3538c2574984,221 Sales Pos 5,00:02:41,4,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 13:13:17,+353887272659,209 Carey David,00:01:16,1,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-28 12:17:32,+353877068d18,211 Darragh Leavy,00:00:28,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 11:16:14,+353826e01439,207 McEndoo Mark,00:00:31,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 09:39:44,+3538cf53b91c,207 McEndoo Mark,00:00:23,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 09:37:04,+35380b5e8981,208 Sales N,00:00:38,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 09:36:28,+3538ab4bdb97,221 Sales Pos 5,00:00:33,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 09:32:19,+353845b4df26,000 Wall Board,00:00:40,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 08:54:57,+35387e073280,208 Sales N,00:00:36,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-28 08:37:04,+353854d8c0ba,211 Darragh Leavy,00:00:52,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:55:44,+353808f0f638,203 Amrish Sumrath,00:00:38,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:52:43,+3538aa89dd42,211 Darragh Leavy,00:05:59,10,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:47:30,+353826665b0f,207 McEndoo Mark,00:04:59,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:44:33,+3538aa89dd42,000 Wall Board,00:06:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:41:50,+3538b23a1cbf,217 Joe Gorman,00:03:38,7,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:37:40,+35383b5e75c3,217 Joe Gorman,00:04:03,7,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:31:25,+3538370fdb72,217 Joe Gorman,00:07:57,13,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:20:14,+353829764624,203 Amrish Sumrath,00:03:13,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:15:23,+3538032e2a31,220 Collier Bernard,00:01:44,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:06:23,+35389549a7ca,217 Joe Gorman,00:01:48,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 19:05:07,+35386e20f5d6,220 Collier Bernard,00:06:52,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 18:55:41,+3538032e2a31,221 Sales Pos 5,00:19:35,29,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 18:49:38,+3538032e2a31,217 Joe Gorman,00:05:57,10,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 18:25:34,+353846570b57,220 Collier Bernard,00:10:49,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 18:23:27,+35386e20f5d6,221 Sales Pos 5,00:00:29,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 18:10:30,+35380e18f5df,217 Joe Gorman,00:01:02,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 14:27:39,+35381d160905,217 Joe Gorman,00:01:19,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 14:05:04,+3538bfbbbbd4,217 Joe Gorman,00:00:38,3,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-27 14:01:43,+3538bd3121e6,211 Darragh Leavy,00:02:37,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 10:00:55,+35382091a496,206 Griffin Gordon,00:00:32,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 09:47:29,+35382055c374,207 McEndoo Mark,00:00:35,3,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-27 09:27:03,+353898eea85a,211 Darragh Leavy,00:00:41,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 19:40:44,+35385ca22e87,204 Tohill Gerard,00:03:28,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 18:42:23,+3538c4adb9d2,213 Abu Nihal,00:02:55,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 18:33:23,+3538ed567500,213 Abu Nihal,00:01:01,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 17:16:07,+353826e01439,213 Abu Nihal,00:02:02,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 16:05:00,+35383851c743,208 Sales N,00:01:59,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 15:55:16,+3538f00aeaaf,221 Sales Pos 5,00:00:24,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 15:31:42,+3538a87057af,204 Tohill Gerard,00:02:53,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 15:27:13,+35389e53d00a,220 Collier Bernard,00:04:43,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-26 15:24:31,+3538d2e261f9,204 Tohill Gerard,00:00:36,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 15:19:15,+3538d92bd375,207 McEndoo Mark,00:01:41,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 15:02:48,+3538c48b1290,211 Darragh Leavy,00:00:42,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 14:54:44,+3538e2b1a2e7,209 Carey David,00:00:56,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 14:34:23,+35386031dff7,211 Darragh Leavy,00:00:40,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 14:12:30,+35383089de25,209 Carey David,00:00:26,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 13:06:53,+3538056ff56a,211 Darragh Leavy,00:00:20,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 12:55:56,+353807f5cc00,209 Carey David,00:00:41,2,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-26 12:31:44,+353879ada42d,210 Sales SalesPos 1,00:02:26,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 12:23:36,+3538dcb2525e,213 Abu Nihal,00:00:23,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 12:11:25,+353852fb5810,000 Wall Board,00:01:38,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 12:08:34,+3538a0a5a8ab,211 Darragh Leavy,00:03:01,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 11:13:19,+3538a9a31d7c,000 Wall Board,00:00:52,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 10:43:41,+353854d8c0ba,216 Colin McCormac,00:00:31,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-26 10:32:20,+35384fc08e9b,220 Collier Bernard,00:02:40,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-26 09:42:05,+3538181c8eb1,207 McEndoo Mark,00:00:24,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 19:55:08,+353836da8e44,203 Amrish Sumrath,00:02:10,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 19:42:26,+3538c2141b22,207 McEndoo Mark,00:00:26,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 18:09:51,+353858f9c752,204 Tohill Gerard,00:02:33,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 18:09:01,+353839c46158,211 Darragh Leavy,00:01:42,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 17:36:49,+3538c48b1290,211 Darragh Leavy,00:00:58,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 17:35:46,+353836be6c53,217 Joe Gorman,00:01:30,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 16:45:03,+3538cf53b91c,211 Darragh Leavy,00:03:48,13,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 16:36:18,+353813fe779e,203 Amrish Sumrath,00:01:37,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 16:33:23,+35388c690a99,204 Tohill Gerard,00:01:56,4,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 16:09:45,+3538cf058de5,220 Collier Bernard,00:00:43,0,Logged Out,trade,1,2025-11-24
+501 Sales Queue,2025-11-25 15:17:36,+353897a7f675,000 Wall Board,00:01:40,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 14:04:11,+353887272659,221 Sales Pos 5,00:00:29,1,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-25 13:09:16,+353887e3b5a9,213 Abu Nihal,00:01:56,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 09:23:46,+353839e3a3f6,207 McEndoo Mark,00:00:21,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 08:44:19,+3538d6b6c509,216 Colin McCormac,00:03:15,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 08:22:57,+353800630c57,208 Sales N,00:01:38,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 08:05:24,+35387261d108,208 Sales N,00:01:46,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 08:04:32,+3538892a21f0,210 Sales SalesPos 1,00:01:02,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 08:04:31,+3538892a21f0,203 Amrish Sumrath,00:01:02,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-25 08:03:50,+3538d6b6c509,209 Carey David,00:04:39,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 19:26:49,+35389059994d,213 Abu Nihal,00:00:32,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 19:01:57,+3538d2fcc832,217 Joe Gorman,00:00:26,1,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 18:36:44,+35389949cc26,209 Carey David,00:00:36,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 18:34:03,+35389eae27ea,211 Darragh Leavy,00:03:49,6,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 18:23:07,+3538d2cee652,217 Joe Gorman,00:01:18,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 17:23:36,+35387746e386,216 Colin McCormac,00:02:48,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 14:55:44,+353839555abe,211 Darragh Leavy,00:01:40,0,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-24 14:33:09,+35382cab7c7c,207 McEndoo Mark,00:00:29,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 13:22:49,+3538778cce28,209 Carey David,00:01:24,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 12:11:45,+353800fe47e7,211 Darragh Leavy,00:00:25,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 11:52:41,+35389c97d7ea,209 Carey David,00:00:30,0,Logged In,trade,1,2025-11-24
+501 Sales Queue,2025-11-24 11:00:02,+3538d1195a48,204 Tohill Gerard,00:02:24,2,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 10:56:04,+353830891366,208 Sales N,00:00:44,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 10:30:02,+3538ca129523,204 Tohill Gerard,00:00:30,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 10:23:08,+35382e6cff91,213 Abu Nihal,00:03:53,16,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 10:19:17,+3538892a21f0,209 Carey David,00:00:51,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 08:47:54,+353841069d2c,204 Tohill Gerard,00:00:29,0,Logged In,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 08:36:33,+3538943ab40d,220 Collier Bernard,00:00:22,0,Logged Out,retail,1,2025-11-24
+501 Sales Queue,2025-11-24 08:08:52,+3538bcc2da6a,213 Abu Nihal,00:01:53,6,Logged In,retail,1,2025-11-24
+Totals,,+3538a3d2de76,,16:53:49,8389,,retail,3,
+501 Sales Queue,2025-11-16 14:06:56,+3538bcffb365,221 Sales Pos 5,00:00:23,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 14:03:56,+3538bcffb365,210 Sales SalesPos 1,00:00:22,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 14:03:44,+3538c36c0967,216 Colin McCormac,00:00:31,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 14:03:04,+3538bcffb365,217 Joe Gorman,00:00:23,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 13:22:17,+35385cf76df4,000 Wall Board,00:00:59,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 12:41:23,+35384bcf89d8,209 Carey David,00:02:57,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 12:24:12,+35384a6dba81,203 Amrish Sumrath,00:04:17,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 12:08:35,+35380152f7e3,204 Tohill Gerard,00:01:13,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 12:05:08,+35380b647e6c,207 McEndoo Mark,00:00:27,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:58:23,+353821c82f4c,208 Sales N,00:00:25,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:56:40,+353821c82f4c,204 Tohill Gerard,00:01:32,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:54:04,+353823a9442a,213 Abu Nihal,00:02:31,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:24:25,+35383bec09bc,211 Darragh Leavy,00:00:59,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:13:00,+35380bb45a46,216 Colin McCormac,00:00:32,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:12:59,+353834f2b789,217 Joe Gorman,00:01:10,5,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:06:14,+35380bb45a46,216 Colin McCormac,00:01:26,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-16 10:01:29,+353827fb1122,204 Tohill Gerard,00:00:58,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:49:26,+3538b66b8db8,213 Abu Nihal,00:01:41,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:38:33,+3538c0fbde05,204 Tohill Gerard,00:01:30,4,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:34:34,+3538294de355,220 Collier Bernard,00:00:37,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:33:26,+3538c0fbde05,208 Sales N,00:04:36,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:31:32,+35380635c6d1,209 Carey David,00:00:20,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:20:31,+35386b233f45,206 Griffin Gordon,00:00:58,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 17:17:45,+35386928a6eb,221 Sales Pos 5,00:03:13,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:41:58,+3538d41a9422,213 Abu Nihal,00:00:21,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:28:50,+35389b18443b,208 Sales N,00:02:40,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:22:29,+35386e6afa4c,203 Amrish Sumrath,00:04:08,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:10:04,+3538e36f4e91,210 Sales SalesPos 1,00:02:13,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:07:51,+35385a5a9e24,221 Sales Pos 5,00:02:53,8,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:04:18,+35383ab5d5ab,204 Tohill Gerard,00:01:35,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 16:03:09,+35388b8fdabe,000 Wall Board,00:00:49,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:58:38,+35388b8fdabe,216 Colin McCormac,00:04:09,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:44:57,+353898d34f1c,206 Griffin Gordon,00:01:00,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:44:24,+35387e46bd1a,203 Amrish Sumrath,00:04:56,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:40:29,+3538e36f4e91,208 Sales N,00:02:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:21:25,+3538993bca14,217 Joe Gorman,00:01:33,5,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:19:40,+35383ad7c235,217 Joe Gorman,00:02:03,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:07:50,+3538ef8a328b,210 Sales SalesPos 1,00:01:50,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:07:33,+35389ad14f44,213 Abu Nihal,00:00:34,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:07:00,+3538e36f4e91,206 Griffin Gordon,00:02:20,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:05:20,+35384ee52a15,211 Darragh Leavy,00:00:59,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-15 15:01:44,+3538b089bd4c,221 Sales Pos 5,00:01:10,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 15:00:27,+3538a2983deb,209 Carey David,00:10:00,28,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:52:17,+3538e36f4e91,207 McEndoo Mark,00:01:39,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:49:23,+35380bf80e73,216 Colin McCormac,00:05:20,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:34:59,+35386b233f45,204 Tohill Gerard,00:01:05,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:34:26,+35385394b8b3,206 Griffin Gordon,00:00:30,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:29:40,+3538c69199b6,000 Wall Board,00:03:33,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:13:34,+35381fa96c20,203 Amrish Sumrath,00:01:21,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:13:05,+3538b8f41817,209 Carey David,00:02:56,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 14:00:08,+3538de408ef2,216 Colin McCormac,00:05:16,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:59:12,+35389bef0822,208 Sales N,00:01:00,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:54:40,+3538521dc440,220 Collier Bernard,00:10:09,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:52:12,+353880b235cf,000 Wall Board,00:11:57,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:52:09,+35385394b8b3,203 Amrish Sumrath,00:02:08,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:51:25,+35384f5fd7d2,213 Abu Nihal,00:01:51,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:47:21,+353859475a47,203 Amrish Sumrath,00:01:26,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:46:55,+3538e36f4e91,216 Colin McCormac,00:01:31,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:37:17,+3538fbcf24ee,211 Darragh Leavy,00:02:12,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:27:44,+353831fb50c3,211 Darragh Leavy,00:01:56,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:27:41,+35385394b8b3,204 Tohill Gerard,00:04:22,5,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:26:38,+3538897abaf8,000 Wall Board,00:04:16,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:23:42,+35385db58948,213 Abu Nihal,00:00:58,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:22:04,+3538897abaf8,210 Sales SalesPos 1,00:02:37,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:22:00,+353832996582,217 Joe Gorman,00:01:40,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:18:46,+3538576b053e,216 Colin McCormac,00:04:28,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:18:11,+353823a9442a,210 Sales SalesPos 1,00:00:31,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:15:12,+353848480ffa,206 Griffin Gordon,00:05:26,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:12:43,+353848480ffa,000 Wall Board,00:00:24,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:11:37,+3538aacc309d,213 Abu Nihal,00:01:58,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-15 13:04:15,+353803bb8745,216 Colin McCormac,00:04:05,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:02:40,+3538de79cbbd,216 Colin McCormac,00:00:25,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:02:27,+35382b1998d7,220 Collier Bernard,00:04:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 13:00:42,+353823a9442a,211 Darragh Leavy,00:02:26,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:59:53,+35385fbfa105,211 Darragh Leavy,00:00:59,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:53:28,+353872664ceb,204 Tohill Gerard,00:01:30,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:50:20,+3538293d7cff,207 McEndoo Mark,00:05:29,0,Logged In,trade,3,2025-11-10
+501 Sales Queue,2025-11-15 12:50:13,+353817383b6c,208 Sales N,00:04:22,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:39:07,+3538d39a2d04,207 McEndoo Mark,00:03:45,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:36:04,+3538aa4bcc78,213 Abu Nihal,00:06:44,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:25:57,+35388e5cea00,216 Colin McCormac,00:06:36,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:22:34,+3538a1bee76e,221 Sales Pos 5,00:06:13,15,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:22:26,+35388cf86347,216 Colin McCormac,00:01:50,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:19:03,+3538ae6dfb00,209 Carey David,00:04:14,10,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:18:01,+35388cf86347,206 Griffin Gordon,00:04:03,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 12:16:24,+3538d39a2d04,000 Wall Board,00:01:33,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 11:58:38,+353894e28d9b,211 Darragh Leavy,00:00:26,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 11:45:46,+35382a9efdc1,216 Colin McCormac,00:00:55,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 11:01:01,+3538cde8db53,206 Griffin Gordon,00:00:56,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 10:51:50,+353883534f1f,204 Tohill Gerard,00:00:51,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 10:46:07,+35382bec5a76,208 Sales N,00:00:23,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 10:20:38,+35383fc344e9,220 Collier Bernard,00:01:14,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 09:29:48,+35389902bfbe,203 Amrish Sumrath,00:00:20,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 08:58:50,+35389a00e342,210 Sales SalesPos 1,00:00:52,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 08:57:21,+3538d956b3c0,207 McEndoo Mark,00:04:39,4,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-15 08:55:44,+35387ad5c8ad,220 Collier Bernard,00:01:49,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 18:49:58,+3538c8f2022a,221 Sales Pos 5,00:02:57,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 18:49:00,+35381025a356,208 Sales N,00:02:46,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 18:48:46,+3538c8f2022a,206 Griffin Gordon,00:01:09,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 16:24:06,+3538293d7cff,208 Sales N,00:00:44,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-14 14:40:04,+3538164a8284,216 Colin McCormac,00:00:31,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 12:30:24,+3538c7cfa3fe,217 Joe Gorman,00:00:34,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 12:03:35,+3538adfe8c13,220 Collier Bernard,00:02:16,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 09:01:14,+3538080ab8ae,210 Sales SalesPos 1,00:00:32,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-14 08:59:42,+35380d280685,210 Sales SalesPos 1,00:00:35,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 19:36:10,+353831dcd3ec,203 Amrish Sumrath,00:04:27,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 19:31:07,+353864084660,000 Wall Board,00:04:47,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 19:18:32,+3538afdee591,209 Carey David,00:01:17,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 19:04:51,+3538ae7700d7,221 Sales Pos 5,00:04:58,7,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 18:43:20,+3538afdee591,204 Tohill Gerard,00:00:58,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 18:37:01,+3538afdee591,213 Abu Nihal,00:02:03,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 18:34:57,+3538adfe8c13,220 Collier Bernard,00:00:52,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 17:14:35,+35389835236f,213 Abu Nihal,00:01:33,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 17:07:15,+353837c0ddd8,208 Sales N,00:00:44,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 14:12:03,+353841c48b20,216 Colin McCormac,00:00:25,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 13:09:49,+353898893ba8,000 Wall Board,00:00:51,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-13 11:35:12,+3538a96add4c,210 Sales SalesPos 1,00:00:54,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 18:55:49,+3538cebf8812,208 Sales N,00:00:24,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 18:55:43,+35383e50a1cf,208 Sales N,00:00:26,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 18:31:14,+353875df6990,213 Abu Nihal,00:01:27,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 18:13:40,+35382772041a,203 Amrish Sumrath,00:00:42,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 17:44:39,+3538778deab5,204 Tohill Gerard,00:00:42,2,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 17:15:55,+3538dbb1962b,217 Joe Gorman,00:00:26,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 17:03:50,+353891e09b0b,208 Sales N,00:01:57,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-12 16:43:24,+3538f052ee72,206 Griffin Gordon,00:00:32,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 14:49:46,+3538b49cf4e9,000 Wall Board,00:00:27,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-12 14:45:36,+3538e8b02b70,208 Sales N,00:00:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 12:37:45,+35386b1fb2c9,203 Amrish Sumrath,00:00:23,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-12 12:36:00,+3538a97abf77,207 McEndoo Mark,00:00:33,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 12:28:03,+3538ffecdfb8,213 Abu Nihal,00:00:53,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 12:27:56,+353896d265f7,210 Sales SalesPos 1,00:01:44,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-12 12:26:56,+35387dd7fc76,213 Abu Nihal,00:02:05,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 12:22:53,+35385d12aff1,204 Tohill Gerard,00:01:16,4,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 12:20:00,+35385d12aff1,213 Abu Nihal,00:01:03,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 11:52:58,+3538dcf23707,204 Tohill Gerard,00:00:42,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 11:44:29,+353817350845,207 McEndoo Mark,00:00:26,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 11:40:10,+353863b69efa,000 Wall Board,00:00:30,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 11:31:47,+35384e5c8407,211 Darragh Leavy,00:01:13,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-12 11:05:15,+3538b3386a67,210 Sales SalesPos 1,00:00:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:49:46,+35382a2bbf93,213 Abu Nihal,00:05:14,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:47:16,+35388c41696e,216 Colin McCormac,00:00:24,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:44:18,+3538b0a60855,000 Wall Board,00:09:25,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:42:48,+353805d4a20d,216 Colin McCormac,00:04:56,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:38:31,+35388c41696e,216 Colin McCormac,00:07:39,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:34:07,+3538b321549b,211 Darragh Leavy,00:07:08,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:33:24,+3538cc37cd80,217 Joe Gorman,00:07:42,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:32:37,+3538ad4584f7,207 McEndoo Mark,00:01:51,8,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:31:16,+3538df048586,207 McEndoo Mark,00:02:37,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:20:42,+35389ab54cce,211 Darragh Leavy,00:04:19,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:12:17,+3538ad4584f7,211 Darragh Leavy,00:20:00,51,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:10:24,+3538f192ccdb,203 Amrish Sumrath,00:03:45,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:10:18,+35389a00e342,217 Joe Gorman,00:02:48,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:08:18,+3538f192ccdb,203 Amrish Sumrath,00:02:00,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 18:06:13,+35387ae3e229,220 Collier Bernard,00:03:31,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 15:24:48,+35383c92375b,221 Sales Pos 5,00:01:10,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 15:19:25,+35388b63ff23,000 Wall Board,00:02:18,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 15:06:18,+35381f5bf7f6,209 Carey David,00:01:25,0,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 15:04:41,+3538c3f9ac93,208 Sales N,00:00:35,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-11 14:21:42,+3538c3f9ac93,208 Sales N,00:00:33,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-11 12:34:05,+3538e718f56d,220 Collier Bernard,00:01:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 11:53:41,+3538e7968811,216 Colin McCormac,00:01:28,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 11:52:15,+35389e28a627,220 Collier Bernard,00:00:34,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 11:51:23,+353844ba02e1,216 Colin McCormac,00:00:27,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 11:11:57,+3538294de355,210 Sales SalesPos 1,00:01:23,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-11 11:04:12,+3538d647f762,207 McEndoo Mark,00:00:21,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 19:02:50,+3538dce2e24b,209 Carey David,00:01:05,4,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 18:47:35,+3538b45655a6,211 Darragh Leavy,00:00:27,1,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 18:39:17,+35380405d9ae,216 Colin McCormac,00:00:29,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 18:21:52,+3538208c81d5,213 Abu Nihal,00:01:32,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 17:58:36,+353816faaec6,220 Collier Bernard,00:07:48,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 15:46:31,+35380937c131,217 Joe Gorman,00:02:09,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-10 15:39:45,+353832a0828b,213 Abu Nihal,00:01:30,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 14:56:27,+35380776af00,206 Griffin Gordon,00:01:23,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 14:52:37,+3538e6aced68,217 Joe Gorman,00:01:09,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-10 14:50:48,+3538974b5f5d,220 Collier Bernard,00:01:04,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 14:50:42,+3538f99310db,208 Sales N,00:01:07,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 14:50:27,+3538f4ac2b55,208 Sales N,00:01:26,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 14:47:14,+3538f4ac2b55,208 Sales N,00:01:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 13:54:44,+353845250757,216 Colin McCormac,00:01:16,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 12:48:45,+35380937c131,217 Joe Gorman,00:01:57,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-10 12:32:14,+353839c84ff3,213 Abu Nihal,00:00:44,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 11:38:10,+35387d95c4ee,206 Griffin Gordon,00:02:48,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 11:36:42,+3538c2476b5a,209 Carey David,00:03:07,0,Logged In,trade,3,2025-11-10
+501 Sales Queue,2025-11-10 11:28:51,+3538575117ee,216 Colin McCormac,00:00:57,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 11:27:43,+3538575117ee,000 Wall Board,00:00:38,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 11:14:50,+3538791ffb23,211 Darragh Leavy,00:00:34,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 11:06:10,+3538bd0d2d6f,208 Sales N,00:01:33,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 11:01:35,+35386469084d,204 Tohill Gerard,00:06:48,3,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 10:49:45,+353828f22b5e,203 Amrish Sumrath,00:01:50,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 10:44:40,+3538386a9035,000 Wall Board,00:00:20,0,Logged Out,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 09:48:10,+353891e09b0b,221 Sales Pos 5,00:00:25,0,Logged Out,trade,3,2025-11-10
+501 Sales Queue,2025-11-10 09:24:16,+3538c3f52f1c,207 McEndoo Mark,00:01:13,5,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 08:51:13,+35388adfbe76,207 McEndoo Mark,00:01:25,6,Logged In,retail,3,2025-11-10
+501 Sales Queue,2025-11-10 08:12:10,+3538c35b79d8,206 Griffin Gordon,00:00:26,0,Logged Out,retail,3,2025-11-10
+Totals,,+3538a3d2de76,,07:14:37,3685,,retail,3,
+501 Sales Queue,2025-11-23 15:58:52,+353897346870,209 Carey David,00:00:24,0,Logged Out,retail,1,2025-11-17
+501 Sales Queue,2025-11-23 14:23:16,+3538b3fb0189,213 Abu Nihal,00:00:27,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 13:58:43,+353817585891,213 Abu Nihal,00:00:25,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 13:27:09,+35388588546f,204 Tohill Gerard,00:01:26,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 13:22:55,+3538302cc803,217 Joe Gorman,00:01:23,4,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 12:55:03,+353821477636,206 Griffin Gordon,00:01:24,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 12:26:18,+3538d2fcc832,217 Joe Gorman,00:02:46,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 12:04:05,+35381112ecc5,203 Amrish Sumrath,00:00:44,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 11:24:54,+35387fcb898e,203 Amrish Sumrath,00:00:24,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 10:40:21,+35381d95d70b,206 Griffin Gordon,00:02:45,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 10:33:27,+35384c5e61d7,217 Joe Gorman,00:00:44,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 10:19:37,+353805358a49,213 Abu Nihal,00:00:35,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-23 10:06:04,+3538fc515be6,207 McEndoo Mark,00:05:05,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 16:57:30,+35385b6c3f07,207 McEndoo Mark,00:00:59,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 16:42:38,+3538468b8103,221 Sales Pos 5,00:02:47,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 16:21:42,+3538d8ceaa99,208 Sales N,00:03:58,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 16:13:04,+35388701b2e0,204 Tohill Gerard,00:04:11,12,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 16:12:18,+35381b31e0e7,209 Carey David,00:01:05,4,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 16:02:53,+35381b31e0e7,211 Darragh Leavy,00:01:40,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:57:55,+3538be01d1e9,210 Sales SalesPos 1,00:00:40,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:57:20,+353846cb2d45,221 Sales Pos 5,00:01:39,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:55:47,+35382c7a9b32,203 Amrish Sumrath,00:04:14,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:55:38,+3538056ff56a,204 Tohill Gerard,00:04:22,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:55:18,+35381b31e0e7,206 Griffin Gordon,00:05:02,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:55:05,+353846cb2d45,217 Joe Gorman,00:00:59,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:54:48,+35382c7a9b32,220 Collier Bernard,00:00:34,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:52:03,+3538697c4d69,213 Abu Nihal,00:06:32,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:47:38,+3538f443ec1c,220 Collier Bernard,00:05:58,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:45:21,+3538c5199925,221 Sales Pos 5,00:01:26,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:45:03,+3538f4a5971c,221 Sales Pos 5,00:16:17,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:44:35,+353812ddaffa,221 Sales Pos 5,00:07:34,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:44:22,+35381ddcfc66,207 McEndoo Mark,00:20:00,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:43:34,+353823898853,211 Darragh Leavy,00:01:36,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:42:28,+3538f4a5971c,211 Darragh Leavy,00:00:54,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:38:49,+35386cc580f5,216 Colin McCormac,00:00:41,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:34:44,+35383c7a65d1,213 Abu Nihal,00:01:03,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:30:41,+35384b19ac4a,209 Carey David,00:10:25,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:29:51,+353806ccc11f,221 Sales Pos 5,00:20:00,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:27:24,+3538f443ec1c,000 Wall Board,00:20:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:25:59,+35383b0adccc,221 Sales Pos 5,00:02:21,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:24:35,+3538e46343a2,217 Joe Gorman,00:01:16,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:22:37,+35385f697126,204 Tohill Gerard,00:04:10,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:21:24,+353887b3acb5,213 Abu Nihal,00:06:30,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:11:28,+35389672c11b,213 Abu Nihal,00:00:35,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:09:40,+353806ccc11f,209 Carey David,00:20:00,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:09:18,+3538c7024e9a,211 Darragh Leavy,00:01:29,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:08:35,+353889e71503,213 Abu Nihal,00:02:01,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:07:58,+3538e7be1b2c,208 Sales N,00:14:35,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:07:37,+35388ec9aad3,213 Abu Nihal,00:20:00,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:06:51,+35384b1eccf9,208 Sales N,00:10:31,0,Logged Out,trade,2,2025-11-17
+501 Sales Queue,2025-11-22 15:02:03,+3538c5199925,216 Colin McCormac,00:03:39,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:01:59,+35389ae10e61,217 Joe Gorman,00:12:23,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 15:01:12,+3538cde7e9a2,206 Griffin Gordon,00:04:55,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:55:20,+35385542ec0c,217 Joe Gorman,00:10:06,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:55:11,+3538fc95b9f6,209 Carey David,00:07:03,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:54:16,+35385f697126,208 Sales N,00:07:04,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:53:00,+3538cde7e9a2,203 Amrish Sumrath,00:06:05,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:51:23,+3538845f8930,209 Carey David,00:13:47,46,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:49:31,+35380c278c8b,204 Tohill Gerard,00:03:43,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:45:07,+3538b95d7a28,213 Abu Nihal,00:00:28,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:44:51,+35385542ec0c,000 Wall Board,00:09:37,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:44:15,+35382d4cda69,210 Sales SalesPos 1,00:06:34,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:42:58,+35382d4cda69,210 Sales SalesPos 1,00:01:08,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:41:51,+3538b95d7a28,206 Griffin Gordon,00:00:22,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:41:05,+35383ef4317b,221 Sales Pos 5,00:12:16,33,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:37:52,+3538205783d3,209 Carey David,00:01:01,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:37:18,+3538f966a0a4,206 Griffin Gordon,00:01:38,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:34:26,+3538b95d7a28,203 Amrish Sumrath,00:01:04,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:33:15,+3538b95d7a28,204 Tohill Gerard,00:00:53,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:32:12,+3538b95d7a28,206 Griffin Gordon,00:01:01,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:29:12,+35387b15889a,208 Sales N,00:04:03,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:29:12,+3538e966de5a,211 Darragh Leavy,00:00:23,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:27:19,+353872907ad0,206 Griffin Gordon,00:02:11,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:27:03,+3538fc95b9f6,213 Abu Nihal,00:08:58,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:25:45,+353860f70979,208 Sales N,00:01:10,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:24:29,+3538d4f04a88,000 Wall Board,00:18:21,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:24:17,+353800fe47e7,221 Sales Pos 5,00:04:23,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:23:49,+353860f70979,210 Sales SalesPos 1,00:01:47,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:22:08,+35380a6ceb60,220 Collier Bernard,00:05:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:22:05,+3538bc5a0e80,207 McEndoo Mark,00:04:22,0,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-22 14:20:36,+35389f98e712,204 Tohill Gerard,00:04:27,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:19:35,+3538b95d7a28,217 Joe Gorman,00:00:41,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:18:54,+353802b8461e,216 Colin McCormac,00:20:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:18:20,+3538c44dcca7,209 Carey David,00:00:39,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:17:17,+3538ae45dab7,207 McEndoo Mark,00:04:37,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:16:21,+353890f9df45,204 Tohill Gerard,00:15:24,50,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:11:35,+35382f06dd56,207 McEndoo Mark,00:20:00,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:11:21,+35382dfce24c,204 Tohill Gerard,00:07:39,10,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:10:47,+3538ccce526b,209 Carey David,00:02:03,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:09:05,+3538e42c9142,213 Abu Nihal,00:01:58,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:06:34,+3538b95d7a28,220 Collier Bernard,00:12:14,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:04:55,+3538b95d7a28,208 Sales N,00:00:58,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:02:53,+353895016c54,209 Carey David,00:11:47,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:01:58,+35385542ec0c,206 Griffin Gordon,00:01:54,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 14:00:36,+35389ece6cbd,217 Joe Gorman,00:02:54,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:57:45,+3538253a3ec3,213 Abu Nihal,00:01:17,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:57:28,+35382846c7cd,220 Collier Bernard,00:19:08,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:56:09,+353802b8461e,206 Griffin Gordon,00:20:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:54:18,+35389f98e712,203 Amrish Sumrath,00:09:21,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:48:26,+35382f06dd56,210 Sales SalesPos 1,00:07:05,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:41:51,+353861b12d8e,213 Abu Nihal,00:01:30,6,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:41:46,+35388ec9aad3,000 Wall Board,00:02:25,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:35:44,+35383bc11cb2,203 Amrish Sumrath,00:04:16,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:34:05,+35380c278c8b,217 Joe Gorman,00:00:27,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:29:31,+35380611c439,207 McEndoo Mark,00:06:12,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:28:04,+353861b12d8e,210 Sales SalesPos 1,00:07:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:27:45,+3538610c48ac,216 Colin McCormac,00:01:50,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:25:45,+35380101655c,208 Sales N,00:07:15,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:24:56,+3538610c48ac,217 Joe Gorman,00:02:45,8,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:24:30,+3538b67174b7,220 Collier Bernard,00:05:37,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:23:17,+35380101655c,209 Carey David,00:02:26,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:22:01,+353882c40929,204 Tohill Gerard,00:03:22,13,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:20:44,+35389324892e,211 Darragh Leavy,00:01:23,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:17:55,+35384c6a29e0,213 Abu Nihal,00:00:20,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:11:30,+3538ae45dab7,221 Sales Pos 5,00:03:25,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 13:00:21,+3538fb413974,217 Joe Gorman,00:03:01,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:57:30,+3538261ac242,210 Sales SalesPos 1,00:05:30,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:55:25,+35387e802f33,206 Griffin Gordon,00:00:22,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:49:08,+3538dc447d5b,208 Sales N,00:00:35,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:47:52,+35387e802f33,210 Sales SalesPos 1,00:01:37,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:40:21,+353844432648,209 Carey David,00:05:03,9,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:38:25,+3538e045500a,000 Wall Board,00:00:44,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:35:44,+3538290497aa,220 Collier Bernard,00:04:30,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:34:02,+3538833a2999,207 McEndoo Mark,00:01:22,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:33:14,+35385c7f00d9,203 Amrish Sumrath,00:06:24,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:31:11,+353876b4a41c,000 Wall Board,00:06:18,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 12:24:26,+3538f24a9d05,209 Carey David,00:02:48,9,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:59:17,+3538f4a5971c,210 Sales SalesPos 1,00:01:01,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:38:51,+35383b503b96,209 Carey David,00:01:21,4,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:25:59,+35384722c733,207 McEndoo Mark,00:00:46,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:25:49,+3538bceb11e0,211 Darragh Leavy,00:01:29,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:22:12,+3538e2966470,206 Griffin Gordon,00:01:16,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:20:55,+35383365f489,208 Sales N,00:07:41,11,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:19:27,+3538e2966470,208 Sales N,00:01:02,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:18:54,+3538c8cc3b6e,221 Sales Pos 5,00:01:22,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:17:16,+353838cd5648,209 Carey David,00:01:55,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:13:04,+3538c065fea1,210 Sales SalesPos 1,00:01:07,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 11:09:00,+3538c065fea1,211 Darragh Leavy,00:04:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 10:52:41,+35382c0eef22,208 Sales N,00:01:01,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 10:36:38,+3538d6228336,207 McEndoo Mark,00:01:55,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 10:25:32,+3538b29f148e,221 Sales Pos 5,00:01:00,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-22 10:22:23,+3538890857a0,211 Darragh Leavy,00:00:25,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 19:49:06,+35382c654c0b,210 Sales SalesPos 1,00:00:30,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 19:34:31,+35382c654c0b,211 Darragh Leavy,00:01:31,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 19:30:47,+3538aa89dd42,209 Carey David,00:02:22,4,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 19:27:39,+353897902695,210 Sales SalesPos 1,00:02:28,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 19:08:08,+3538fd9b43ab,213 Abu Nihal,00:10:34,17,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 18:27:04,+3538eb4b39bb,211 Darragh Leavy,00:04:36,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 15:25:16,+35380e8ae4e9,208 Sales N,00:00:33,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 15:23:45,+35387bff337d,221 Sales Pos 5,00:00:46,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:43:05,+35383582b2cb,000 Wall Board,00:01:40,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:42:01,+3538a89fd1c6,220 Collier Bernard,00:01:32,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:41:39,+353800cb44f2,203 Amrish Sumrath,00:00:27,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:37:21,+353834c3fb66,211 Darragh Leavy,00:01:24,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:21:26,+35382b3e2b88,206 Griffin Gordon,00:00:30,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:20:41,+35382b3e2b88,208 Sales N,00:00:28,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 14:01:10,+3538995c37ed,206 Griffin Gordon,00:00:24,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 13:48:47,+353880a28bee,221 Sales Pos 5,00:01:00,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 13:42:45,+3538ccd08032,206 Griffin Gordon,00:00:25,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 13:42:04,+353880a28bee,206 Griffin Gordon,00:00:55,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 13:28:54,+35389e92cf07,207 McEndoo Mark,00:00:32,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 12:06:54,+3538140837c9,207 McEndoo Mark,00:00:50,0,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-21 11:51:45,+35389effae67,000 Wall Board,00:02:15,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 11:09:59,+35387e8c91e2,217 Joe Gorman,00:00:31,3,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-21 10:41:59,+3538dfb9ddb2,208 Sales N,00:00:35,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 10:22:43,+35385b73334e,206 Griffin Gordon,00:00:20,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 09:32:05,+35385fbef388,210 Sales SalesPos 1,00:00:20,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-21 09:07:14,+353819163704,217 Joe Gorman,00:00:34,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:49:00,+3538a9c118ac,211 Darragh Leavy,00:05:03,10,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:43:30,+3538c4102316,217 Joe Gorman,00:04:25,9,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:33:40,+3538a3b54bd1,000 Wall Board,00:07:23,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:28:32,+35385638f2db,207 McEndoo Mark,00:01:59,4,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:24:47,+35383ca5404a,210 Sales SalesPos 1,00:02:09,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:19:29,+35389ff22191,217 Joe Gorman,00:01:39,7,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:16:37,+3538c11e09a6,217 Joe Gorman,00:02:30,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:04:34,+353806a0b2c6,209 Carey David,00:04:21,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 19:04:00,+35383ca5404a,213 Abu Nihal,00:20:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:59:33,+35381efa6b32,206 Griffin Gordon,00:04:12,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:59:33,+3538c11e09a6,203 Amrish Sumrath,00:02:37,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:55:05,+353877b3115a,213 Abu Nihal,00:10:07,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:54:26,+3538c11e09a6,000 Wall Board,00:04:07,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:53:54,+3538e19dc832,209 Carey David,00:03:28,13,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:46:31,+35389ff22191,211 Darragh Leavy,00:02:01,5,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:37:42,+3538a78a966c,208 Sales N,00:03:45,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:31:58,+3538e19dc832,209 Carey David,00:00:42,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:27:16,+353804f90ea0,204 Tohill Gerard,00:06:45,7,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:26:36,+3538e19dc832,221 Sales Pos 5,00:04:30,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:25:44,+35389ff22191,211 Darragh Leavy,00:03:44,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 18:16:54,+3538642b4620,204 Tohill Gerard,00:02:20,6,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 17:32:06,+35380d25d59f,207 McEndoo Mark,00:00:34,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 16:54:19,+35389b18b130,208 Sales N,00:01:03,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 16:33:48,+3538832c3eda,210 Sales SalesPos 1,00:01:12,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 16:08:27,+35386889b82c,220 Collier Bernard,00:00:55,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 14:47:02,+3538f84dfc76,213 Abu Nihal,00:01:50,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 14:45:27,+353835a7cc9b,210 Sales SalesPos 1,00:02:08,0,Logged Out,trade,2,2025-11-17
+501 Sales Queue,2025-11-20 14:44:17,+35380d768a80,221 Sales Pos 5,00:02:10,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 14:44:14,+3538448c2243,210 Sales SalesPos 1,00:02:37,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 14:40:53,+3538b03ac015,220 Collier Bernard,00:02:53,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 14:39:24,+3538b6cd76af,217 Joe Gorman,00:02:22,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 13:04:48,+3538eaf3b2ec,204 Tohill Gerard,00:00:25,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 12:58:41,+35380d768a80,221 Sales Pos 5,00:01:39,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 12:56:47,+3538035523d6,210 Sales SalesPos 1,00:00:31,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 12:28:03,+353871a7d485,203 Amrish Sumrath,00:01:56,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 12:18:29,+3538079f12da,217 Joe Gorman,00:00:24,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 12:17:05,+3538995c37ed,206 Griffin Gordon,00:02:17,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-20 11:47:04,+35384c9d68e5,204 Tohill Gerard,00:00:22,0,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-19 19:33:56,+35384ce7c81a,211 Darragh Leavy,00:00:47,2,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-19 19:28:33,+353801cfaf6d,206 Griffin Gordon,00:00:53,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:27:00,+353801cfaf6d,000 Wall Board,00:00:38,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:25:27,+353801cfaf6d,204 Tohill Gerard,00:01:27,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:25:17,+35387a432de6,211 Darragh Leavy,00:02:13,9,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:22:39,+353801cfaf6d,211 Darragh Leavy,00:02:39,6,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:15:58,+353885ee0517,217 Joe Gorman,00:05:26,21,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:12:44,+3538757507f5,208 Sales N,00:01:58,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:08:39,+3538cb8911f1,210 Sales SalesPos 1,00:14:22,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:06:55,+35384097993a,220 Collier Bernard,00:04:34,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 19:02:54,+3538cb8911f1,210 Sales SalesPos 1,00:01:27,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 18:57:46,+3538267c9c88,221 Sales Pos 5,00:00:50,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 18:07:33,+3538947c799b,220 Collier Bernard,00:00:54,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 17:20:27,+353869efbb71,207 McEndoo Mark,00:01:00,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 16:05:36,+35389a9147f0,204 Tohill Gerard,00:00:33,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 15:46:27,+3538d62962ec,209 Carey David,00:00:41,0,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-19 15:20:06,+3538cf8a1eaa,209 Carey David,00:00:26,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 13:31:09,+3538094e5e77,217 Joe Gorman,00:00:51,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 13:30:09,+35383ca5404a,217 Joe Gorman,00:00:22,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 12:52:09,+3538c7059b41,220 Collier Bernard,00:01:12,0,Logged Out,trade,2,2025-11-17
+501 Sales Queue,2025-11-19 12:47:49,+353870122e4f,213 Abu Nihal,00:04:05,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 12:39:18,+3538874c6a90,000 Wall Board,00:02:13,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 12:10:50,+3538bee633df,203 Amrish Sumrath,00:02:32,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 10:23:35,+3538ff55c62f,204 Tohill Gerard,00:00:53,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 09:12:29,+35389198a0b8,210 Sales SalesPos 1,00:00:24,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-19 09:10:31,+35389198a0b8,000 Wall Board,00:00:46,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 19:04:42,+3538936f876a,206 Griffin Gordon,00:02:37,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 19:03:15,+3538e2c76863,203 Amrish Sumrath,00:01:32,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 18:58:01,+3538ab08c6ac,213 Abu Nihal,00:02:51,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 18:57:09,+3538094e5e77,217 Joe Gorman,00:11:37,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 18:54:15,+3538e2c76863,216 Colin McCormac,00:06:20,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 18:52:53,+3538e728f444,221 Sales Pos 5,00:18:21,69,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 18:45:05,+35385557add2,213 Abu Nihal,00:04:05,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 17:25:35,+3538d024d8e1,217 Joe Gorman,00:02:08,5,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 16:30:04,+35387ed669f8,204 Tohill Gerard,00:02:49,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 16:03:29,+353897524b59,209 Carey David,00:01:09,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 15:54:55,+35387261d108,221 Sales Pos 5,00:00:22,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 15:36:48,+35385ae07a40,208 Sales N,00:03:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 14:24:47,+353869c2db21,207 McEndoo Mark,00:03:25,12,Logged In,trade,2,2025-11-17
+501 Sales Queue,2025-11-18 14:16:41,+3538df46891e,217 Joe Gorman,00:00:40,2,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 14:05:48,+353817fb0189,207 McEndoo Mark,00:04:06,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 13:36:39,+3538a1980bfa,204 Tohill Gerard,00:01:09,5,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 13:04:06,+35380e8ae4e9,204 Tohill Gerard,00:00:59,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-18 09:36:26,+353842b99944,220 Collier Bernard,00:00:34,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 19:52:49,+3538584823c7,220 Collier Bernard,00:00:44,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 19:40:54,+353813faba26,203 Amrish Sumrath,00:01:24,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 19:10:40,+353835f6a2a5,206 Griffin Gordon,00:00:39,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 19:05:51,+353835f6a2a5,206 Griffin Gordon,00:02:00,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 18:15:44,+3538c1a4d912,210 Sales SalesPos 1,00:00:22,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 18:13:55,+353891450aa4,208 Sales N,00:05:03,0,Logged Out,trade,2,2025-11-17
+501 Sales Queue,2025-11-17 18:13:44,+35384991ed34,208 Sales N,00:03:07,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 17:33:24,+3538e6cdf2b3,217 Joe Gorman,00:00:55,1,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 17:32:45,+35383c32a58d,221 Sales Pos 5,00:00:48,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 17:31:34,+3538010122ab,208 Sales N,00:00:31,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 16:47:56,+353836f6b54a,208 Sales N,00:05:15,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 15:27:17,+3538203fd732,217 Joe Gorman,00:00:37,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 15:13:35,+353853f2715e,207 McEndoo Mark,00:03:02,7,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 15:00:12,+353853f2715e,204 Tohill Gerard,00:03:49,0,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 14:18:07,+3538439c872a,217 Joe Gorman,00:00:56,3,Logged In,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 13:55:58,+35381077aa92,208 Sales N,00:00:32,0,Logged Out,retail,2,2025-11-17
+501 Sales Queue,2025-11-17 10:42:11,+3538709c6fa1,220 Collier Bernard,00:01:11,0,Logged Out,trade,2,2025-11-17
+Totals,,+3538a3d2de76,,16:35:47,7461,,retail,3,

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni Consumer Products Call Analysis Report</title>
+    <link rel="icon" href="https://tequila-ai.com/wp-content/uploads/2025/06/logo-no-background.png">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --light-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--primary-color); background: #f5f5f5; margin: 0; }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        
+        /* Responsive Header */
+        .header { 
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); 
+            color: white; 
+            padding: 20px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .header a {
+            display: block;
+            flex-shrink: 0;
+        }
+        .header img {
+            height: 80px; /* Smaller default height */
+            width: auto;
+            display: block;
+        }
+        .header-text {
+            text-align: center;
+            flex: 1;
+            min-width: 280px; /* Ensure text doesn't get too squashed */
+        }
+        .header h1 { margin: 0; font-weight: 300; font-size: 1.8rem; line-height: 1.2; }
+        .header p { margin: 5px 0 0; opacity: 0.9; }
+
+        .content { padding: 20px; }
+        .section { margin-bottom: 40px; }
+        .section h2 { border-bottom: 3px solid var(--secondary-color); padding-bottom: 10px; font-size: 1.5rem; }
+        
+        /* Responsive Grid */
+        .metric-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 30px; 
+        }
+        .metric-card { background: var(--light-bg); padding: 20px; border-radius: 8px; text-align: center; border: 1px solid var(--border-color); }
+        .metric-value { font-size: 2em; font-weight: bold; color: var(--secondary-color); word-break: break-word; }
+        .metric-label { color: #666; text-transform: uppercase; font-size: 0.9em; }
+        
+        /* Data card for Journey/OOH sections */
+        .data-card { background: var(--light-bg); padding: 20px; border-radius: 8px; text-align: center; border: 1px solid var(--border-color); height: 100%; box-sizing: border-box; }
+        .data-card h3 { margin: 0 0 10px 0; font-size: 1em; color: #666; text-transform: uppercase; }
+        .data-card p.metric-value { font-size: 2em; font-weight: bold; color: var(--secondary-color); margin: 0; }
+        .data-card p.metric-label { color: #888; font-size: 0.9em; margin: 5px 0 0 0; }
+        
+        .executive-summary { background: #e8f4f8; padding: 25px; border-radius: 8px; border-left: 5px solid var(--secondary-color); }
+        
+        .chart-container { margin: 20px 0; padding: 10px; background: white; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; }
+        
+        /* Responsive Tables */
+        .table-responsive {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+        table { width: 100%; border-collapse: collapse; min-width: 600px; /* Force scroll on small screens */ }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
+        th { background-color: #f8f9fa; font-weight: 600; color: var(--primary-color); }
+        tr:hover { background-color: #f1f1f1; }
+
+        .footer { text-align: center; padding: 20px; color: #666; font-size: 0.9em; }
+        
+        /* Mobile Breakpoint */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 15px;
+            }
+            .header img {
+                height: 60px; /* Smaller logo on mobile */
+            }
+            .header-text {
+                text-align: center;
+            }
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            .content {
+                padding: 15px;
+            }
+            .metric-value {
+                font-size: 1.8em;
+            }
+            .metric-grid {
+                grid-template-columns: 1fr; /* Stack cards on very small screens */
+            }
+        }
+        
+        /* Tablet/Desktop Breakpoint adjustments */
+        @media (min-width: 769px) {
+            .header {
+                justify-content: space-between; /* Logo left, text right (or center depending on pref) */
+                flex-direction: row;
+            }
+            .header a {
+                order: 1;
+            }
+            .header-text {
+                order: 2;
+                text-align: right; /* Text on right for desktop header look */
+                flex-grow: 1;
+            }
+            /* Actually, let's keep the centered look requested previously but make it flexible */
+            .header {
+                justify-content: center;
+            }
+            .header a {
+                position: absolute;
+                left: 30px;
+            }
+            .header img {
+                height: 100px;
+            }
+            .header-text {
+                text-align: center;
+            }
+        }
+        
+        /* Refined Desktop Header to match original request of centered text + left logo, but responsive */
+        @media (min-width: 900px) {
+             .header {
+                position: relative;
+                justify-content: center;
+                padding: 40px 30px;
+            }
+            .header a {
+                position: absolute;
+                left: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                order: unset;
+            }
+            .header img {
+                height: 100px;
+            }
+            .header-text {
+                text-align: center;
+                width: 100%;
+            }
+        }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://tequila-ai.com" target="_blank"> <img src="https://tequila-ai.com/wp-content/uploads/2025/06/logo-no-background.png" alt="Logo"></a>
+            <div class="header-text">
+                <h1>📞 Omni Consumer Products Call Analysis Report</h1>
+                <p>Weekly Performance Overview as of {{ max_date }}</p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- Key Metrics - Row 1: Totals -->
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.total_calls) }}</div>
+                    <div class="metric-label">Total Calls</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.week1_calls) }}</div>
+                    <div class="metric-label">This Week Volume</div>
+                </div>
+                 <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.week2_calls) }}</div>
+                    <div class="metric-label">Last Week Volume</div>
+                </div>
+            </div>
+            
+            <!-- Key Metrics - Row 2: Trade -->
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.week1_trade_calls) }}</div>
+                    <div class="metric-label">This Week Trade</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.week2_trade_calls) }}</div>
+                    <div class="metric-label">Last Week Trade</div>
+                </div>
+            </div>
+            
+            <!-- Key Metrics - Row 3: Retail -->
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.week1_retail_calls) }}</div>
+                    <div class="metric-label">This Week Retail</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">{{ "{:,}".format(metrics.week2_retail_calls) }}</div>
+                    <div class="metric-label">Last Week Retail</div>
+                </div>
+            </div>
+
+            <!-- Customer Type Abandonment Metrics -->
+            <div class="section">
+                <h2>📋 Abandonment by Customer Type</h2>
+                <div class="metric-grid">
+                    <!-- Week 1 Metrics -->
+                    <div class="metric-card">
+                        <div class="metric-value">{{ "{:,}".format(metrics.week1_retail_abandoned) }}</div>
+                        <div class="metric-label">This Week Retail Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">{{ metrics.week1_retail_abandonment_rate }}%</div>
+                        <div class="metric-label">This Week Retail Rate</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">{{ "{:,}".format(metrics.week1_trade_abandoned) }}</div>
+                        <div class="metric-label">This Week Trade Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">{{ metrics.week1_trade_abandonment_rate }}%</div>
+                        <div class="metric-label">This Week Trade Rate</div>
+                    </div>
+                </div>
+                <div class="metric-grid">
+                    <!-- Week 2 Metrics -->
+                    <div class="metric-card">
+                        <div class="metric-value">{{ "{:,}".format(metrics.week2_retail_abandoned) }}</div>
+                        <div class="metric-label">Last Week Retail Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">{{ metrics.week2_retail_abandonment_rate }}%</div>
+                        <div class="metric-label">Last Week Retail Rate</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">{{ "{:,}".format(metrics.week2_trade_abandoned) }}</div>
+                        <div class="metric-label">Last Week Trade Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">{{ metrics.week2_trade_abandonment_rate }}%</div>
+                        <div class="metric-label">Last Week Trade Rate</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Executive Summary -->
+            <div class="section">
+                <h2>📊 Executive Summary</h2>
+                <div class="executive-summary">
+                    {{ narrative|safe }}
+                </div>
+            </div>
+            
+            <!-- Charts -->
+            <div class="section">
+                <div class="chart-container">
+                    {{ plots.combined_plot|safe }}
+                </div>
+            </div>
+
+            <!-- Out of Hours Analysis -->
+            <div class="section">
+                <h2>🌙 Out of Hours Analysis</h2>
+                <div class="metric-grid">
+                    <div class="data-card">
+                        <h3>Total Out of Hours Calls</h3>
+                        <p class="metric-value">{{ "{:,}".format(metrics.ooh_total) }}</p>
+                        <p class="metric-label">Received outside operating hours</p>
+                    </div>
+                    <div class="data-card">
+                        <h3>Before Opening</h3>
+                        <p class="metric-value">{{ "{:,}".format(metrics.ooh_before_opening) }}</p>
+                        <p class="metric-label">Calls before business hours</p>
+                    </div>
+                    <div class="data-card">
+                        <h3>After Closing</h3>
+                        <p class="metric-value">{{ "{:,}".format(metrics.ooh_after_closing) }}</p>
+                        <p class="metric-label">Calls after business hours</p>
+                    </div>
+                </div>
+                {% if metrics.ooh_total > 100 %}
+                <div style="margin-top: 15px; padding: 15px; background-color: #fff3cd; border: 1px solid #ffeeba; border-radius: 5px; color: #856404;">
+                    <strong>Insight:</strong> {{ metrics.ooh_total }} out of hours calls represents a significant volume that may indicate demand for extended service hours.
+                </div>
+                {% elif metrics.ooh_total > 0 %}
+                <div style="margin-top: 15px; padding: 15px; background-color: #e8f4f8; border: 1px solid #bee5eb; border-radius: 5px; color: #0c5460;">
+                    <strong>Note:</strong> Out of hours call volume is relatively low ({{ metrics.ooh_total }} calls). Operating hours: Mon-Fri 8am-8pm, Sat 8am-6pm, Sun 10am-4pm.
+                </div>
+                {% endif %}
+            </div>
+            
+            <!-- Abandoned Trade Customers Section -->
+            {% if abandoned_trade_customers.week1 or abandoned_trade_customers.week2 %}
+            <div class="section">
+                <h2>📋 Abandoned Trade Customers</h2>
+                
+                {% if abandoned_trade_customers.week1 %}
+                <div style="margin-bottom: 25px;">
+                    <h3 style="color: var(--secondary-color); margin-bottom: 15px;">This Week ({{ abandoned_trade_customers.week1|length }} calls)</h3>
+                    <div class="table-responsive">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                            <thead>
+                                <tr style="background-color: var(--primary-color); color: white;">
+                                    <th style="padding: 12px; text-align: left;">Customer Name</th>
+                                    <th style="padding: 12px; text-align: left;">Phone Number</th>
+                                    <th style="padding: 12px; text-align: left;">Call Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for customer in abandoned_trade_customers.week1 %}
+                                <tr style="border-bottom: 1px solid #ddd; background-color: {{ '#f9f9f9' if loop.index is even else 'white' }};">
+                                    <td style="padding: 10px;">{{ customer.name }}</td>
+                                    <td style="padding: 10px;">{{ customer.phone }}</td>
+                                    <td style="padding: 10px;">{{ customer.call_time }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+                
+                {% if abandoned_trade_customers.week2 %}
+                <div>
+                    <h3 style="color: #DC6E23; margin-bottom: 15px;">Last Week ({{ abandoned_trade_customers.week2|length }} calls)</h3>
+                    <div class="table-responsive">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                            <thead>
+                                <tr style="background-color: var(--primary-color); color: white;">
+                                    <th style="padding: 12px; text-align: left;">Customer Name</th>
+                                    <th style="padding: 12px; text-align: left;">Phone Number</th>
+                                    <th style="padding: 12px; text-align: left;">Call Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for customer in abandoned_trade_customers.week2 %}
+                                <tr style="border-bottom: 1px solid #ddd; background-color: {{ '#f9f9f9' if loop.index is even else 'white' }};">
+                                    <td style="padding: 10px;">{{ customer.name }}</td>
+                                    <td style="padding: 10px;">{{ customer.phone }}</td>
+                                    <td style="padding: 10px;">{{ customer.call_time }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+            
+            
+            <!-- Call Logs Table -->
+            <div class="section">
+                <h2>📋 Call Logs</h2>
+                <div style="margin-bottom: 15px; text-align: right;">
+                    <button onclick="window.location.href='call_logs_cleaned.csv'" style="background-color: var(--success-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em; margin-right: 10px;">
+                        📥 Download Cleaned CSV
+                    </button>
+                    <button onclick="window.location.href='call_logs_original.csv'" style="background-color: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em;">
+                        📥 Download Original CSV
+                    </button>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                        <thead>
+                            <tr style="background-color: var(--primary-color); color: white;">
+                                <th style="padding: 12px; text-align: left;">Week</th>
+                                <th style="padding: 12px; text-align: left;">Call ID</th>
+                                <th style="padding: 12px; text-align: left;">Call Start</th>
+                                <th style="padding: 12px; text-align: left;">From Number</th>
+                                <th style="padding: 12px; text-align: left;">Customer Type</th>
+                                <th style="padding: 12px; text-align: left;">Talking (sec)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in raw_data %}
+                            <tr style="border-bottom: 1px solid #ddd; background-color: {{ 'white' if loop.index is odd else '#f9f9f9' }};">
+                                <td style="padding: 10px;">Week {{ row['week'] }}</td>
+                                <td style="padding: 10px;">{{ row['Call ID'] }}</td>
+                                <td style="padding: 10px;">{{ row['call_start'] }}</td>
+                                <td style="padding: 10px;">{{ row['from_number'] }}</td>
+                                <td style="padding: 10px;">{{ row['customer_type']|title }}</td>
+                                <td style="padding: 10px;">{{ row['talking_total_sec'] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <p style="margin-top: 10px; color: #666; font-style: italic;">Showing first 10 rows of {{ raw_data|length }} total calls. Download CSV for complete data.</p>
+                </div>
+            </div>
+            
+            <!-- Abandoned Call Logs Table -->
+            <div class="section">
+                <h2>📋 Abandoned Call Logs</h2>
+                <div style="margin-bottom: 15px; text-align: right;">
+                    <button onclick="window.location.href='abandoned_logs_cleaned.csv'" style="background-color: var(--success-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em; margin-right: 10px;">
+                        📥 Download Cleaned CSV
+                    </button>
+                    <button onclick="window.location.href='abandoned_logs_original.csv'" style="background-color: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em;">
+                        📥 Download Original CSV
+                    </button>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                        <thead>
+                            <tr style="background-color: var(--primary-color); color: white;">
+                                <th style="padding: 12px; text-align: left;">Week</th>
+                                <th style="padding: 12px; text-align: left;">Call Time</th>
+                                <th style="padding: 12px; text-align: left;">Caller ID</th>
+                                <th style="padding: 12px; text-align: left;">Customer Type</th>
+                                <th style="padding: 12px; text-align: left;">Waiting Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in abandoned_logs %}
+                            <tr style="border-bottom: 1px solid #ddd; background-color: {{ 'white' if loop.index is odd else '#f9f9f9' }};">
+                                <td style="padding: 10px;">Week {{ row['week'] }}</td>
+                                <td style="padding: 10px;">{{ row['Call Time'] }}</td>
+                                <td style="padding: 10px;">{{ row['Caller ID'] }}</td>
+                                <td style="padding: 10px;">{{ row['customer_type']|title }}</td>
+                                <td style="padding: 10px;">{{ row['Waiting Time'] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <p style="margin-top: 10px; color: #666; font-style: italic;">Showing first 10 rows of {{ abandoned_logs|length }} total abandoned calls. Download CSV for complete data.</p>
+                </div>
+
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+        <p>&copy; 2025 Tequila AI Ltd.</p>
+    </div>
+</body>
+</html>
