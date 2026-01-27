@@ -1,0 +1,13 @@
+================================================================================
+AVERAGE TALK TIME VERIFICATION
+================================================================================
+
+WEEK 1
+Retail - Count: 1669, Avg: 186.37s (3.11 min)
+Trade  - Count: 380, Avg: 152.66s (2.54 min)
+Difference: 33.72 seconds
+
+WEEK 2
+Retail - Count: 1663, Avg: 186.54s (3.11 min)
+Trade  - Count: 483, Avg: 152.51s (2.54 min)
+Difference: 34.03 seconds
