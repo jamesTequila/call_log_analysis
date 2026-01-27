@@ -3,15 +3,18 @@ import psycopg2
 from psycopg2 import extras
 import os
 import re
+from dotenv import load_dotenv
 
-# Database configuration
+load_dotenv()
+
+# Database configuration - credentials from environment variables
 DB_CONFIG = {
-    'host': 'kmc.tequila-ai.com',
-    'port': '5432',
-    'database': 'tequila_ai_reporting',
-    'user': 'james',
-    'password': ']dT1H-{ekquGfn^6',
-    'sslmode': 'require'
+    'host': os.getenv('DB_HOST', 'kmc.tequila-ai.com'),
+    'port': os.getenv('DB_PORT', '5432'),
+    'database': os.getenv('DB_NAME', 'tequila_ai_reporting'),
+    'user': os.getenv('DB_USER', 'james'),
+    'password': os.getenv('DB_PASSWORD'),
+    'sslmode': os.getenv('DB_SSLMODE', 'require')
 }
 
 def get_db_connection():

@@ -7,28 +7,31 @@ from psycopg2.extras import execute_values
 import os
 from cleaning import run_cleaning
 import glob
+from dotenv import load_dotenv
 
-# Database Configuration
+load_dotenv()
+
+# Database Configuration - credentials from environment variables
 DB_CONFIG = {
     'host': os.getenv('DB_HOST', 'kmc.tequila-ai.com'),
     'port': os.getenv('DB_PORT', '5432'),
     'database': os.getenv('DB_NAME', 'tequila_ai_reporting'),
     'user': os.getenv('DB_USER', 'james'),
-    'password': os.getenv('DB_PASSWORD', ']dT1H-{ekquGfn^6'),
+    'password': os.getenv('DB_PASSWORD'),
     'sslmode': os.getenv('DB_SSLMODE', 'require')
 }
 
 def save_to_database(df, table_name='call_logs'):
-    """Save DataFrame to PostgreSQL database."""
+    """Save DataFrame to PostgreSQL database.
+
+    Uses CREATE TABLE IF NOT EXISTS and upserts on Call ID to preserve
+    historical data across runs.
+    """
     try:
         print(f"Connecting to database to save {len(df)} rows...")
         conn = psycopg2.connect(**DB_CONFIG)
         cursor = conn.cursor()
-        
-        # Create table if not exists (simplified schema)
-        # We'll drop and recreate for this weekly job to ensure schema matches
-        cursor.execute(f"DROP TABLE IF EXISTS {table_name} CASCADE;")
-        
+
         # Generate CREATE TABLE statement based on DataFrame columns
         cols = []
         for col in df.columns:
@@ -44,20 +47,38 @@ def save_to_database(df, table_name='call_logs'):
             else:
                 sql_type = 'TEXT'
             cols.append(f'"{col}" {sql_type}')
-        
-        create_sql = f"CREATE TABLE {table_name} (id SERIAL PRIMARY KEY, {', '.join(cols)});"
+
+        create_sql = f'CREATE TABLE IF NOT EXISTS {table_name} (id SERIAL PRIMARY KEY, {", ".join(cols)});'
         cursor.execute(create_sql)
-        
-        # Insert data
+
+        # Add unique constraint on Call ID if it doesn't exist (for upsert)
+        if 'Call ID' in df.columns:
+            cursor.execute(f"""
+                DO $$ BEGIN
+                    ALTER TABLE {table_name} ADD CONSTRAINT {table_name}_call_id_unique UNIQUE ("Call ID");
+                EXCEPTION WHEN duplicate_table OR duplicate_object THEN
+                    NULL;
+                END $$;
+            """)
+
+        # Upsert: insert new rows, update existing ones on Call ID conflict
         columns = [f'"{col}"' for col in df.columns]
+        col_list = ', '.join(columns)
+
+        if 'Call ID' in df.columns:
+            # Build SET clause for all columns except Call ID
+            update_cols = [c for c in columns if c != '"Call ID"']
+            update_clause = ', '.join(f'{c} = EXCLUDED.{c}' for c in update_cols)
+            insert_sql = f'INSERT INTO {table_name} ({col_list}) VALUES %s ON CONFLICT ("Call ID") DO UPDATE SET {update_clause}'
+        else:
+            insert_sql = f'INSERT INTO {table_name} ({col_list}) VALUES %s'
+
         values = [tuple(x) for x in df.to_numpy()]
-        
-        insert_sql = f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES %s"
         execute_values(cursor, insert_sql, values)
-        
+
         conn.commit()
         print(f"Successfully saved data to table '{table_name}'.")
-        
+
     except Exception as e:
         print(f"Error saving to database: {e}")
     finally:
@@ -130,11 +151,11 @@ def generate_plots(df, abandoned_df):
     max_date = df['call_start'].max() if 'call_start' in df.columns else pd.Timestamp.now()
     
     # Helper function to get user-friendly week labels
-    # USER REQUEST: Week 2 Main Data = "This Week"
+    # Week 1 (most recent) = "This Week", Week 2 (previous) = "Last Week"
     def get_week_label_display(week):
-        if week == 2:
+        if week == 1:
             return "This Week"
-        elif week == 1:
+        elif week == 2:
             return "Last Week"
         else:
             return f"Week {week}"
@@ -146,17 +167,15 @@ def generate_plots(df, abandoned_df):
     # NEW: Capture metrics from plot data for "Bottom Up" consistency
     plot_derived_metrics = {}
     
-    for week in [2, 1]:
+    for week in [1, 2]:
         week_data = grouped[grouped['week'] == week]
         y_vals = []
         call_counts = []
         hover_texts = []
-        
-        # Determine metric prefix based on label mapping
-        # Week 2 = "This Week" -> metrics['week1_...']
-        # Week 1 = "Last Week" -> metrics['week2_...']
-        metric_week = "week1" if week == 2 else "week2"
-        
+
+        # Direct mapping: week number matches metric prefix
+        metric_week = f"week{week}"
+
         for ctype in customer_types:
             row = week_data[week_data['customer_type_display'] == ctype]
             if len(row) > 0:
@@ -165,20 +184,18 @@ def generate_plots(df, abandoned_df):
                 y_vals.append(val) # Plot in seconds
                 call_counts.append(count)
                 hover_texts.append(format_time_hover(val))
-                
+
                 # Capture count for metrics
-                metric_key = f"{metric_week}_{ctype.lower().split()[0]}_calls" # week1_retail_calls
+                metric_key = f"{metric_week}_{ctype.lower().split()[0]}_calls"
                 plot_derived_metrics[metric_key] = count
-                
-                # Also capture 'total' key for consistency
+
                 total_key = f"{metric_week}_{ctype.lower().split()[0]}_total"
                 plot_derived_metrics[total_key] = count
             else:
                 y_vals.append(0)
                 call_counts.append(0)
                 hover_texts.append("0s")
-                
-                # Capture 0 count
+
                 metric_key = f"{metric_week}_{ctype.lower().split()[0]}_calls"
                 plot_derived_metrics[metric_key] = 0
                 total_key = f"{metric_week}_{ctype.lower().split()[0]}_total"
@@ -204,8 +221,8 @@ def generate_plots(df, abandoned_df):
 
     # Chart 2: Average Talk Time
     fig_talk = go.Figure()
-    
-    for week in [2, 1]:
+
+    for week in [1, 2]:
         week_data = grouped[grouped['week'] == week]
         y_vals = []
         call_counts = []
@@ -278,19 +295,13 @@ def generate_plots(df, abandoned_df):
         
         days_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
         
-        for week in [2, 1]:
-            # Main Data follows the week label (Week 2 = This Week)
+        for week in [1, 2]:
+            # Main and abandoned data use the same week directly
             week_main = main_df[main_df['week'] == week]
-            
-            # Abandoned Data is SWAPPED per user request
-            # "This Week" (week 2 loop) needs Abd Data from Week 1 (309 calls)
-            # "Last Week" (week 1 loop) needs Abd Data from Week 2 (266 calls)
-            abd_week_source = 1 if week == 2 else 2
-            week_abd = abd[abd['week'] == abd_week_source]
-            
-            # Capture abandoned metrics for "Bottom Up" consistency
-            # Determine metric prefix
-            metric_week = "week1" if week == 2 else "week2"
+            week_abd = abd[abd['week'] == week]
+
+            # Direct mapping: week number matches metric prefix
+            metric_week = f"week{week}"
             
             # Total abandoned for this week
             total_abd_count = len(week_abd)
@@ -1082,16 +1093,14 @@ def analyze_calls(data_dir='data'):
     ooh_stats = analyze_out_of_hours(df_week12, abandoned_week12)
     metrics.update(ooh_stats)
     
-    # 7. Generate Plots & Get Bottom-Up Metrics
-    plots, plot_metrics = generate_plots(df, abandoned_df)
-    
-    # 7b. OVERWRITE metrics with plot-derived metrics ("Bottom Up" approach)
-    # This guarantees that the data cards match the plots exactly
-    metrics.update(plot_metrics)
-    
-    # Re-calculate Total Calls metric for consistency
-    # (Retail Main + Trade Main + Abandoned Total)
-    metrics['total_calls'] = metrics['week1_calls'] + metrics['week2_calls']
+    # 7. Generate Plots
+    # Metrics from analyze_calls() date-based filtering are the single source of truth.
+    # generate_plots() produces charts only; its derived metrics are not used to override.
+    plots, _plot_metrics = generate_plots(df, abandoned_df)
+
+    # Add abandoned_total keys needed by validation/verification report
+    metrics['week1_abandoned_total'] = metrics.get('week1_retail_abandoned', 0) + metrics.get('week1_trade_abandoned', 0)
+    metrics['week2_abandoned_total'] = metrics.get('week2_retail_abandoned', 0) + metrics.get('week2_trade_abandoned', 0)
     
     # 8. Export Datasets for Download
     print("Exporting datasets for download...")

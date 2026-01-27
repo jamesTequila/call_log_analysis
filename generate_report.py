@@ -1,7 +1,7 @@
 import os
 from jinja2 import Environment, FileSystemLoader
 from call_log_analyzer import analyze_calls
-from store_snapshot import create_snapshot_table, store_snapshot
+from store_snapshot import create_snapshot_table, store_snapshot, create_weekly_metrics_table, store_weekly_metrics
 
 def validate_metrics_quick(metrics, df, abandoned_df):
     """Quick validation of key metrics."""
@@ -96,6 +96,14 @@ def generate_report():
         store_snapshot(results['metrics'])
     except Exception as e:
         print(f"Warning: Could not store snapshot: {e}")
+
+    # 4b. Store persistent weekly metrics (keyed on week date range)
+    print("Storing weekly metrics to database...")
+    try:
+        create_weekly_metrics_table()
+        store_weekly_metrics(results['metrics'])
+    except Exception as e:
+        print(f"Warning: Could not store weekly metrics: {e}")
 
     # 5. Setup Jinja2 Environment
     env = Environment(loader=FileSystemLoader('templates'))

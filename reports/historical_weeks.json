@@ -132,6 +132,44 @@
         "abandoned": 269,
         "total": 2369
       }
+    },
+    {
+      "report_date": "2026-01-27",
+      "this_week": {
+        "start_date": "2026-01-19",
+        "end_date": "2026-01-25",
+        "retail": 1675,
+        "trade": 425,
+        "abandoned": 250,
+        "total": 2350
+      },
+      "last_week": {
+        "start_date": "2026-01-12",
+        "end_date": "2026-01-18",
+        "retail": 1704,
+        "trade": 422,
+        "abandoned": 207,
+        "total": 2333
+      }
+    },
+    {
+      "report_date": "2026-01-27",
+      "this_week": {
+        "start_date": "2026-01-19",
+        "end_date": "2026-01-25",
+        "retail": 1448,
+        "trade": 331,
+        "abandoned": 239,
+        "total": 2018
+      },
+      "last_week": {
+        "start_date": "2026-01-12",
+        "end_date": "2026-01-18",
+        "retail": 1408,
+        "trade": 336,
+        "abandoned": 178,
+        "total": 1922
+      }
     }
   ]
 }
