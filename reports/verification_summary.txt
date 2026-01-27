@@ -1,0 +1,9 @@
+REPORT VALIDATION SUMMARY
+=========================
+Date: 2025-12-10 21:34:12
+
+[OK] Arithmetic validation passed
+[OK] Date range validation passed
+  This Week: 2025-12-01 to 2025-12-07
+  Last Week: 2025-11-24 to 2025-11-30
+No previous report to compare against (first run)
