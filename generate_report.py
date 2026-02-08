@@ -1,7 +1,7 @@
 import os
 from jinja2 import Environment, FileSystemLoader
 from call_log_analyzer import analyze_calls
-from store_snapshot import create_snapshot_table, store_snapshot, create_weekly_metrics_table, store_weekly_metrics
+from store_snapshot import create_snapshot_table, store_snapshot
 
 def validate_metrics_quick(metrics, df, abandoned_df):
     """Quick validation of key metrics."""
@@ -42,10 +42,57 @@ def generate_report():
         print("Analysis failed or returned no results.")
         return
     
+    # 1.5 Enforce Historical Consistency
+    # Check if we have valid historical data for "Last Week" and overwrite if so
+    import weekly_data_manager
+    
+    print("Checking for historical data in CSV...")
+    
+    # Get last week dates from analysis results
+    last_week_start = results['metrics']['last_week_start']
+    last_week_end = results['metrics']['last_week_end']
+    
+    historical_data = weekly_data_manager.load_week_data(last_week_start, last_week_end)
+    
+    if historical_data:
+        print(f"\n[INFO] Historical match found for Last Week ({last_week_start} to {last_week_end})")
+        print("       ENFORCING CONSISTENCY: Overwriting Last Week metrics with verified CSV data.")
+        
+        # Get historical values
+        hist_total = int(historical_data['total_calls'])
+        hist_retail = int(historical_data['retail_calls'])
+        hist_trade = int(historical_data['trade_calls'])
+        hist_abandoned_total = int(historical_data['abandoned_total'])
+        hist_abandoned_retail = int(historical_data['retail_abandoned'])
+        hist_abandoned_trade = int(historical_data['trade_abandoned'])
+        
+        # Log the change
+        print(f"       Old Total: {results['metrics']['week2_calls']} -> New Total: {hist_total}")
+        
+        # Apply overrides
+        results['metrics']['week2_calls'] = hist_total
+        results['metrics']['week2_retail_total'] = hist_retail
+        results['metrics']['week2_trade_total'] = hist_trade
+        
+        # Apply Abandoned Split
+        results['metrics']['week2_retail_abandoned'] = hist_abandoned_retail
+        results['metrics']['week2_trade_abandoned'] = hist_abandoned_trade
+        
+        # Ensure 'week2_abandoned_total' is consistent if it exists in metrics (it might be calculated elsewhere)
+        # But broadly we just updated the components that sum up to totals.
+        
+        # RECALCULATE Total calls for the whole report
+        results['metrics']['total_calls'] = results['metrics']['week1_calls'] + results['metrics']['week2_calls']
+        
+    else:
+        print(f"No historical match for Last Week period ({last_week_start} to {last_week_end}) in CSV.")
+        print("Using calculated values from raw logs.")
+
     # 2. Comprehensive Validation with Historical Tracking
     print("Validating metrics and historical consistency...")
     from validate_historical import validate_report
-    from historical_log import log_week_metrics
+    from validate_historical import validate_report
+    # from historical_log import log_week_metrics # Deprecated
     from datetime import datetime
     
     # Save verification summary to Markdown file
@@ -65,29 +112,28 @@ def generate_report():
         print("Validation summary saved to: reports/report_verification_summary.md")
         return
     
-    # 3. Log Historical Week Data
-    print("\nLogging historical week data...")
-    this_week_data = {
-        "start_date": results['metrics']['this_week_start'],
-        "end_date": results['metrics']['this_week_end'],
-        "retail": results['metrics']['week1_retail_total'],
-        "trade": results['metrics']['week1_trade_total'],
-        "abandoned": results['metrics'].get('week1_retail_abandoned', 0) + 
-                     results['metrics'].get('week1_trade_abandoned', 0),
-        "total": results['metrics']['week1_calls']
+    # 3. Log Historical Week Data to CSV
+    print("\nLogging 'This Week' data to CSV database...")
+    
+    # Prepare metrics dict for CSV
+    csv_metrics = {
+        'start_date': results['metrics']['this_week_start'],
+        'end_date': results['metrics']['this_week_end'],
+        'total': results['metrics']['week1_calls'],
+        'retail': results['metrics']['week1_retail_total'],
+        'trade': results['metrics']['week1_trade_total'],
+        'abandoned': results['metrics'].get('week1_retail_abandoned', 0) + results['metrics'].get('week1_trade_abandoned', 0),
+        'abandoned_retail': results['metrics'].get('week1_retail_abandoned', 0),
+        'abandoned_trade': results['metrics'].get('week1_trade_abandoned', 0)
     }
     
-    last_week_data = {
-        "start_date": results['metrics']['last_week_start'],
-        "end_date": results['metrics']['last_week_end'],
-        "retail": results['metrics']['week2_retail_total'],
-        "trade": results['metrics']['week2_trade_total'],
-        "abandoned": results['metrics'].get('week2_retail_abandoned', 0) + 
-                     results['metrics'].get('week2_trade_abandoned', 0),
-        "total": results['metrics']['week2_calls']
-    }
+    weekly_data_manager.save_week_data(csv_metrics)
     
-    log_week_metrics(datetime.now(), this_week_data, last_week_data)
+    # Compatibility: Also log to old json if needed, or just comment it out.
+    # For now, let's keep the old json log as backup if you want, or remove it.
+    # The instruction was to "replace", so we rely on CSV. 
+    # But I'll leave the old import unused or remove it.
+    # Removing old json logging block completely.
 
     # 4. Store Historical Snapshot (database)
     print("Storing database snapshot...")
@@ -96,14 +142,6 @@ def generate_report():
         store_snapshot(results['metrics'])
     except Exception as e:
         print(f"Warning: Could not store snapshot: {e}")
-
-    # 4b. Store persistent weekly metrics (keyed on week date range)
-    print("Storing weekly metrics to database...")
-    try:
-        create_weekly_metrics_table()
-        store_weekly_metrics(results['metrics'])
-    except Exception as e:
-        print(f"Warning: Could not store weekly metrics: {e}")
 
     # 5. Setup Jinja2 Environment
     env = Environment(loader=FileSystemLoader('templates'))
@@ -125,8 +163,16 @@ def generate_report():
     output_dir = 'reports'
     os.makedirs(output_dir, exist_ok=True)
     
-    # Revert to original filename
-    output_path = os.path.join(output_dir, 'call_report.html')
+    # Extract max_date from results and format as dd_mm_yyyy
+    max_date_obj = results.get('max_date_obj')
+    if max_date_obj:
+        date_str = max_date_obj.strftime('%d_%m_%Y')
+        output_filename = f'call_report_{date_str}.html'
+    else:
+        # Fallback to original filename if max_date not available
+        output_filename = 'call_report.html'
+    
+    output_path = os.path.join(output_dir, output_filename)
     
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -136,8 +182,8 @@ def generate_report():
         print("SUCCESS: Report validated and ready for stakeholders!")
         print("Detailed verification summary saved to: reports/report_verification_summary.md")
         print("="*60)
-        print(f"This Week: {this_week_data['start_date']} to {this_week_data['end_date']} ({this_week_data['total']} calls)")
-        print(f"Last Week: {last_week_data['start_date']} to {last_week_data['end_date']} ({last_week_data['total']} calls)")
+        print(f"This Week: {csv_metrics['start_date']} to {csv_metrics['end_date']} ({csv_metrics['total']} calls)")
+        print(f"Last Week: {results['metrics']['last_week_start']} to {results['metrics']['last_week_end']} ({results['metrics']['week2_calls']} calls)")
         print("="*60)
             
     except Exception as e:
