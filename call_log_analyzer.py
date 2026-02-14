@@ -130,11 +130,12 @@ def generate_plots(df, abandoned_df):
     max_date = df['call_start'].max() if 'call_start' in df.columns else pd.Timestamp.now()
     
     # Helper function to get user-friendly week labels
-    # USER REQUEST: Week 2 Main Data = "This Week"
+    # Week 1 = "This Week" (Most Recent)
+    # Week 2 = "Last Week" (Previous)
     def get_week_label_display(week):
-        if week == 2:
+        if week == 1:
             return "This Week"
-        elif week == 1:
+        elif week == 2:
             return "Last Week"
         else:
             return f"Week {week}"
@@ -146,16 +147,19 @@ def generate_plots(df, abandoned_df):
     # NEW: Capture metrics from plot data for "Bottom Up" consistency
     plot_derived_metrics = {}
     
-    for week in [2, 1]:
+    # Loop order: Week 1 (This Week) then Week 2 (Last Week) for consistent legend ordering if needed
+    # Or keep [2, 1] if we want "Last Week" on left/top? Usually "This Week" is first or second.
+    # Let's use [1, 2] to process This Week first.
+    for week in [1, 2]:
         week_data = grouped[grouped['week'] == week]
         y_vals = []
         call_counts = []
         hover_texts = []
         
-        # Determine metric prefix based on label mapping
-        # Week 2 = "This Week" -> metrics['week1_...']
-        # Week 1 = "Last Week" -> metrics['week2_...']
-        metric_week = "week1" if week == 2 else "week2"
+        # Determine metric prefix
+        # Week 1 = "This Week" -> metrics['week1_...']
+        # Week 2 = "Last Week" -> metrics['week2_...']
+        metric_week = f"week{week}"
         
         for ctype in customer_types:
             row = week_data[week_data['customer_type_display'] == ctype]
@@ -205,7 +209,7 @@ def generate_plots(df, abandoned_df):
     # Chart 2: Average Talk Time
     fig_talk = go.Figure()
     
-    for week in [2, 1]:
+    for week in [1, 2]:
         week_data = grouped[grouped['week'] == week]
         y_vals = []
         call_counts = []
@@ -278,19 +282,16 @@ def generate_plots(df, abandoned_df):
         
         days_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
         
-        for week in [2, 1]:
-            # Main Data follows the week label (Week 2 = This Week)
+        for week in [1, 2]:
+            # Main Data
             week_main = main_df[main_df['week'] == week]
             
-            # Abandoned Data is SWAPPED per user request
-            # "This Week" (week 2 loop) needs Abd Data from Week 1 (309 calls)
-            # "Last Week" (week 1 loop) needs Abd Data from Week 2 (266 calls)
-            abd_week_source = 1 if week == 2 else 2
-            week_abd = abd[abd['week'] == abd_week_source]
+            # Abandoned Data - Use same week!
+            week_abd = abd[abd['week'] == week]
             
             # Capture abandoned metrics for "Bottom Up" consistency
             # Determine metric prefix
-            metric_week = "week1" if week == 2 else "week2"
+            metric_week = f"week{week}"
             
             # Total abandoned for this week
             total_abd_count = len(week_abd)
@@ -851,16 +852,24 @@ def analyze_calls(data_dir='data'):
     # This Week and Last Week use the SAME date range for ALL metrics (Main + Abandoned)
     # No overlapping dates between weeks
     
-    # Define This Week: Most recent 7 days (inclusive)
-    this_week_end = max_date
-    this_week_start = max_date - pd.Timedelta(days=6)  # 7 days total
+    # BUG FIX: Normalize max_date to DATE ONLY (midnight) to avoid excluding calls
+    # before max_date's time component on boundary days.
+    # e.g. if max_date = 2026-02-08 21:44:22, without normalization:
+    #   this_week_start = 2026-02-02 21:44:22 (WRONG - excludes morning calls on Feb 2!)
+    # With normalization:
+    #   this_week_start = 2026-02-02 00:00:00 (CORRECT - includes all calls on Feb 2)
+    max_date_normalized = max_date.normalize()  # Strip time -> midnight
+    
+    # Define This Week: Most recent 7 days (inclusive of full days)
+    this_week_end = max_date_normalized + pd.Timedelta(days=1) - pd.Timedelta(seconds=1)  # End of day (23:59:59)
+    this_week_start = max_date_normalized - pd.Timedelta(days=6)  # Start of day (00:00:00), 7 days total
     
     # Define Last Week: Previous 7 days, NO OVERLAP with This Week
-    last_week_end = this_week_start - pd.Timedelta(days=1)
-    last_week_start = last_week_end - pd.Timedelta(days=6)  # 7 days total
+    last_week_end = this_week_start - pd.Timedelta(seconds=1)  # End of previous day (23:59:59)
+    last_week_start = (this_week_start - pd.Timedelta(days=7))  # Start of day, 7 days total
     
-    print(f"\nThis Week Date Range: {this_week_start.date()} to {this_week_end.date()}")
-    print(f"Last Week Date Range: {last_week_start.date()} to {last_week_end.date()}")
+    print(f"\nThis Week Date Range: {this_week_start.date()} to {max_date_normalized.date()}")
+    print(f"Last Week Date Range: {last_week_start.date()} to {(this_week_start - pd.Timedelta(days=1)).date()}")
     
     # Filter Main logs by date range (not week number)
     week1 = df_week12[(df_week12['call_start'] >= this_week_start) & 

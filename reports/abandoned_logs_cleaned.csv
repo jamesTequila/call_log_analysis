@@ -308,6 +308,306 @@ Queue,Call Time,Caller ID,Agent,Waiting Time,Polling Attempts,Agent State,custom
 501 Sales Queue,2025-11-24 08:36:33,868373191,220 Collier Bernard,00:00:22,0,Logged Out,retail,3,2025-11-24
 501 Sales Queue,2025-11-24 08:08:52,892222233,213 Abu Nihal,00:01:53,6,Logged In,retail,3,2025-11-24
 Totals,,nan,,16:53:49,8389,,retail,3,
+501 Sales Queue,2026-02-01 15:28:52,871492912,206 Griffin Gordon,00:08:52,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 15:27:00,851069773,216 Colin McCormac,00:01:26,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-02-01 15:06:42,833084802,217 Joe Gorman,00:00:24,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 15:01:12,851414919,221 Sales Pos 5,00:02:58,8,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 14:55:57,899641302,221 Sales Pos 5,00:01:00,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 14:54:31,857169135,211 Darragh Leavy,00:00:56,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 14:37:52,877703904,221 Sales Pos 5,00:04:05,16,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 14:37:26,868407953,216 Colin McCormac,00:04:09,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 14:36:48,877703904,211 Darragh Leavy,00:00:25,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 14:16:35,877977548,221 Sales Pos 5,00:00:24,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 13:26:35,857834373,216 Colin McCormac,00:00:27,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 13:21:28,831590821,217 Joe Gorman,00:01:26,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 13:18:03,860573143,221 Sales Pos 5,00:00:25,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:12:32,830275312,221 Sales Pos 5,00:00:21,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:11:26,851448899,211 Darragh Leavy,00:01:59,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:09:07,858104771,221 Sales Pos 5,00:00:41,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:06:40,852216867,213 Abu Nihal,00:02:45,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:05:55,862118116,221 Sales Pos 5,00:02:25,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:04:31,852216867,221 Sales Pos 5,00:02:03,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-02-01 10:03:58,858104771,216 Colin McCormac,00:04:57,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:52:37,857369807,217 Joe Gorman,00:02:48,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:50:45,873208580,221 Sales Pos 5,00:04:35,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:49:41,870985880,221 Sales Pos 5,00:01:40,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:49:38,857405442,211 Darragh Leavy,00:05:34,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:45:06,862348365,221 Sales Pos 5,00:04:57,7,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:44:15,868473278,216 Colin McCormac,00:12:18,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 17:43:25,830985212,221 Sales Pos 5,00:00:28,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:41:12,830985212,221 Sales Pos 5,00:01:17,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:41:11,857435624,211 Darragh Leavy,00:01:08,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:38:39,870985880,221 Sales Pos 5,00:04:08,14,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:36:43,851302217,216 Colin McCormac,00:00:31,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:35:04,857241315,211 Darragh Leavy,00:06:25,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:34:16,894079005,221 Sales Pos 5,00:08:03,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:32:29,870344060,211 Darragh Leavy,00:00:46,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:30:40,852879071,221 Sales Pos 5,00:06:11,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:30:17,894050770,213 Abu Nihal,00:09:06,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:29:22,851904491,221 Sales Pos 5,00:04:04,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:24:51,830787973,221 Sales Pos 5,00:02:32,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:21:57,862348365,211 Darragh Leavy,00:00:27,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:21:44,871028240,217 Joe Gorman,00:11:20,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:18:54,860899477,221 Sales Pos 5,00:20:00,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:16:55,838822133,221 Sales Pos 5,00:06:28,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:16:30,872933369,211 Darragh Leavy,00:07:37,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:15:58,862575884,221 Sales Pos 5,00:20:00,50,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:14:23,830787973,216 Colin McCormac,00:10:03,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:08:16,851904491,221 Sales Pos 5,00:14:29,41,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 17:06:28,832067322,211 Darragh Leavy,00:03:25,9,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:58:38,858309485,221 Sales Pos 5,00:03:05,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:58:38,860899477,221 Sales Pos 5,00:20:00,32,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:56:56,851579750,217 Joe Gorman,00:01:13,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:49:06,877556100,211 Darragh Leavy,00:00:23,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:48:33,877556100,221 Sales Pos 5,00:00:24,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:32:10,852251717,211 Darragh Leavy,00:00:27,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:18:33,834373192,221 Sales Pos 5,00:01:07,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 16:09:49,894050770,213 Abu Nihal,00:00:33,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:59:12,868359011,211 Darragh Leavy,00:03:37,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:46:54,894730284,221 Sales Pos 5,00:00:47,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:46:19,894894033,216 Colin McCormac,00:01:15,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:46:00,894730284,217 Joe Gorman,00:01:51,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:44:27,894894033,221 Sales Pos 5,00:01:50,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:41:54,830806485,221 Sales Pos 5,00:01:07,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:40:43,830981489,211 Darragh Leavy,00:06:51,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:39:40,851904491,221 Sales Pos 5,00:02:09,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:38:29,851488931,216 Colin McCormac,00:00:23,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:37:11,851904491,221 Sales Pos 5,00:02:12,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:36:52,838518946,221 Sales Pos 5,00:00:35,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:33:22,877829094,211 Darragh Leavy,00:01:24,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:28:27,852012717,221 Sales Pos 5,00:01:12,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:27:06,876402592,216 Colin McCormac,00:00:40,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:26:25,857812218,211 Darragh Leavy,00:01:14,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:23:08,858223385,221 Sales Pos 5,00:04:58,10,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:21:39,858223385,211 Darragh Leavy,00:01:23,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:20:21,860571558,221 Sales Pos 5,00:00:24,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:20:01,892079854,207 McEndoo Mark,00:03:13,8,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:19:56,852678888,000 Wall Board,00:01:55,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:19:06,14633500,221 Sales Pos 5,00:00:35,0,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 15:18:20,852012717,216 Colin McCormac,00:02:31,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:17:38,892079854,217 Joe Gorman,00:01:47,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:17:33,876082583,221 Sales Pos 5,00:01:06,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:17:19,851078718,221 Sales Pos 5,00:07:22,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:16:21,852680974,211 Darragh Leavy,00:05:02,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:15:50,877616697,221 Sales Pos 5,00:05:16,12,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:15:27,852678888,216 Colin McCormac,00:04:12,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:14:24,876313546,211 Darragh Leavy,00:05:03,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:14:15,852030499,221 Sales Pos 5,00:00:47,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:14:02,852012717,216 Colin McCormac,00:04:10,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:13:11,830111832,217 Joe Gorman,00:00:54,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:13:02,852157114,221 Sales Pos 5,00:03:43,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:13:00,851574284,221 Sales Pos 5,00:02:38,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:11:37,852544177,211 Darragh Leavy,00:00:55,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:11:19,876402592,221 Sales Pos 5,00:03:18,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:07:03,852153953,213 Abu Nihal,00:00:41,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 15:06:07,874711611,221 Sales Pos 5,00:01:39,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:05:09,851579691,221 Sales Pos 5,00:11:14,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:04:34,14633500,216 Colin McCormac,00:12:21,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 15:04:29,838244899,217 Joe Gorman,00:02:02,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:02:20,851424072,221 Sales Pos 5,00:07:34,16,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:01:36,852068109,221 Sales Pos 5,00:02:50,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:01:20,877696887,211 Darragh Leavy,00:02:03,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:00:18,851591900,221 Sales Pos 5,00:05:29,13,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 15:00:06,857674603,216 Colin McCormac,00:02:21,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:59:30,830094946,221 Sales Pos 5,00:01:43,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:58:29,874711611,221 Sales Pos 5,00:04:10,6,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:58:20,877696887,211 Darragh Leavy,00:02:55,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:57:39,858124651,221 Sales Pos 5,00:00:30,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:56:07,872248091,216 Colin McCormac,00:14:08,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:54:58,874711611,211 Darragh Leavy,00:03:01,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:53:31,874273411,221 Sales Pos 5,00:04:50,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:53:07,852153953,211 Darragh Leavy,00:13:52,0,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 14:51:29,852544177,221 Sales Pos 5,00:09:13,17,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:50:54,851166264,213 Abu Nihal,00:00:54,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:50:26,874711611,221 Sales Pos 5,00:03:08,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:47:31,858370116,221 Sales Pos 5,00:01:24,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:47:16,867914288,216 Colin McCormac,00:02:20,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:42:00,851166264,217 Joe Gorman,00:02:15,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:41:15,872522604,221 Sales Pos 5,00:06:44,12,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:40:05,858124651,221 Sales Pos 5,00:16:24,28,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:39:22,868674085,211 Darragh Leavy,00:06:04,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:35:59,852853797,221 Sales Pos 5,00:01:47,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:35:44,864193514,216 Colin McCormac,00:08:19,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:34:56,838346977,221 Sales Pos 5,00:00:52,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:32:24,851166264,221 Sales Pos 5,00:06:26,15,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:31:27,860571558,211 Darragh Leavy,00:01:02,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:22:58,831222251,221 Sales Pos 5,00:00:39,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:20:26,831222251,216 Colin McCormac,00:01:57,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:15:49,892576573,211 Darragh Leavy,00:01:18,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:12:52,868043210,221 Sales Pos 5,00:10:53,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:12:01,851018840,211 Darragh Leavy,00:03:09,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:08:37,858104450,221 Sales Pos 5,00:00:58,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 14:04:36,831120005,213 Abu Nihal,00:02:33,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 14:02:55,858291440,211 Darragh Leavy,00:00:30,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:59:14,894231136,221 Sales Pos 5,00:03:29,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:58:55,863153432,216 Colin McCormac,00:05:00,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:56:22,852139497,217 Joe Gorman,00:20:00,34,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:34:59,851061598,221 Sales Pos 5,00:01:05,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:27:57,868851326,221 Sales Pos 5,00:01:26,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:26:29,860571558,211 Darragh Leavy,00:03:31,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:26:20,862638836,221 Sales Pos 5,00:02:13,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:25:57,864028329,216 Colin McCormac,00:09:53,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:25:40,851505198,221 Sales Pos 5,00:04:57,20,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:17:10,899562589,221 Sales Pos 5,00:00:42,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:16:04,894344478,211 Darragh Leavy,00:08:55,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:16:01,862638836,221 Sales Pos 5,00:04:08,6,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:15:32,894885612,216 Colin McCormac,00:08:47,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:15:06,894532709,211 Darragh Leavy,00:03:35,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:11:32,862638836,221 Sales Pos 5,00:01:48,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:10:09,851505198,211 Darragh Leavy,00:03:46,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:10:02,851947614,221 Sales Pos 5,00:06:44,7,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:09:53,894877139,220 Collier Bernard,00:02:40,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:09:52,867969550,000 Wall Board,00:04:43,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:08:13,899562589,221 Sales Pos 5,00:04:52,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:08:02,878192992,216 Colin McCormac,00:03:58,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:06:56,862638836,217 Joe Gorman,00:04:26,18,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 13:04:03,851167744,221 Sales Pos 5,00:07:47,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:55:01,858419660,221 Sales Pos 5,00:00:47,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:44:01,873956665,211 Darragh Leavy,00:10:24,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:27:01,872628984,221 Sales Pos 5,00:03:19,8,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:14:57,857817340,216 Colin McCormac,00:11:14,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:14:53,867760200,211 Darragh Leavy,00:04:25,8,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:08:24,852269215,221 Sales Pos 5,00:00:59,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:04:41,861040986,216 Colin McCormac,00:01:24,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 12:02:07,852117562,217 Joe Gorman,00:04:09,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:57:03,831138408,221 Sales Pos 5,00:02:32,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:30:40,858683408,221 Sales Pos 5,00:02:04,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:29:07,873665266,211 Darragh Leavy,00:03:31,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:27:44,14501555,221 Sales Pos 5,00:10:36,14,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:22:27,834120469,213 Abu Nihal,00:00:40,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:17:18,851591900,221 Sales Pos 5,00:05:50,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:14:08,892777799,221 Sales Pos 5,00:01:48,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:13:57,877026779,216 Colin McCormac,00:02:02,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 11:06:47,834120469,217 Joe Gorman,00:01:17,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:48:09,892738556,221 Sales Pos 5,00:01:39,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:43:55,862503001,221 Sales Pos 5,00:03:24,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:43:03,896000454,211 Darragh Leavy,00:07:22,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:28:42,852400767,221 Sales Pos 5,00:01:09,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:24:39,851307988,216 Colin McCormac,00:01:26,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:11:16,852009521,221 Sales Pos 5,00:01:22,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 10:07:16,14633500,221 Sales Pos 5,00:01:54,4,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-31 09:29:36,830248589,211 Darragh Leavy,00:01:05,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-31 08:53:27,872658933,221 Sales Pos 5,00:00:53,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:55:31,852349970,216 Colin McCormac,00:00:25,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:48:45,896007132,211 Darragh Leavy,00:05:02,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:37:48,876313546,221 Sales Pos 5,00:02:25,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:18:04,857293647,211 Darragh Leavy,00:04:36,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-30 19:16:07,851059924,221 Sales Pos 5,00:01:49,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:11:41,852200002,213 Abu Nihal,00:00:24,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:10:56,892748113,221 Sales Pos 5,00:04:06,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:09:30,874026109,221 Sales Pos 5,00:01:44,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:07:27,892490967,216 Colin McCormac,00:02:08,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 19:07:24,852171711,217 Joe Gorman,00:00:30,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:57:31,830282369,221 Sales Pos 5,00:01:39,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:51:55,894641753,221 Sales Pos 5,00:06:14,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:50:45,833284332,211 Darragh Leavy,00:03:31,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:48:37,830324687,221 Sales Pos 5,00:06:02,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:45:55,852089005,216 Colin McCormac,00:03:42,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:45:11,833284332,221 Sales Pos 5,00:05:32,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:29:57,852400767,221 Sales Pos 5,00:04:43,19,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:13:24,830456020,211 Darragh Leavy,00:00:39,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 18:04:49,851574284,221 Sales Pos 5,00:04:59,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 17:43:19,872501005,216 Colin McCormac,00:00:23,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-30 17:40:13,872458861,211 Darragh Leavy,00:01:08,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 17:31:36,868607024,221 Sales Pos 5,00:01:29,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 17:28:40,894972045,211 Darragh Leavy,00:01:52,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 17:28:13,868607024,221 Sales Pos 5,00:01:42,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 16:29:08,851145851,213 Abu Nihal,00:00:52,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 16:05:13,872658933,211 Darragh Leavy,00:01:02,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 16:04:59,830633302,221 Sales Pos 5,00:00:37,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 15:37:01,851625753,216 Colin McCormac,00:02:05,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 11:15:00,894054160,217 Joe Gorman,00:00:21,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 10:58:45,860689296,221 Sales Pos 5,00:00:43,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 10:18:07,877983606,221 Sales Pos 5,00:01:00,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-30 10:08:06,871867170,211 Darragh Leavy,00:00:40,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-29 19:42:14,852211624,221 Sales Pos 5,00:00:42,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:28:05,877983606,216 Colin McCormac,00:02:21,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:24:14,879956705,221 Sales Pos 5,00:09:47,14,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:09:09,862190354,221 Sales Pos 5,00:06:33,8,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:08:23,851059924,211 Darragh Leavy,00:07:22,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:07:11,877082423,221 Sales Pos 5,00:01:14,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:06:17,872810238,216 Colin McCormac,00:07:24,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 19:01:17,862190354,211 Darragh Leavy,00:04:05,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:52:26,852549560,221 Sales Pos 5,00:03:40,15,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:51:36,830522338,211 Darragh Leavy,00:00:32,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:50:13,852411020,221 Sales Pos 5,00:06:18,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:48:16,830522338,207 McEndoo Mark,00:02:30,6,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:43:28,899485349,211 Darragh Leavy,00:02:26,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:38:24,830522338,221 Sales Pos 5,00:09:47,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:37:46,899485349,216 Colin McCormac,00:01:03,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:36:06,857651995,217 Joe Gorman,00:04:56,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:29:49,899485349,221 Sales Pos 5,00:02:33,8,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:27:17,851587869,221 Sales Pos 5,00:20:00,51,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:26:26,834708224,211 Darragh Leavy,00:02:30,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:25:49,894177530,221 Sales Pos 5,00:04:41,12,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:25:30,899485349,216 Colin McCormac,00:04:02,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:25:00,852255996,211 Darragh Leavy,00:02:25,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:23:49,899779065,221 Sales Pos 5,00:02:41,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:12:42,899779065,216 Colin McCormac,00:11:01,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 18:12:27,15241425,217 Joe Gorman,00:07:23,29,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-29 18:11:54,873547852,221 Sales Pos 5,00:07:07,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 17:27:20,851048966,221 Sales Pos 5,00:01:32,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 17:13:07,14262058,211 Darragh Leavy,00:01:34,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 15:52:23,16261612,221 Sales Pos 5,00:00:30,0,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-29 15:47:50,16261612,213 Abu Nihal,00:01:29,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-29 15:34:41,857505655,221 Sales Pos 5,00:01:39,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 15:33:04,868132558,221 Sales Pos 5,00:00:34,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 14:11:00,872372591,216 Colin McCormac,00:00:25,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-29 13:39:29,858554283,217 Joe Gorman,00:01:05,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 13:01:54,876475197,221 Sales Pos 5,00:01:26,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 12:57:33,872661666,221 Sales Pos 5,00:01:06,2,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-29 12:05:09,838353869,211 Darragh Leavy,00:00:23,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 11:43:52,14195805,221 Sales Pos 5,00:05:01,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 11:32:36,868939942,216 Colin McCormac,00:00:25,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 10:38:40,858586936,221 Sales Pos 5,00:00:24,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 09:37:28,868320079,221 Sales Pos 5,00:00:20,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-29 08:35:24,851752131,211 Darragh Leavy,00:00:29,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 19:06:54,838331803,221 Sales Pos 5,00:03:07,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 19:01:47,838331803,216 Colin McCormac,00:05:03,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 18:23:33,871609120,211 Darragh Leavy,00:02:42,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 18:13:04,852752554,221 Sales Pos 5,00:02:52,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 17:01:07,857400002,211 Darragh Leavy,00:01:02,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 16:59:24,860689296,221 Sales Pos 5,00:00:52,3,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 16:23:40,872357175,213 Abu Nihal,00:03:01,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 15:22:16,838960049,221 Sales Pos 5,00:00:34,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 14:29:51,18011003,221 Sales Pos 5,00:03:20,0,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-28 14:25:56,852878292,216 Colin McCormac,00:00:31,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 12:40:13,833852661,217 Joe Gorman,00:00:20,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 11:07:58,858440649,221 Sales Pos 5,00:00:32,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-28 08:55:58,16200000,221 Sales Pos 5,00:01:57,3,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-27 19:51:11,852255722,211 Darragh Leavy,00:00:44,2,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-27 19:48:47,852255722,221 Sales Pos 5,00:01:32,2,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-27 19:48:13,852255722,216 Colin McCormac,00:00:32,0,Logged Out,trade,2,2026-01-26
+501 Sales Queue,2026-01-27 19:45:37,879041355,221 Sales Pos 5,00:02:32,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 18:11:06,834568401,221 Sales Pos 5,00:00:57,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 18:01:17,872271999,211 Darragh Leavy,00:00:23,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 16:30:48,872842602,221 Sales Pos 5,00:00:30,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 15:43:20,852251717,216 Colin McCormac,00:00:57,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 14:59:15,15241425,211 Darragh Leavy,00:02:24,4,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-27 14:27:58,872658933,221 Sales Pos 5,00:00:41,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 14:06:38,858192140,211 Darragh Leavy,00:00:23,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 11:24:30,879386066,221 Sales Pos 5,00:01:21,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 11:13:03,857654085,213 Abu Nihal,00:00:26,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 09:54:16,870005807,211 Darragh Leavy,00:01:40,4,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 09:42:34,14262032,221 Sales Pos 5,00:00:44,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 08:35:49,868767882,216 Colin McCormac,00:00:23,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-27 08:35:20,852255722,217 Joe Gorman,00:00:29,2,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-26 19:46:02,899639386,221 Sales Pos 5,00:02:38,5,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 19:34:15,851065570,221 Sales Pos 5,00:01:25,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 17:17:23,899417566,211 Darragh Leavy,00:00:31,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 17:15:00,858789798,221 Sales Pos 5,00:01:04,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 15:55:21,873471425,216 Colin McCormac,00:02:56,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 15:55:12,872658933,221 Sales Pos 5,00:00:37,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 15:37:43,867227869,221 Sales Pos 5,00:00:33,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 14:13:38,852127143,211 Darragh Leavy,00:00:38,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 14:12:44,851220308,221 Sales Pos 5,00:00:21,1,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 14:07:32,852127143,216 Colin McCormac,00:01:15,0,Logged Out,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 13:41:14,872501005,211 Darragh Leavy,00:01:57,4,Logged In,trade,2,2026-01-26
+501 Sales Queue,2026-01-26 13:12:58,833000889,221 Sales Pos 5,00:01:01,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 12:36:36,14501555,211 Darragh Leavy,00:00:41,2,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 10:32:43,830975744,221 Sales Pos 5,00:00:31,0,Logged In,retail,2,2026-01-26
+501 Sales Queue,2026-01-26 10:16:05,873676753,220 Collier Bernard,00:00:36,0,Logged Out,trade,2,2026-01-26
+Totals,,nan,,16:42:35,7951,,retail,3,
 501 Sales Queue,2026-01-04 15:39:09,0876840250,203 Amrish Sumrath,00:02:09,0,Logged Out,retail,3,2025-12-29
 501 Sales Queue,2026-01-04 15:33:26,0872671401,208 Sales N,00:00:48,0,Logged Out,retail,3,2025-12-29
 501 Sales Queue,2026-01-04 15:32:57,0870578773,208 Sales N,00:02:55,0,Logged Out,retail,3,2025-12-29
@@ -756,6 +1056,240 @@ Totals,,nan,,10:17:19,5244,,retail,3,
 501 Sales Queue,2025-12-01 11:05:40,0878205264,220 Collier Bernard,00:00:28,0,Logged Out,retail,3,2025-12-01
 501 Sales Queue,2025-12-01 09:35:43,0874102195,209 Carey David,00:00:58,0,Logged In,retail,3,2025-12-01
 Totals,,nan,,10:00:00,5637,,retail,3,
+501 Sales Queue,2026-02-08 15:28:13,0894252013,206 Griffin Gordon,00:00:20,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 13:52:15,0852774941,217 Joe Gorman,00:00:30,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 13:51:46,0852774941,211 Darragh Leavy,00:00:26,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 12:16:15,0851102154,221 Sales Pos 5,00:01:04,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 12:15:15,0834380266,216 Colin McCormac,00:00:50,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 11:41:16,0877446499,221 Sales Pos 5,00:00:30,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 11:14:00,0892629857,221 Sales Pos 5,00:02:57,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 10:57:38,0863141276,217 Joe Gorman,00:01:00,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 10:53:32,0863001754,203 Amrish Sumrath,00:00:38,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-08 10:11:50,anonymous,221 Sales Pos 5,00:00:29,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:56:08,0879777782,216 Colin McCormac,00:00:27,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:43:53,0851626437,220 Collier Bernard,00:05:22,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:43:06,0861452565,221 Sales Pos 5,00:00:24,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:43:06,0877774109,221 Sales Pos 5,00:00:31,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:40:13,0877774109,211 Darragh Leavy,00:02:41,6,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:33:56,0877774109,217 Joe Gorman,00:04:37,9,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:33:11,0857683445,208 Sales N,00:00:24,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:32:32,0852299083,221 Sales Pos 5,00:01:39,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:30:57,0877774109,216 Colin McCormac,00:00:34,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:28:22,0877774109,216 Colin McCormac,00:00:59,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:27:36,0877774109,221 Sales Pos 5,00:00:31,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:24:28,0877774109,221 Sales Pos 5,00:00:40,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:21:25,0876467068,216 Colin McCormac,00:04:23,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:21:17,0877774109,217 Joe Gorman,00:00:38,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:19:24,0877774109,211 Darragh Leavy,00:00:35,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:15:20,0868822475,221 Sales Pos 5,00:01:23,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:14:53,0879321838,216 Colin McCormac,00:02:37,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:13:59,0877774109,216 Colin McCormac,00:05:14,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:09:10,0858457434,211 Darragh Leavy,00:03:27,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 17:04:55,0879321838,221 Sales Pos 5,00:09:46,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:57:27,0851008331,217 Joe Gorman,00:02:15,7,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:53:22,0894409120,208 Sales N,00:01:59,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:48:00,0868207614,221 Sales Pos 5,00:00:30,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:35:34,0851181063,216 Colin McCormac,00:00:27,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:29:18,0894610668,216 Colin McCormac,00:04:48,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:28:23,0862687316,211 Darragh Leavy,00:01:44,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:28:03,0871767102,221 Sales Pos 5,00:03:45,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:26:53,0872367618,217 Joe Gorman,00:01:19,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:25:08,0876078810,208 Sales N,00:07:42,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:24:30,0852328156,221 Sales Pos 5,00:00:38,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:21:00,0894819396,216 Colin McCormac,00:09:41,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:20:53,0857516321,213 Abu Nihal,00:04:47,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:20:51,0838059018,221 Sales Pos 5,00:00:24,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:18:43,0894221578,221 Sales Pos 5,00:03:00,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:17:45,0852250769,217 Joe Gorman,00:10:05,40,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:17:33,0852328156,208 Sales N,00:04:17,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:12:43,0899460261,221 Sales Pos 5,00:03:20,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:10:56,0852328156,216 Colin McCormac,00:04:11,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 16:03:49,0860794641,216 Colin McCormac,00:00:38,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 15:20:13,0899693414,221 Sales Pos 5,00:00:21,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 15:17:50,0851256568,221 Sales Pos 5,00:01:13,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 14:56:19,0851923501,216 Colin McCormac,00:02:48,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 14:56:11,0851923501,217 Joe Gorman,00:00:32,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 14:09:33,0830973720,211 Darragh Leavy,00:01:06,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 14:06:46,0870371233,221 Sales Pos 5,00:00:37,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 13:50:02,0871440499,216 Colin McCormac,00:01:25,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 13:44:04,0872687525,213 Abu Nihal,00:00:57,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 13:36:49,0851483543,221 Sales Pos 5,00:02:56,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 13:31:25,0831455692,221 Sales Pos 5,00:04:31,11,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 13:28:18,0894255210,203 Amrish Sumrath,00:00:32,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 13:20:12,0872372591,208 Sales N,00:00:36,1,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-07 13:19:20,0872372591,221 Sales Pos 5,00:00:46,0,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-07 13:17:59,0872372591,216 Colin McCormac,00:01:18,0,Logged Out,trade,1,2026-02-02
+501 Sales Queue,2026-02-07 12:53:02,0858368952,216 Colin McCormac,00:00:40,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 12:37:50,0872492930,211 Darragh Leavy,00:03:07,6,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 12:25:02,0861773937,221 Sales Pos 5,00:02:41,10,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 12:24:23,0831996873,217 Joe Gorman,00:02:55,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 12:20:50,0831178806,208 Sales N,00:02:13,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 12:20:30,0868140477,221 Sales Pos 5,00:01:48,1,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-07 12:12:53,0877158060,216 Colin McCormac,00:04:08,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 11:50:44,0899459883,213 Abu Nihal,00:01:01,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 11:32:55,0896154902,221 Sales Pos 5,00:02:32,7,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 11:28:32,0852658151,221 Sales Pos 5,00:03:27,9,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 10:48:56,0851725870,217 Joe Gorman,00:00:23,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 10:46:26,0873988794,208 Sales N,00:02:56,12,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 10:25:52,0868031249,221 Sales Pos 5,00:00:54,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 09:26:20,0879035670,216 Colin McCormac,00:02:38,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 09:14:38,0857402632,216 Colin McCormac,00:03:03,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 09:11:02,0863657631,221 Sales Pos 5,00:04:10,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 09:08:24,012939386,221 Sales Pos 5,00:00:27,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 09:03:49,0876474875,216 Colin McCormac,00:01:24,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 09:02:26,0858043874,217 Joe Gorman,00:02:15,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 08:43:10,0851175656,211 Darragh Leavy,00:00:31,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 08:26:28,0899599061,221 Sales Pos 5,00:00:35,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 08:21:59,0899599061,216 Colin McCormac,00:00:41,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-07 08:01:39,0830159063,216 Colin McCormac,00:02:50,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:49:57,0899666681,221 Sales Pos 5,00:02:29,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:45:45,0861778782,211 Darragh Leavy,00:00:20,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:30:21,0870365026,217 Joe Gorman,00:00:24,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:28:35,0852810616,208 Sales N,00:05:58,5,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:27:30,0858135738,221 Sales Pos 5,00:02:49,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:26:28,0852424609,216 Colin McCormac,00:00:59,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:19:55,0852424609,216 Colin McCormac,00:06:30,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:11:29,0870365026,211 Darragh Leavy,00:02:42,5,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 19:02:44,0852255722,221 Sales Pos 5,00:00:44,1,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-06 18:46:11,0894035476,217 Joe Gorman,00:01:37,3,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 18:33:59,0852255722,203 Amrish Sumrath,00:04:44,0,Logged Out,trade,1,2026-02-02
+501 Sales Queue,2026-02-06 17:36:25,0868476289,221 Sales Pos 5,00:01:47,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:36:14,0876568178,216 Colin McCormac,00:02:09,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:35:52,0838244899,000 Wall Board,00:02:49,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:33:56,0857894661,221 Sales Pos 5,00:01:23,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:33:56,0876568178,221 Sales Pos 5,00:01:00,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:33:06,0851506262,221 Sales Pos 5,00:01:58,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:32:22,0868476289,217 Joe Gorman,00:00:59,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:32:19,0852893798,208 Sales N,00:00:40,3,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:29:23,0858363552,221 Sales Pos 5,00:00:35,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:21:53,0858376004,216 Colin McCormac,00:00:20,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:11:53,0852079647,216 Colin McCormac,00:00:59,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 17:04:21,0852079647,221 Sales Pos 5,00:05:48,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 15:50:42,014591341,221 Sales Pos 5,00:00:20,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 15:48:15,014262032,216 Colin McCormac,00:01:41,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 13:41:18,0894177530,217 Joe Gorman,00:01:38,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 13:38:11,014591341,211 Darragh Leavy,00:00:37,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 09:10:56,0878730635,221 Sales Pos 5,00:00:22,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-06 08:50:22,0851047128,216 Colin McCormac,00:02:14,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 19:23:31,0872539807,213 Abu Nihal,00:01:17,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 19:19:41,0834287906,000 Wall Board,00:01:55,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 19:08:51,0868153431,221 Sales Pos 5,00:00:41,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 19:03:22,0872777015,217 Joe Gorman,00:04:04,7,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 18:53:07,0857104461,208 Sales N,00:02:18,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 18:34:28,0851158470,221 Sales Pos 5,00:00:35,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 18:29:04,0851158470,216 Colin McCormac,00:04:48,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 18:26:56,0879974077,216 Colin McCormac,00:04:28,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 18:05:38,0852434813,211 Darragh Leavy,00:02:20,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 18:03:16,005591988906681,221 Sales Pos 5,00:01:19,3,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 16:52:02,0863463185,217 Joe Gorman,00:01:43,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 16:02:55,0871857217,208 Sales N,00:00:22,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:42:55,0830248589,221 Sales Pos 5,00:01:25,5,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:33:45,0877402912,216 Colin McCormac,00:00:31,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:27:26,0860470438,213 Abu Nihal,00:03:15,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:26:05,0872658933,221 Sales Pos 5,00:00:25,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:20:43,0831323771,221 Sales Pos 5,00:03:26,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:20:03,016200000,217 Joe Gorman,00:01:46,1,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-05 15:05:21,0857276642,208 Sales N,00:00:24,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 15:00:57,0857276642,221 Sales Pos 5,00:03:17,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 13:30:01,0857569053,216 Colin McCormac,00:01:58,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 13:11:19,0838353869,216 Colin McCormac,00:00:37,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-05 12:00:50,014633500,221 Sales Pos 5,00:00:26,0,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-05 11:37:13,012131700,221 Sales Pos 5,00:00:22,1,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-05 09:06:43,014570457,216 Colin McCormac,00:00:20,0,Logged Out,trade,1,2026-02-02
+501 Sales Queue,2026-02-04 19:36:21,0874664790,217 Joe Gorman,00:05:42,10,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 19:15:51,0894292790,211 Darragh Leavy,00:03:17,6,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:46:43,0863995532,221 Sales Pos 5,00:04:30,8,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:30:56,0838244899,216 Colin McCormac,00:00:53,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:28:55,0838244899,216 Colin McCormac,00:00:40,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:28:29,0838244899,211 Darragh Leavy,00:00:23,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:28:21,0863995532,221 Sales Pos 5,00:03:16,6,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:25:34,0838244899,217 Joe Gorman,00:02:51,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:16:02,0830514238,208 Sales N,00:09:49,16,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 18:13:23,0871358996,221 Sales Pos 5,00:02:00,3,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 17:16:02,0830779881,216 Colin McCormac,00:00:29,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 17:14:10,0830779881,216 Colin McCormac,00:01:46,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 17:13:37,0833373945,211 Darragh Leavy,00:04:17,8,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 17:12:54,0851265788,221 Sales Pos 5,00:00:23,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 15:23:47,0874362127,217 Joe Gorman,00:00:59,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 15:22:13,014606070,208 Sales N,00:02:25,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 15:21:02,0866086569,221 Sales Pos 5,00:01:55,8,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 14:53:41,0879157790,216 Colin McCormac,00:01:57,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 14:53:08,0899810121,213 Abu Nihal,00:03:03,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 14:52:22,0873533753,221 Sales Pos 5,00:07:55,9,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 14:45:55,0873533753,221 Sales Pos 5,00:00:26,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 14:23:33,014081001,217 Joe Gorman,00:02:10,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 14:15:19,012720011,208 Sales N,00:01:29,0,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-04 13:26:41,0876679460,221 Sales Pos 5,00:00:35,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 11:31:52,014633500,216 Colin McCormac,00:01:23,0,Logged Out,trade,1,2026-02-02
+501 Sales Queue,2026-02-04 11:01:23,0894830849,216 Colin McCormac,00:00:30,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-04 10:57:22,0862038762,221 Sales Pos 5,00:00:22,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 18:37:50,0872708263,221 Sales Pos 5,00:00:23,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 18:34:40,0858102875,216 Colin McCormac,00:00:47,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 18:33:12,0858102875,217 Joe Gorman,00:01:26,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 17:46:20,0830111832,211 Darragh Leavy,00:01:08,3,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 15:10:04,0872658933,221 Sales Pos 5,00:00:39,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 14:50:02,0833036593,216 Colin McCormac,00:03:05,0,Logged Out,trade,1,2026-02-02
+501 Sales Queue,2026-02-03 14:49:38,00442082161624,213 Abu Nihal,00:01:50,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 14:16:21,0862642535,221 Sales Pos 5,00:02:13,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 11:30:34,0899447731,221 Sales Pos 5,00:01:42,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-03 11:25:55,0857293647,217 Joe Gorman,00:02:56,0,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-03 10:02:25,018011003,208 Sales N,00:00:32,0,Logged In,trade,1,2026-02-02
+501 Sales Queue,2026-02-03 08:01:12,0878730635,221 Sales Pos 5,00:01:20,6,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 19:53:58,0831152528,216 Colin McCormac,00:00:58,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 19:26:27,0894752835,216 Colin McCormac,00:00:21,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 17:51:29,0852566071,211 Darragh Leavy,00:03:51,9,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 17:38:28,0852566071,221 Sales Pos 5,00:12:57,31,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 17:30:35,0857624670,217 Joe Gorman,00:02:57,7,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 17:14:47,0876313546,208 Sales N,00:00:21,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:51:03,0851067370,221 Sales Pos 5,00:04:08,10,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:49:26,0892391696,216 Colin McCormac,00:01:23,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:43:39,0872798736,213 Abu Nihal,00:02:52,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:42:01,0852797292,221 Sales Pos 5,00:07:53,13,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:23:54,0851984911,221 Sales Pos 5,00:00:21,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:16:25,0874599484,217 Joe Gorman,00:02:47,6,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:11:12,0877148578,208 Sales N,00:01:51,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:05:17,0879019484,221 Sales Pos 5,00:00:20,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:03:53,0879019484,216 Colin McCormac,00:00:24,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:01:45,0876556391,216 Colin McCormac,00:04:57,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 16:01:08,0877148578,221 Sales Pos 5,00:05:47,21,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 13:52:16,0852461645,221 Sales Pos 5,00:00:22,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 12:30:30,0871952513,216 Colin McCormac,00:00:21,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 11:48:33,0858444587,217 Joe Gorman,00:00:21,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 11:42:40,0857741955,211 Darragh Leavy,00:00:23,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 10:30:09,0851038945,221 Sales Pos 5,00:00:25,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 10:26:56,0857529903,216 Colin McCormac,00:00:20,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 10:09:34,0879676159,216 Colin McCormac,00:00:52,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 10:06:33,0899887519,221 Sales Pos 5,00:01:21,5,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 10:04:56,0833404770,221 Sales Pos 5,00:00:21,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 10:02:49,0857876793,217 Joe Gorman,00:01:20,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:50:16,0851776499,208 Sales N,00:02:38,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:49:54,0857876793,221 Sales Pos 5,00:02:51,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:49:37,0851776499,216 Colin McCormac,00:00:23,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:49:28,0899430723,216 Colin McCormac,00:00:24,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:42:52,0858298546,221 Sales Pos 5,00:00:25,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:42:15,0858298546,221 Sales Pos 5,00:00:27,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:41:57,0851020107,216 Colin McCormac,00:00:59,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:39:27,0830891654,217 Joe Gorman,00:00:23,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:38:38,0894434092,211 Darragh Leavy,00:01:08,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:37:49,0851038945,221 Sales Pos 5,00:04:56,10,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:36:36,0877028866,216 Colin McCormac,00:00:31,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:36:07,0877028866,216 Colin McCormac,00:00:27,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:32:55,0851038945,211 Darragh Leavy,00:01:20,4,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:30:39,0834344101,221 Sales Pos 5,00:00:50,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:25:55,0872263422,217 Joe Gorman,00:00:20,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:22:00,0879676159,208 Sales N,00:00:21,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:21:26,0858633339,221 Sales Pos 5,00:00:21,1,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:15:29,0857424275,216 Colin McCormac,00:00:21,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:10:34,0851430077,216 Colin McCormac,00:03:46,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:07:00,0872596181,221 Sales Pos 5,00:00:25,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:04:40,0871614691,221 Sales Pos 5,00:00:21,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:04:36,0862719345,216 Colin McCormac,00:02:45,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 09:03:53,0871614691,217 Joe Gorman,00:00:43,2,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 08:57:47,0863124290,211 Darragh Leavy,00:00:20,0,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 08:55:36,0894873886,221 Sales Pos 5,00:05:16,12,Logged In,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 08:41:11,0872629999,216 Colin McCormac,00:02:47,0,Logged Out,retail,1,2026-02-02
+501 Sales Queue,2026-02-02 08:39:13,0851098880,213 Abu Nihal,00:00:21,0,Logged Out,retail,1,2026-02-02
+Totals,,nan,,07:48:09,4922,,retail,3,
 501 Sales Queue,2026-01-11 14:59:02,0833373945,217 Joe Gorman,00:02:00,7,Logged In,retail,3,2026-01-05
 501 Sales Queue,2026-01-11 14:43:13,0892618529,210 Sales SalesPos 1,00:00:24,0,Logged Out,retail,3,2026-01-05
 501 Sales Queue,2026-01-11 10:26:03,0878193939,000 Wall Board,00:00:26,0,Logged Out,retail,3,2026-01-05
@@ -1404,213 +1938,213 @@ Totals,,nan,,09:36:49,5051,,retail,3,
 501 Sales Queue,2025-11-10 08:51:13,0858122551,207 McEndoo Mark,00:01:25,6,Logged In,retail,3,2025-11-10
 501 Sales Queue,2025-11-10 08:12:10,0872458861,206 Griffin Gordon,00:00:26,0,Logged Out,retail,3,2025-11-10
 Totals,,nan,,07:14:37,3685,,retail,3,
-501 Sales Queue,2026-01-18 12:21:38,0873960744,220 Collier Bernard,00:01:05,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-18 11:56:33,0899875810,204 Tohill Gerard,00:00:25,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-18 11:02:35,0879464514,206 Griffin Gordon,00:00:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-18 10:07:12,0879717707,203 Amrish Sumrath,00:01:05,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 17:46:33,0872274443,207 McEndoo Mark,00:02:45,4,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 17:43:28,0851327492,000 Wall Board,00:03:03,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 17:40:57,0872274443,207 McEndoo Mark,00:00:24,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 17:31:22,0876375360,216 Colin McCormac,00:02:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 16:52:18,0833345620,203 Amrish Sumrath,00:03:42,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 16:00:26,0857607876,208 Sales N,00:00:27,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:59:36,0857607876,208 Sales N,00:00:22,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:58:47,0851838114,204 Tohill Gerard,00:00:23,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:48:56,0871840303,221 Sales Pos 5,00:02:01,6,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:41:17,0894003479,216 Colin McCormac,00:02:26,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:37:37,0851911337,220 Collier Bernard,00:05:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:37:00,0894357910,216 Colin McCormac,00:01:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:36:13,0873630081,000 Wall Board,00:00:43,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:33:09,0873630081,207 McEndoo Mark,00:00:23,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:28:15,0838484326,210 Sales SalesPos 1,00:05:06,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:25:26,0868829037,204 Tohill Gerard,00:09:03,5,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:20:48,0833104402,221 Sales Pos 5,00:01:42,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:20:11,0857300719,221 Sales Pos 5,00:04:24,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:18:53,0861303242,000 Wall Board,00:10:06,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:16:01,0871442500,220 Collier Bernard,00:02:06,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:15:04,0873630081,210 Sales SalesPos 1,00:16:45,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:12:54,0831332292,209 Carey David,00:01:14,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:12:11,0851338058,210 Sales SalesPos 1,00:06:16,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:11:29,0861303242,209 Carey David,00:07:21,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:11:15,0857300719,000 Wall Board,00:04:58,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:09:11,0858102875,210 Sales SalesPos 1,00:02:22,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:09:04,0873630081,220 Collier Bernard,00:01:06,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:07:38,0858102875,203 Amrish Sumrath,00:01:27,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:06:02,0894201594,217 Joe Gorman,00:00:31,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:04:54,015241425,000 Wall Board,00:17:10,0,Logged Out,trade,2,2026-01-12
-501 Sales Queue,2026-01-17 15:03:16,0851563791,216 Colin McCormac,00:03:09,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:01:59,0852134334,204 Tohill Gerard,00:13:34,13,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 15:00:30,0892224050,208 Sales N,00:01:39,3,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:47:45,0851964548,204 Tohill Gerard,00:00:41,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:45:32,0851964548,203 Amrish Sumrath,00:02:09,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:43:31,0862544537,211 Darragh Leavy,00:07:37,4,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:43:09,0858267735,213 Abu Nihal,00:07:24,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:40:14,0866004059,216 Colin McCormac,00:05:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:39:54,0877845232,207 McEndoo Mark,00:09:27,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:39:28,0864400387,210 Sales SalesPos 1,00:03:27,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:38:12,0892393007,211 Darragh Leavy,00:09:47,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:37:22,0892224050,220 Collier Bernard,00:04:43,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:24:46,0876316170,213 Abu Nihal,00:00:30,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:20:37,0894262034,204 Tohill Gerard,00:01:30,3,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 14:19:39,0876316170,203 Amrish Sumrath,00:00:31,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:59:42,0834559940,220 Collier Bernard,00:03:36,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:59:14,0834559940,216 Colin McCormac,00:00:23,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:58:49,0834559940,220 Collier Bernard,00:00:21,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:58:43,0862544537,207 McEndoo Mark,00:03:34,14,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:53:59,0851541753,206 Griffin Gordon,00:01:46,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:47:56,0834559940,213 Abu Nihal,00:00:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:45:00,0834559940,000 Wall Board,00:02:46,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:44:57,0894018263,209 Carey David,00:06:25,16,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:38:39,0851731519,000 Wall Board,00:01:48,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:37:09,0878730635,210 Sales SalesPos 1,00:04:05,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:36:12,0852012717,206 Griffin Gordon,00:04:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:34:43,0892743199,210 Sales SalesPos 1,00:04:01,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:32:43,0852012717,207 McEndoo Mark,00:03:22,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:26:33,0852012717,213 Abu Nihal,00:04:28,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:22:11,0852012717,000 Wall Board,00:04:17,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:14:16,0851415026,206 Griffin Gordon,00:00:34,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:13:38,0830568367,213 Abu Nihal,00:01:58,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:11:01,0830568367,207 McEndoo Mark,00:00:43,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:10:08,0851005753,209 Carey David,00:10:47,39,Logged In,trade,2,2026-01-12
-501 Sales Queue,2026-01-17 13:10:03,0830568367,204 Tohill Gerard,00:00:55,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:08:38,0872843146,221 Sales Pos 5,00:01:32,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:07:52,0876375360,213 Abu Nihal,00:20:00,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:06:49,0873215404,220 Collier Bernard,00:03:47,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:04:01,0851709020,221 Sales Pos 5,00:05:13,12,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:03:46,0852012717,217 Joe Gorman,00:01:08,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 13:01:32,0852012717,213 Abu Nihal,00:02:09,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:56:47,0851394535,208 Sales N,00:08:21,27,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:56:36,0851541753,210 Sales SalesPos 1,00:09:46,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:55:30,0864578989,204 Tohill Gerard,00:00:34,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:54:11,0864578989,000 Wall Board,00:00:41,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:50:33,0851591900,207 McEndoo Mark,00:07:43,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:49:46,0862580981,220 Collier Bernard,00:02:46,0,Logged Out,trade,2,2026-01-12
-501 Sales Queue,2026-01-17 12:42:34,0873960744,208 Sales N,00:02:04,4,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:22:55,0831404181,206 Griffin Gordon,00:00:21,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:18:31,0863200623,213 Abu Nihal,00:09:53,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:14:13,0864575064,207 McEndoo Mark,00:03:18,6,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 12:08:19,016240011,203 Amrish Sumrath,00:03:24,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 11:56:00,0862418400,213 Abu Nihal,00:00:20,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 11:55:41,0873520506,210 Sales SalesPos 1,00:00:51,0,Logged Out,trade,2,2026-01-12
-501 Sales Queue,2026-01-17 11:53:40,0876380699,213 Abu Nihal,00:02:33,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 11:28:41,0876316170,206 Griffin Gordon,00:00:26,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 11:11:43,0876316170,207 McEndoo Mark,00:01:49,4,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 11:07:08,0877666554,220 Collier Bernard,00:02:48,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 10:43:53,0892045722,216 Colin McCormac,00:02:57,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 10:38:50,012487777,204 Tohill Gerard,00:00:21,1,Logged In,trade,2,2026-01-12
-501 Sales Queue,2026-01-17 10:02:46,0870512486,207 McEndoo Mark,00:01:17,5,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 09:44:42,0831002575,209 Carey David,00:02:04,8,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-17 09:03:22,0852315873,210 Sales SalesPos 1,00:01:03,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:25:24,0873640945,221 Sales Pos 5,00:05:09,8,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:17:26,0852315873,204 Tohill Gerard,00:00:38,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:14:35,0852147016,210 Sales SalesPos 1,00:04:14,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:11:56,0852315873,203 Amrish Sumrath,00:05:26,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:08:17,0852147016,203 Amrish Sumrath,00:04:37,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:07:15,0873215404,207 McEndoo Mark,00:08:29,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:03:12,0864057553,220 Collier Bernard,00:20:00,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 19:00:23,0864057553,000 Wall Board,00:00:29,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-16 11:00:22,0872332169,211 Darragh Leavy,00:00:29,2,Logged In,trade,2,2026-01-12
-501 Sales Queue,2026-01-16 08:08:53,0864193514,208 Sales N,00:01:27,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:59:38,0851564628,216 Colin McCormac,00:00:33,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:45:16,0868341897,208 Sales N,00:01:38,3,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:41:39,0876766635,213 Abu Nihal,00:15:20,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:32:21,0851676941,213 Abu Nihal,00:03:26,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:31:59,0857716136,210 Sales SalesPos 1,00:05:52,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:31:26,0857716136,211 Darragh Leavy,00:00:30,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:28:50,0857716136,209 Carey David,00:02:32,6,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:28:26,0868341897,206 Griffin Gordon,00:02:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:22:54,0868341897,211 Darragh Leavy,00:00:49,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:08:45,0868341897,213 Abu Nihal,00:06:15,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 19:02:02,0876402592,207 McEndoo Mark,00:02:22,3,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:57:31,0873215404,220 Collier Bernard,00:00:56,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:57:29,0858112222,204 Tohill Gerard,00:13:56,21,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:56:35,0877885911,203 Amrish Sumrath,00:00:41,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:55:43,0868341897,204 Tohill Gerard,00:06:12,9,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:52:07,0868341897,217 Joe Gorman,00:00:58,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:49:53,0857105169,217 Joe Gorman,00:05:12,7,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:49:28,0868797307,207 McEndoo Mark,00:02:08,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:46:42,0894449001,207 McEndoo Mark,00:03:46,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:46:21,0831131466,204 Tohill Gerard,00:01:24,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:44:56,0871662514,203 Amrish Sumrath,00:07:26,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:42:47,0868341897,211 Darragh Leavy,00:04:09,8,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:34:12,0868341897,209 Carey David,00:04:28,10,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:30:10,0857838001,216 Colin McCormac,00:05:11,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:28:27,0877885911,217 Joe Gorman,00:04:05,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:27:09,0868341897,216 Colin McCormac,00:02:34,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:24:26,0877885911,220 Collier Bernard,00:01:54,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:23:47,0892411644,209 Carey David,00:00:24,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:21:27,0872345014,203 Amrish Sumrath,00:06:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:17:59,0868341897,220 Collier Bernard,00:09:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 18:08:58,0870538636,203 Amrish Sumrath,00:01:54,0,Logged Out,trade,2,2026-01-12
-501 Sales Queue,2026-01-15 17:39:43,0838200051,206 Griffin Gordon,00:00:26,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 16:23:08,0868473278,220 Collier Bernard,00:00:46,0,Logged Out,trade,2,2026-01-12
-501 Sales Queue,2026-01-15 15:29:09,0858158592,206 Griffin Gordon,00:01:18,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 15:18:05,014195805,211 Darragh Leavy,00:00:39,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 14:59:16,0863893722,220 Collier Bernard,00:01:24,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 14:31:50,0858158592,204 Tohill Gerard,00:00:40,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 12:30:07,014606070,204 Tohill Gerard,00:00:21,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 12:28:31,0871487212,208 Sales N,00:01:19,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 12:27:24,0864068880,220 Collier Bernard,00:00:42,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-15 12:16:09,0857616263,207 McEndoo Mark,00:01:21,3,Logged In,trade,2,2026-01-12
-501 Sales Queue,2026-01-14 19:23:36,0872429427,211 Darragh Leavy,00:01:39,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 19:23:35,0894885612,000 Wall Board,00:00:57,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 19:19:45,0872777994,000 Wall Board,00:02:10,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 19:16:20,0851140444,216 Colin McCormac,00:05:42,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 19:12:50,0851164961,213 Abu Nihal,00:11:57,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 19:06:10,0874022332,210 Sales SalesPos 1,00:03:29,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 16:51:23,0896154182,211 Darragh Leavy,00:01:10,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 15:00:07,0873302422,000 Wall Board,00:00:59,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 11:29:25,014036700,216 Colin McCormac,00:02:17,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 11:25:47,0851496654,206 Griffin Gordon,00:02:39,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-14 11:14:26,014522420,000 Wall Board,00:00:28,0,Logged Out,trade,2,2026-01-12
-501 Sales Queue,2026-01-13 19:19:01,0862712547,220 Collier Bernard,00:01:06,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 18:03:48,0879539586,216 Colin McCormac,00:00:28,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 18:03:45,0857135429,203 Amrish Sumrath,00:01:25,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 17:05:14,0894060522,211 Darragh Leavy,00:00:24,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 17:02:24,0852839341,213 Abu Nihal,00:00:58,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 16:34:35,0873547852,210 Sales SalesPos 1,00:00:28,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 16:06:19,0851760005,221 Sales Pos 5,00:00:24,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 14:41:49,0872658933,203 Amrish Sumrath,00:02:48,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 14:40:58,016265901,203 Amrish Sumrath,00:00:24,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 12:46:56,014034500,000 Wall Board,00:01:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 11:32:22,012405687,206 Griffin Gordon,00:00:22,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 11:15:07,0876687672,208 Sales N,00:00:44,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-13 08:31:05,0831178806,216 Colin McCormac,00:02:48,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 19:10:06,0858785270,221 Sales Pos 5,00:02:32,3,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 19:04:21,0852736632,210 Sales SalesPos 1,00:01:10,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 18:40:38,0851945639,000 Wall Board,00:04:41,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 18:39:59,0896000008,220 Collier Bernard,00:04:18,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 18:37:00,0861603948,209 Carey David,00:05:16,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 17:56:12,0469027777,217 Joe Gorman,00:00:34,2,Logged In,trade,2,2026-01-12
-501 Sales Queue,2026-01-12 15:20:56,0868040800,220 Collier Bernard,00:00:30,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 15:19:49,0868477023,204 Tohill Gerard,00:00:27,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 15:05:03,0864576223,217 Joe Gorman,00:02:34,7,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 14:40:57,0872658933,206 Griffin Gordon,00:01:23,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 14:39:04,0872658933,211 Darragh Leavy,00:01:01,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 14:38:33,0861082020,000 Wall Board,00:00:59,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 14:37:02,0868363471,211 Darragh Leavy,00:00:25,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 14:35:07,0879348371,213 Abu Nihal,00:01:17,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 13:54:47,0834357377,217 Joe Gorman,00:00:27,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 13:10:41,0860531611,221 Sales Pos 5,00:00:38,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 13:09:18,0852455981,206 Griffin Gordon,00:01:40,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:57:00,0852477344,209 Carey David,00:01:25,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:45:01,0872300503,000 Wall Board,00:00:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:36:40,0830358787,209 Carey David,00:00:48,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:20:16,0862323775,000 Wall Board,00:00:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:19:41,0862500995,213 Abu Nihal,00:00:36,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:16:50,0892561627,204 Tohill Gerard,00:03:23,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:16:47,0851747189,211 Darragh Leavy,00:06:15,1,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 12:16:03,0892561627,217 Joe Gorman,00:00:23,2,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 11:14:35,0876431564,221 Sales Pos 5,00:02:14,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 11:10:07,0852022969,204 Tohill Gerard,00:00:38,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 11:03:10,0873315260,209 Carey David,00:01:36,3,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 10:44:05,0868674085,211 Darragh Leavy,00:00:47,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 10:43:48,0857331787,213 Abu Nihal,00:00:32,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 10:38:41,0876431564,206 Griffin Gordon,00:03:14,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 10:28:20,0830248589,204 Tohill Gerard,00:00:20,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 10:26:05,anonymous,213 Abu Nihal,00:01:04,0,Logged Out,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 10:00:15,0857343629,209 Carey David,00:00:56,0,Logged In,retail,2,2026-01-12
-501 Sales Queue,2026-01-12 08:35:08,0876945128,206 Griffin Gordon,00:00:42,0,Logged Out,retail,2,2026-01-12
+501 Sales Queue,2026-01-18 12:21:38,0873960744,220 Collier Bernard,00:01:05,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-18 11:56:33,0899875810,204 Tohill Gerard,00:00:25,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-18 11:02:35,0879464514,206 Griffin Gordon,00:00:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-18 10:07:12,0879717707,203 Amrish Sumrath,00:01:05,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 17:46:33,0872274443,207 McEndoo Mark,00:02:45,4,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 17:43:28,0851327492,000 Wall Board,00:03:03,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 17:40:57,0872274443,207 McEndoo Mark,00:00:24,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 17:31:22,0876375360,216 Colin McCormac,00:02:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 16:52:18,0833345620,203 Amrish Sumrath,00:03:42,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 16:00:26,0857607876,208 Sales N,00:00:27,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:59:36,0857607876,208 Sales N,00:00:22,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:58:47,0851838114,204 Tohill Gerard,00:00:23,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:48:56,0871840303,221 Sales Pos 5,00:02:01,6,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:41:17,0894003479,216 Colin McCormac,00:02:26,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:37:37,0851911337,220 Collier Bernard,00:05:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:37:00,0894357910,216 Colin McCormac,00:01:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:36:13,0873630081,000 Wall Board,00:00:43,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:33:09,0873630081,207 McEndoo Mark,00:00:23,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:28:15,0838484326,210 Sales SalesPos 1,00:05:06,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:25:26,0868829037,204 Tohill Gerard,00:09:03,5,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:20:48,0833104402,221 Sales Pos 5,00:01:42,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:20:11,0857300719,221 Sales Pos 5,00:04:24,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:18:53,0861303242,000 Wall Board,00:10:06,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:16:01,0871442500,220 Collier Bernard,00:02:06,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:15:04,0873630081,210 Sales SalesPos 1,00:16:45,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:12:54,0831332292,209 Carey David,00:01:14,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:12:11,0851338058,210 Sales SalesPos 1,00:06:16,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:11:29,0861303242,209 Carey David,00:07:21,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:11:15,0857300719,000 Wall Board,00:04:58,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:09:11,0858102875,210 Sales SalesPos 1,00:02:22,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:09:04,0873630081,220 Collier Bernard,00:01:06,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:07:38,0858102875,203 Amrish Sumrath,00:01:27,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:06:02,0894201594,217 Joe Gorman,00:00:31,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:04:54,015241425,000 Wall Board,00:17:10,0,Logged Out,trade,3,2026-01-12
+501 Sales Queue,2026-01-17 15:03:16,0851563791,216 Colin McCormac,00:03:09,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:01:59,0852134334,204 Tohill Gerard,00:13:34,13,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 15:00:30,0892224050,208 Sales N,00:01:39,3,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:47:45,0851964548,204 Tohill Gerard,00:00:41,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:45:32,0851964548,203 Amrish Sumrath,00:02:09,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:43:31,0862544537,211 Darragh Leavy,00:07:37,4,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:43:09,0858267735,213 Abu Nihal,00:07:24,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:40:14,0866004059,216 Colin McCormac,00:05:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:39:54,0877845232,207 McEndoo Mark,00:09:27,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:39:28,0864400387,210 Sales SalesPos 1,00:03:27,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:38:12,0892393007,211 Darragh Leavy,00:09:47,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:37:22,0892224050,220 Collier Bernard,00:04:43,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:24:46,0876316170,213 Abu Nihal,00:00:30,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:20:37,0894262034,204 Tohill Gerard,00:01:30,3,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 14:19:39,0876316170,203 Amrish Sumrath,00:00:31,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:59:42,0834559940,220 Collier Bernard,00:03:36,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:59:14,0834559940,216 Colin McCormac,00:00:23,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:58:49,0834559940,220 Collier Bernard,00:00:21,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:58:43,0862544537,207 McEndoo Mark,00:03:34,14,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:53:59,0851541753,206 Griffin Gordon,00:01:46,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:47:56,0834559940,213 Abu Nihal,00:00:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:45:00,0834559940,000 Wall Board,00:02:46,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:44:57,0894018263,209 Carey David,00:06:25,16,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:38:39,0851731519,000 Wall Board,00:01:48,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:37:09,0878730635,210 Sales SalesPos 1,00:04:05,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:36:12,0852012717,206 Griffin Gordon,00:04:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:34:43,0892743199,210 Sales SalesPos 1,00:04:01,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:32:43,0852012717,207 McEndoo Mark,00:03:22,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:26:33,0852012717,213 Abu Nihal,00:04:28,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:22:11,0852012717,000 Wall Board,00:04:17,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:14:16,0851415026,206 Griffin Gordon,00:00:34,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:13:38,0830568367,213 Abu Nihal,00:01:58,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:11:01,0830568367,207 McEndoo Mark,00:00:43,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:10:08,0851005753,209 Carey David,00:10:47,39,Logged In,trade,3,2026-01-12
+501 Sales Queue,2026-01-17 13:10:03,0830568367,204 Tohill Gerard,00:00:55,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:08:38,0872843146,221 Sales Pos 5,00:01:32,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:07:52,0876375360,213 Abu Nihal,00:20:00,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:06:49,0873215404,220 Collier Bernard,00:03:47,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:04:01,0851709020,221 Sales Pos 5,00:05:13,12,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:03:46,0852012717,217 Joe Gorman,00:01:08,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 13:01:32,0852012717,213 Abu Nihal,00:02:09,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:56:47,0851394535,208 Sales N,00:08:21,27,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:56:36,0851541753,210 Sales SalesPos 1,00:09:46,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:55:30,0864578989,204 Tohill Gerard,00:00:34,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:54:11,0864578989,000 Wall Board,00:00:41,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:50:33,0851591900,207 McEndoo Mark,00:07:43,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:49:46,0862580981,220 Collier Bernard,00:02:46,0,Logged Out,trade,3,2026-01-12
+501 Sales Queue,2026-01-17 12:42:34,0873960744,208 Sales N,00:02:04,4,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:22:55,0831404181,206 Griffin Gordon,00:00:21,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:18:31,0863200623,213 Abu Nihal,00:09:53,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:14:13,0864575064,207 McEndoo Mark,00:03:18,6,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 12:08:19,016240011,203 Amrish Sumrath,00:03:24,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 11:56:00,0862418400,213 Abu Nihal,00:00:20,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 11:55:41,0873520506,210 Sales SalesPos 1,00:00:51,0,Logged Out,trade,3,2026-01-12
+501 Sales Queue,2026-01-17 11:53:40,0876380699,213 Abu Nihal,00:02:33,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 11:28:41,0876316170,206 Griffin Gordon,00:00:26,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 11:11:43,0876316170,207 McEndoo Mark,00:01:49,4,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 11:07:08,0877666554,220 Collier Bernard,00:02:48,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 10:43:53,0892045722,216 Colin McCormac,00:02:57,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 10:38:50,012487777,204 Tohill Gerard,00:00:21,1,Logged In,trade,3,2026-01-12
+501 Sales Queue,2026-01-17 10:02:46,0870512486,207 McEndoo Mark,00:01:17,5,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 09:44:42,0831002575,209 Carey David,00:02:04,8,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-17 09:03:22,0852315873,210 Sales SalesPos 1,00:01:03,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:25:24,0873640945,221 Sales Pos 5,00:05:09,8,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:17:26,0852315873,204 Tohill Gerard,00:00:38,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:14:35,0852147016,210 Sales SalesPos 1,00:04:14,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:11:56,0852315873,203 Amrish Sumrath,00:05:26,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:08:17,0852147016,203 Amrish Sumrath,00:04:37,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:07:15,0873215404,207 McEndoo Mark,00:08:29,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:03:12,0864057553,220 Collier Bernard,00:20:00,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 19:00:23,0864057553,000 Wall Board,00:00:29,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-16 11:00:22,0872332169,211 Darragh Leavy,00:00:29,2,Logged In,trade,3,2026-01-12
+501 Sales Queue,2026-01-16 08:08:53,0864193514,208 Sales N,00:01:27,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:59:38,0851564628,216 Colin McCormac,00:00:33,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:45:16,0868341897,208 Sales N,00:01:38,3,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:41:39,0876766635,213 Abu Nihal,00:15:20,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:32:21,0851676941,213 Abu Nihal,00:03:26,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:31:59,0857716136,210 Sales SalesPos 1,00:05:52,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:31:26,0857716136,211 Darragh Leavy,00:00:30,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:28:50,0857716136,209 Carey David,00:02:32,6,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:28:26,0868341897,206 Griffin Gordon,00:02:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:22:54,0868341897,211 Darragh Leavy,00:00:49,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:08:45,0868341897,213 Abu Nihal,00:06:15,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 19:02:02,0876402592,207 McEndoo Mark,00:02:22,3,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:57:31,0873215404,220 Collier Bernard,00:00:56,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:57:29,0858112222,204 Tohill Gerard,00:13:56,21,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:56:35,0877885911,203 Amrish Sumrath,00:00:41,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:55:43,0868341897,204 Tohill Gerard,00:06:12,9,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:52:07,0868341897,217 Joe Gorman,00:00:58,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:49:53,0857105169,217 Joe Gorman,00:05:12,7,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:49:28,0868797307,207 McEndoo Mark,00:02:08,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:46:42,0894449001,207 McEndoo Mark,00:03:46,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:46:21,0831131466,204 Tohill Gerard,00:01:24,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:44:56,0871662514,203 Amrish Sumrath,00:07:26,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:42:47,0868341897,211 Darragh Leavy,00:04:09,8,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:34:12,0868341897,209 Carey David,00:04:28,10,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:30:10,0857838001,216 Colin McCormac,00:05:11,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:28:27,0877885911,217 Joe Gorman,00:04:05,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:27:09,0868341897,216 Colin McCormac,00:02:34,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:24:26,0877885911,220 Collier Bernard,00:01:54,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:23:47,0892411644,209 Carey David,00:00:24,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:21:27,0872345014,203 Amrish Sumrath,00:06:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:17:59,0868341897,220 Collier Bernard,00:09:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 18:08:58,0870538636,203 Amrish Sumrath,00:01:54,0,Logged Out,trade,3,2026-01-12
+501 Sales Queue,2026-01-15 17:39:43,0838200051,206 Griffin Gordon,00:00:26,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 16:23:08,0868473278,220 Collier Bernard,00:00:46,0,Logged Out,trade,3,2026-01-12
+501 Sales Queue,2026-01-15 15:29:09,0858158592,206 Griffin Gordon,00:01:18,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 15:18:05,014195805,211 Darragh Leavy,00:00:39,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 14:59:16,0863893722,220 Collier Bernard,00:01:24,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 14:31:50,0858158592,204 Tohill Gerard,00:00:40,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 12:30:07,014606070,204 Tohill Gerard,00:00:21,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 12:28:31,0871487212,208 Sales N,00:01:19,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 12:27:24,0864068880,220 Collier Bernard,00:00:42,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-15 12:16:09,0857616263,207 McEndoo Mark,00:01:21,3,Logged In,trade,3,2026-01-12
+501 Sales Queue,2026-01-14 19:23:36,0872429427,211 Darragh Leavy,00:01:39,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 19:23:35,0894885612,000 Wall Board,00:00:57,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 19:19:45,0872777994,000 Wall Board,00:02:10,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 19:16:20,0851140444,216 Colin McCormac,00:05:42,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 19:12:50,0851164961,213 Abu Nihal,00:11:57,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 19:06:10,0874022332,210 Sales SalesPos 1,00:03:29,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 16:51:23,0896154182,211 Darragh Leavy,00:01:10,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 15:00:07,0873302422,000 Wall Board,00:00:59,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 11:29:25,014036700,216 Colin McCormac,00:02:17,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 11:25:47,0851496654,206 Griffin Gordon,00:02:39,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-14 11:14:26,014522420,000 Wall Board,00:00:28,0,Logged Out,trade,3,2026-01-12
+501 Sales Queue,2026-01-13 19:19:01,0862712547,220 Collier Bernard,00:01:06,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 18:03:48,0879539586,216 Colin McCormac,00:00:28,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 18:03:45,0857135429,203 Amrish Sumrath,00:01:25,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 17:05:14,0894060522,211 Darragh Leavy,00:00:24,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 17:02:24,0852839341,213 Abu Nihal,00:00:58,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 16:34:35,0873547852,210 Sales SalesPos 1,00:00:28,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 16:06:19,0851760005,221 Sales Pos 5,00:00:24,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 14:41:49,0872658933,203 Amrish Sumrath,00:02:48,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 14:40:58,016265901,203 Amrish Sumrath,00:00:24,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 12:46:56,014034500,000 Wall Board,00:01:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 11:32:22,012405687,206 Griffin Gordon,00:00:22,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 11:15:07,0876687672,208 Sales N,00:00:44,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-13 08:31:05,0831178806,216 Colin McCormac,00:02:48,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 19:10:06,0858785270,221 Sales Pos 5,00:02:32,3,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 19:04:21,0852736632,210 Sales SalesPos 1,00:01:10,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 18:40:38,0851945639,000 Wall Board,00:04:41,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 18:39:59,0896000008,220 Collier Bernard,00:04:18,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 18:37:00,0861603948,209 Carey David,00:05:16,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 17:56:12,0469027777,217 Joe Gorman,00:00:34,2,Logged In,trade,3,2026-01-12
+501 Sales Queue,2026-01-12 15:20:56,0868040800,220 Collier Bernard,00:00:30,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 15:19:49,0868477023,204 Tohill Gerard,00:00:27,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 15:05:03,0864576223,217 Joe Gorman,00:02:34,7,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 14:40:57,0872658933,206 Griffin Gordon,00:01:23,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 14:39:04,0872658933,211 Darragh Leavy,00:01:01,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 14:38:33,0861082020,000 Wall Board,00:00:59,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 14:37:02,0868363471,211 Darragh Leavy,00:00:25,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 14:35:07,0879348371,213 Abu Nihal,00:01:17,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 13:54:47,0834357377,217 Joe Gorman,00:00:27,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 13:10:41,0860531611,221 Sales Pos 5,00:00:38,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 13:09:18,0852455981,206 Griffin Gordon,00:01:40,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:57:00,0852477344,209 Carey David,00:01:25,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:45:01,0872300503,000 Wall Board,00:00:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:36:40,0830358787,209 Carey David,00:00:48,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:20:16,0862323775,000 Wall Board,00:00:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:19:41,0862500995,213 Abu Nihal,00:00:36,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:16:50,0892561627,204 Tohill Gerard,00:03:23,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:16:47,0851747189,211 Darragh Leavy,00:06:15,1,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 12:16:03,0892561627,217 Joe Gorman,00:00:23,2,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 11:14:35,0876431564,221 Sales Pos 5,00:02:14,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 11:10:07,0852022969,204 Tohill Gerard,00:00:38,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 11:03:10,0873315260,209 Carey David,00:01:36,3,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 10:44:05,0868674085,211 Darragh Leavy,00:00:47,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 10:43:48,0857331787,213 Abu Nihal,00:00:32,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 10:38:41,0876431564,206 Griffin Gordon,00:03:14,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 10:28:20,0830248589,204 Tohill Gerard,00:00:20,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 10:26:05,anonymous,213 Abu Nihal,00:01:04,0,Logged Out,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 10:00:15,0857343629,209 Carey David,00:00:56,0,Logged In,retail,3,2026-01-12
+501 Sales Queue,2026-01-12 08:35:08,0876945128,206 Griffin Gordon,00:00:42,0,Logged Out,retail,3,2026-01-12
 Totals,,nan,,10:37:37,5936,,retail,3,
 501 Sales Queue,2025-12-21 14:29:57,0857029323,204 Tohill Gerard,00:00:32,0,Logged Out,retail,3,2025-12-15
 501 Sales Queue,2025-12-21 12:44:02,0894405198,209 Carey David,00:00:25,0,Logged Out,retail,3,2025-12-15
@@ -2083,256 +2617,256 @@ Totals,,nan,,09:14:48,5535,,retail,3,
 501 Sales Queue,2025-11-17 13:55:58,852118391,208 Sales N,00:00:32,0,Logged Out,retail,3,2025-11-17
 501 Sales Queue,2025-11-17 10:42:11,860221982,220 Collier Bernard,00:01:11,0,Logged Out,trade,3,2025-11-17
 Totals,,nan,,16:35:47,7461,,retail,3,
-501 Sales Queue,2026-01-25 13:40:53,0899640146,221 Sales Pos 5,00:00:39,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-25 11:08:23,0879137975,217 Joe Gorman,00:01:17,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-25 11:02:57,0874450947,208 Sales N,00:01:02,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-25 10:07:43,0874784670,221 Sales Pos 5,00:00:54,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-25 10:02:00,0830281237,216 Colin McCormac,00:00:31,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 17:53:28,0830973720,216 Colin McCormac,00:02:03,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 17:41:00,0858124651,221 Sales Pos 5,00:01:51,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 17:28:48,0871609120,221 Sales Pos 5,00:03:55,7,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 17:24:11,0864070498,216 Colin McCormac,00:00:41,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:46:33,0830306593,217 Joe Gorman,00:01:05,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:43:49,0899856688,211 Darragh Leavy,00:01:00,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:32:42,0872565653,221 Sales Pos 5,00:00:55,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:25:52,0892545527,216 Colin McCormac,00:01:11,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:24:17,0892545527,216 Colin McCormac,00:00:51,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:10:59,0832008192,221 Sales Pos 5,00:04:30,7,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:09:48,0857637099,221 Sales Pos 5,00:02:55,5,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 16:08:43,0852737397,216 Colin McCormac,00:01:23,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 15:48:22,0872239440,217 Joe Gorman,00:02:12,4,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 15:34:24,0899650591,211 Darragh Leavy,00:01:30,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 15:31:32,0899650591,221 Sales Pos 5,00:02:48,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 15:21:11,0899650591,216 Colin McCormac,00:06:51,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 15:18:11,0872544474,216 Colin McCormac,00:03:50,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 15:15:17,0899650591,211 Darragh Leavy,00:05:36,8,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:56:43,0872239440,221 Sales Pos 5,00:01:44,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:35:14,0851938354,216 Colin McCormac,00:01:19,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:35:11,0873614644,217 Joe Gorman,00:01:01,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:30:32,0863197576,211 Darragh Leavy,00:00:22,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:27:15,0857469848,221 Sales Pos 5,00:03:32,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:26:40,0851475663,216 Colin McCormac,00:08:51,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:24:30,0876281152,213 Abu Nihal,00:04:34,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:13:41,0833503319,211 Darragh Leavy,00:00:57,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:08:13,0872658933,221 Sales Pos 5,00:01:38,6,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:07:55,0851964548,217 Joe Gorman,00:00:28,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:05:23,0872239440,208 Sales N,00:15:23,22,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:03:17,0868132292,221 Sales Pos 5,00:00:33,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 14:01:44,0894233889,216 Colin McCormac,00:02:16,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:57:18,0858209000,216 Colin McCormac,00:05:34,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:54:20,0858209000,221 Sales Pos 5,00:02:30,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:52:07,0852032862,221 Sales Pos 5,00:00:58,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:51:47,0858018856,216 Colin McCormac,00:01:21,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:50:55,0857769102,217 Joe Gorman,00:02:50,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:48:10,0876268649,211 Darragh Leavy,00:00:43,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:48:03,0864685500,221 Sales Pos 5,00:00:48,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:47:14,0862106856,216 Colin McCormac,00:00:49,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:46:59,0858209000,216 Colin McCormac,00:06:16,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:45:10,0858018856,221 Sales Pos 5,00:01:37,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:44:24,0831120005,221 Sales Pos 5,00:09:55,0,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-24 13:43:59,0852838225,216 Colin McCormac,00:03:11,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:43:31,0851445104,217 Joe Gorman,00:04:57,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:37:13,0851135637,211 Darragh Leavy,00:00:31,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:36:42,0858319161,221 Sales Pos 5,00:06:21,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:36:34,0838212779,216 Colin McCormac,00:01:08,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:36:11,0852626625,216 Colin McCormac,00:09:32,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:30:31,0858545589,211 Darragh Leavy,00:05:45,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:29:40,0899749259,221 Sales Pos 5,00:05:37,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:28:58,0876268649,216 Colin McCormac,00:01:57,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:27:20,0872429427,217 Joe Gorman,00:00:27,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:26:01,0862495589,211 Darragh Leavy,00:02:08,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:25:36,0858319161,221 Sales Pos 5,00:11:03,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:23:44,0894233889,216 Colin McCormac,00:02:04,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:22:45,0863908123,207 McEndoo Mark,00:01:00,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:21:33,0834287906,221 Sales Pos 5,00:02:03,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:21:11,0857661206,221 Sales Pos 5,00:12:08,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:20:52,0874780521,217 Joe Gorman,00:06:32,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:20:05,0852032862,208 Sales N,00:04:25,4,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:19:48,0857261794,221 Sales Pos 5,00:02:08,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:19:23,0873614644,216 Colin McCormac,00:00:30,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:18:21,0852032862,216 Colin McCormac,00:00:41,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:18:07,0877414549,221 Sales Pos 5,00:03:00,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:17:02,0851135637,221 Sales Pos 5,00:20:00,53,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:16:42,0863777347,216 Colin McCormac,00:06:55,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:16:34,0876268649,217 Joe Gorman,00:10:56,29,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:16:21,0894233889,211 Darragh Leavy,00:07:10,18,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:15:36,0873468485,221 Sales Pos 5,00:03:00,12,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:12:48,0851938354,216 Colin McCormac,00:07:23,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:11:55,0860209468,216 Colin McCormac,00:00:50,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:10:24,0873468485,221 Sales Pos 5,00:05:04,4,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:09:21,0873614644,221 Sales Pos 5,00:09:56,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:09:10,0852032862,216 Colin McCormac,00:04:57,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:08:42,0876358607,217 Joe Gorman,00:00:29,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:08:38,0894233889,211 Darragh Leavy,00:03:15,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:07:49,0852771389,221 Sales Pos 5,00:04:44,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:07:43,0862106856,216 Colin McCormac,00:02:39,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:07:24,0851964548,216 Colin McCormac,00:04:36,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 13:04:35,0894233889,211 Darragh Leavy,00:04:00,10,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:58:49,0874149474,221 Sales Pos 5,00:05:06,9,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:58:42,0876358607,216 Colin McCormac,00:05:25,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:58:10,0876358607,217 Joe Gorman,00:00:30,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:57:28,0876358607,211 Darragh Leavy,00:00:41,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:55:54,0879813715,221 Sales Pos 5,00:03:47,9,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:54:29,0876358607,216 Colin McCormac,00:02:56,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:52:51,0833953800,213 Abu Nihal,00:05:13,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:52:47,0872429427,221 Sales Pos 5,00:01:41,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:51:31,0851001285,221 Sales Pos 5,00:00:30,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:50:54,0872239440,216 Colin McCormac,00:05:32,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:49:32,0862106856,217 Joe Gorman,00:01:04,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:47:50,0860209468,211 Darragh Leavy,00:05:50,8,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:46:35,0862106856,221 Sales Pos 5,00:02:51,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:46:00,0862106856,216 Colin McCormac,00:00:24,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:44:58,anonymous,216 Colin McCormac,00:03:00,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:44:30,0860209468,211 Darragh Leavy,00:03:17,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:41:15,0872429427,221 Sales Pos 5,00:10:22,5,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:40:37,045875800,216 Colin McCormac,00:06:10,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:40:19,0862106856,217 Joe Gorman,00:03:16,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:37:25,0838244899,211 Darragh Leavy,00:01:40,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:36:43,0862106856,221 Sales Pos 5,00:00:22,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:34:06,0838244899,216 Colin McCormac,00:00:39,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:33:44,0838701503,213 Abu Nihal,00:04:25,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:33:39,0858546293,211 Darragh Leavy,00:07:04,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:31:52,0838212779,221 Sales Pos 5,00:11:12,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:31:39,0862106856,216 Colin McCormac,00:03:56,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:31:21,0838701503,217 Joe Gorman,00:01:03,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:29:29,0851001285,211 Darragh Leavy,00:00:39,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:18:26,0873285628,221 Sales Pos 5,00:09:48,32,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:17:10,0858614486,216 Colin McCormac,00:01:24,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:17:03,0863496734,216 Colin McCormac,00:07:53,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:13:28,0838244899,211 Darragh Leavy,00:13:58,40,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:11:16,0872429427,221 Sales Pos 5,00:05:16,9,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:08:47,0899811579,216 Colin McCormac,00:03:43,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:02:50,0862106856,217 Joe Gorman,00:00:30,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 12:01:16,0862106856,211 Darragh Leavy,00:01:29,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:59:19,0899811579,221 Sales Pos 5,00:07:01,24,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:58:55,0862106856,216 Colin McCormac,00:00:36,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:58:18,0862106856,207 McEndoo Mark,00:00:32,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:58:05,0894184054,221 Sales Pos 5,00:05:04,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:57:37,0874407119,221 Sales Pos 5,00:06:27,5,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:57:31,0862106856,217 Joe Gorman,00:00:23,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:57:04,0862106856,208 Sales N,00:00:22,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:56:37,0862106856,221 Sales Pos 5,00:00:22,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:54:36,0894184054,216 Colin McCormac,00:00:48,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:52:03,0857582332,216 Colin McCormac,00:01:02,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:51:15,0852306126,221 Sales Pos 5,00:01:40,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:49:01,014920002,221 Sales Pos 5,00:06:22,3,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-24 11:46:50,0862106856,216 Colin McCormac,00:09:39,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:46:41,0857582332,217 Joe Gorman,00:04:44,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:45:39,0852306126,211 Darragh Leavy,00:05:32,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:30:19,0879109419,221 Sales Pos 5,00:00:30,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:29:21,0879308601,216 Colin McCormac,00:01:19,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:27:59,0879109419,216 Colin McCormac,00:01:04,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:27:08,0862118116,221 Sales Pos 5,00:03:00,7,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:25:04,0879109419,221 Sales Pos 5,00:00:34,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:22:27,0864506286,216 Colin McCormac,00:01:34,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:22:19,0872676765,217 Joe Gorman,00:06:13,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:20:54,0872678993,211 Darragh Leavy,00:01:56,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:11:31,0892297342,221 Sales Pos 5,00:01:04,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:07:20,0899779446,216 Colin McCormac,00:03:00,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:04:36,0899779446,216 Colin McCormac,00:01:06,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 11:01:59,018011003,211 Darragh Leavy,00:01:22,2,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-24 10:58:20,0872658933,221 Sales Pos 5,00:05:28,8,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:55:37,0851964548,216 Colin McCormac,00:00:24,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:52:39,0862495589,217 Joe Gorman,00:02:11,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:47:41,0851819901,211 Darragh Leavy,00:01:04,1,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-24 10:28:30,0861275621,221 Sales Pos 5,00:02:45,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:28:14,0832008192,216 Colin McCormac,00:03:16,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:26:06,0830266388,213 Abu Nihal,00:01:40,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:25:06,0896148044,221 Sales Pos 5,00:02:28,5,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 10:13:48,0877555629,221 Sales Pos 5,00:02:22,4,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 09:48:52,0830243461,216 Colin McCormac,00:04:47,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-24 09:47:03,0879059382,217 Joe Gorman,00:04:38,6,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:59:27,0873402900,211 Darragh Leavy,00:01:20,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:58:35,0873402900,221 Sales Pos 5,00:00:50,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:50:45,0873402900,216 Colin McCormac,00:07:46,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:41:08,0838806865,216 Colin McCormac,00:01:09,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:38:55,0838806865,211 Darragh Leavy,00:02:11,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:36:50,0857771387,221 Sales Pos 5,00:11:11,20,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:34:34,0894503777,216 Colin McCormac,00:02:19,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:32:46,0838806865,217 Joe Gorman,00:06:03,9,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:29:20,0838806865,211 Darragh Leavy,00:03:22,6,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:25:48,0851549563,221 Sales Pos 5,00:02:30,4,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:22:24,0864587931,216 Colin McCormac,00:01:06,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:20:25,0864587931,213 Abu Nihal,00:01:56,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 19:19:08,0851549563,211 Darragh Leavy,00:05:20,9,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:47:55,0852738638,221 Sales Pos 5,00:01:39,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:42:38,0852738638,216 Colin McCormac,00:05:14,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:31:25,0872429427,217 Joe Gorman,00:07:49,13,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:27:28,0872429427,211 Darragh Leavy,00:01:44,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:22:29,0867813000,221 Sales Pos 5,00:01:28,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:20:05,0892250188,216 Colin McCormac,00:01:01,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:19:40,0899889631,216 Colin McCormac,00:02:12,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 18:01:29,0894839386,211 Darragh Leavy,00:00:36,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 17:22:04,0830506144,221 Sales Pos 5,00:00:56,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 16:50:22,0876928241,216 Colin McCormac,00:00:32,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 15:58:20,0860460474,217 Joe Gorman,00:00:38,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 14:05:14,0894474984,211 Darragh Leavy,00:00:43,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 13:21:28,0894140224,221 Sales Pos 5,00:00:30,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 12:16:09,0872676765,216 Colin McCormac,00:00:41,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 11:39:56,0857505655,207 McEndoo Mark,00:00:20,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 11:24:04,0851693468,211 Darragh Leavy,00:01:26,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 10:54:02,0851746996,221 Sales Pos 5,00:00:25,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 09:47:43,0877402912,217 Joe Gorman,00:02:36,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-23 09:45:32,014568693,208 Sales N,00:04:13,0,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-23 09:45:18,35318692130,221 Sales Pos 5,00:04:44,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:49:21,0872045580,216 Colin McCormac,00:04:01,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:40:26,0857437172,216 Colin McCormac,00:00:27,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:32:17,0834884019,221 Sales Pos 5,00:18:14,32,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:28:26,0899875810,221 Sales Pos 5,00:02:16,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:27:27,0857867640,216 Colin McCormac,00:07:22,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:19:47,0899875810,217 Joe Gorman,00:07:59,13,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 19:09:10,0877966221,211 Darragh Leavy,00:01:12,3,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-22 19:03:30,0834884019,221 Sales Pos 5,00:15:19,26,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:52:20,0871443963,216 Colin McCormac,00:00:53,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:47:08,0876741087,216 Colin McCormac,00:00:29,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:42:13,0851693468,221 Sales Pos 5,00:04:11,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:39:05,0876474353,221 Sales Pos 5,00:11:06,13,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:35:33,0852352334,216 Colin McCormac,00:09:08,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:34:31,0838639989,217 Joe Gorman,00:04:44,7,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 18:20:07,0857747915,211 Darragh Leavy,00:01:04,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 17:12:37,0852246613,221 Sales Pos 5,00:00:26,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 17:09:58,0858680797,216 Colin McCormac,00:00:42,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 17:00:19,0858219678,216 Colin McCormac,00:00:34,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 16:59:20,0858219678,211 Darragh Leavy,00:00:30,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 16:50:35,0892192478,221 Sales Pos 5,00:00:31,1,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-22 16:18:56,0851251681,216 Colin McCormac,00:00:25,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 14:37:08,0892780422,217 Joe Gorman,00:00:35,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 14:21:39,0892098346,211 Darragh Leavy,00:01:40,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 13:56:06,0852766764,221 Sales Pos 5,00:00:59,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 13:50:31,0857454882,216 Colin McCormac,00:00:22,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 13:39:27,0857454882,213 Abu Nihal,00:00:24,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-22 12:33:35,0877487630,221 Sales Pos 5,00:00:45,0,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-22 11:56:59,0879095069,221 Sales Pos 5,00:01:03,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 19:28:13,0872909844,216 Colin McCormac,00:09:55,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 18:39:47,0872909844,217 Joe Gorman,00:01:37,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 18:39:02,0872992555,211 Darragh Leavy,00:04:59,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 18:37:52,0899808023,221 Sales Pos 5,00:03:33,5,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 18:37:14,0872992555,216 Colin McCormac,00:00:42,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 18:34:49,0872909844,216 Colin McCormac,00:04:53,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 18:02:27,0851060018,211 Darragh Leavy,00:00:23,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 15:25:42,0874187499,221 Sales Pos 5,00:02:16,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 13:06:03,0851612636,216 Colin McCormac,00:00:26,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 10:57:04,0874072405,217 Joe Gorman,00:00:33,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-21 08:12:03,014522420,211 Darragh Leavy,00:00:20,0,Logged Out,trade,1,2026-01-19
-501 Sales Queue,2026-01-20 18:44:56,0862568040,221 Sales Pos 5,00:00:30,2,Logged In,trade,1,2026-01-19
-501 Sales Queue,2026-01-20 18:44:53,0879654398,216 Colin McCormac,00:00:27,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-20 18:34:12,0879654398,213 Abu Nihal,00:02:39,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-20 14:31:50,0899862727,211 Darragh Leavy,00:00:35,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-20 10:24:03,0851244300,221 Sales Pos 5,00:00:24,1,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-20 08:10:55,0878730635,216 Colin McCormac,00:00:28,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 18:41:08,0858875779,217 Joe Gorman,00:03:01,3,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 18:29:47,0851218427,211 Darragh Leavy,00:06:46,9,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 16:51:58,0876495907,221 Sales Pos 5,00:02:04,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 15:16:22,016261612,216 Colin McCormac,00:00:43,0,Logged Out,trade,1,2026-01-19
-501 Sales Queue,2026-01-19 15:01:24,0861303242,216 Colin McCormac,00:00:57,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 13:07:19,0871635476,211 Darragh Leavy,00:00:37,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 12:54:25,0838991899,221 Sales Pos 5,00:00:20,2,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 12:42:12,016754500,216 Colin McCormac,00:00:31,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 12:36:05,016754500,217 Joe Gorman,00:00:43,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 12:02:16,0861984132,211 Darragh Leavy,00:01:56,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 12:00:42,0857321218,221 Sales Pos 5,00:00:47,0,Logged In,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 10:29:27,0871182984,216 Colin McCormac,00:00:26,0,Logged Out,retail,1,2026-01-19
-501 Sales Queue,2026-01-19 09:31:38,0876316170,209 Carey David,00:00:55,0,Logged In,retail,1,2026-01-19
+501 Sales Queue,2026-01-25 13:40:53,0899640146,221 Sales Pos 5,00:00:39,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-25 11:08:23,0879137975,217 Joe Gorman,00:01:17,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-25 11:02:57,0874450947,208 Sales N,00:01:02,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-25 10:07:43,0874784670,221 Sales Pos 5,00:00:54,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-25 10:02:00,0830281237,216 Colin McCormac,00:00:31,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 17:53:28,0830973720,216 Colin McCormac,00:02:03,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 17:41:00,0858124651,221 Sales Pos 5,00:01:51,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 17:28:48,0871609120,221 Sales Pos 5,00:03:55,7,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 17:24:11,0864070498,216 Colin McCormac,00:00:41,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:46:33,0830306593,217 Joe Gorman,00:01:05,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:43:49,0899856688,211 Darragh Leavy,00:01:00,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:32:42,0872565653,221 Sales Pos 5,00:00:55,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:25:52,0892545527,216 Colin McCormac,00:01:11,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:24:17,0892545527,216 Colin McCormac,00:00:51,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:10:59,0832008192,221 Sales Pos 5,00:04:30,7,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:09:48,0857637099,221 Sales Pos 5,00:02:55,5,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 16:08:43,0852737397,216 Colin McCormac,00:01:23,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 15:48:22,0872239440,217 Joe Gorman,00:02:12,4,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 15:34:24,0899650591,211 Darragh Leavy,00:01:30,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 15:31:32,0899650591,221 Sales Pos 5,00:02:48,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 15:21:11,0899650591,216 Colin McCormac,00:06:51,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 15:18:11,0872544474,216 Colin McCormac,00:03:50,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 15:15:17,0899650591,211 Darragh Leavy,00:05:36,8,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:56:43,0872239440,221 Sales Pos 5,00:01:44,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:35:14,0851938354,216 Colin McCormac,00:01:19,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:35:11,0873614644,217 Joe Gorman,00:01:01,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:30:32,0863197576,211 Darragh Leavy,00:00:22,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:27:15,0857469848,221 Sales Pos 5,00:03:32,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:26:40,0851475663,216 Colin McCormac,00:08:51,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:24:30,0876281152,213 Abu Nihal,00:04:34,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:13:41,0833503319,211 Darragh Leavy,00:00:57,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:08:13,0872658933,221 Sales Pos 5,00:01:38,6,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:07:55,0851964548,217 Joe Gorman,00:00:28,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:05:23,0872239440,208 Sales N,00:15:23,22,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:03:17,0868132292,221 Sales Pos 5,00:00:33,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 14:01:44,0894233889,216 Colin McCormac,00:02:16,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:57:18,0858209000,216 Colin McCormac,00:05:34,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:54:20,0858209000,221 Sales Pos 5,00:02:30,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:52:07,0852032862,221 Sales Pos 5,00:00:58,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:51:47,0858018856,216 Colin McCormac,00:01:21,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:50:55,0857769102,217 Joe Gorman,00:02:50,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:48:10,0876268649,211 Darragh Leavy,00:00:43,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:48:03,0864685500,221 Sales Pos 5,00:00:48,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:47:14,0862106856,216 Colin McCormac,00:00:49,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:46:59,0858209000,216 Colin McCormac,00:06:16,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:45:10,0858018856,221 Sales Pos 5,00:01:37,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:44:24,0831120005,221 Sales Pos 5,00:09:55,0,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-24 13:43:59,0852838225,216 Colin McCormac,00:03:11,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:43:31,0851445104,217 Joe Gorman,00:04:57,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:37:13,0851135637,211 Darragh Leavy,00:00:31,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:36:42,0858319161,221 Sales Pos 5,00:06:21,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:36:34,0838212779,216 Colin McCormac,00:01:08,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:36:11,0852626625,216 Colin McCormac,00:09:32,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:30:31,0858545589,211 Darragh Leavy,00:05:45,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:29:40,0899749259,221 Sales Pos 5,00:05:37,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:28:58,0876268649,216 Colin McCormac,00:01:57,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:27:20,0872429427,217 Joe Gorman,00:00:27,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:26:01,0862495589,211 Darragh Leavy,00:02:08,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:25:36,0858319161,221 Sales Pos 5,00:11:03,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:23:44,0894233889,216 Colin McCormac,00:02:04,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:22:45,0863908123,207 McEndoo Mark,00:01:00,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:21:33,0834287906,221 Sales Pos 5,00:02:03,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:21:11,0857661206,221 Sales Pos 5,00:12:08,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:20:52,0874780521,217 Joe Gorman,00:06:32,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:20:05,0852032862,208 Sales N,00:04:25,4,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:19:48,0857261794,221 Sales Pos 5,00:02:08,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:19:23,0873614644,216 Colin McCormac,00:00:30,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:18:21,0852032862,216 Colin McCormac,00:00:41,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:18:07,0877414549,221 Sales Pos 5,00:03:00,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:17:02,0851135637,221 Sales Pos 5,00:20:00,53,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:16:42,0863777347,216 Colin McCormac,00:06:55,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:16:34,0876268649,217 Joe Gorman,00:10:56,29,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:16:21,0894233889,211 Darragh Leavy,00:07:10,18,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:15:36,0873468485,221 Sales Pos 5,00:03:00,12,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:12:48,0851938354,216 Colin McCormac,00:07:23,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:11:55,0860209468,216 Colin McCormac,00:00:50,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:10:24,0873468485,221 Sales Pos 5,00:05:04,4,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:09:21,0873614644,221 Sales Pos 5,00:09:56,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:09:10,0852032862,216 Colin McCormac,00:04:57,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:08:42,0876358607,217 Joe Gorman,00:00:29,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:08:38,0894233889,211 Darragh Leavy,00:03:15,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:07:49,0852771389,221 Sales Pos 5,00:04:44,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:07:43,0862106856,216 Colin McCormac,00:02:39,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:07:24,0851964548,216 Colin McCormac,00:04:36,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 13:04:35,0894233889,211 Darragh Leavy,00:04:00,10,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:58:49,0874149474,221 Sales Pos 5,00:05:06,9,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:58:42,0876358607,216 Colin McCormac,00:05:25,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:58:10,0876358607,217 Joe Gorman,00:00:30,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:57:28,0876358607,211 Darragh Leavy,00:00:41,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:55:54,0879813715,221 Sales Pos 5,00:03:47,9,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:54:29,0876358607,216 Colin McCormac,00:02:56,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:52:51,0833953800,213 Abu Nihal,00:05:13,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:52:47,0872429427,221 Sales Pos 5,00:01:41,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:51:31,0851001285,221 Sales Pos 5,00:00:30,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:50:54,0872239440,216 Colin McCormac,00:05:32,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:49:32,0862106856,217 Joe Gorman,00:01:04,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:47:50,0860209468,211 Darragh Leavy,00:05:50,8,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:46:35,0862106856,221 Sales Pos 5,00:02:51,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:46:00,0862106856,216 Colin McCormac,00:00:24,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:44:58,anonymous,216 Colin McCormac,00:03:00,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:44:30,0860209468,211 Darragh Leavy,00:03:17,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:41:15,0872429427,221 Sales Pos 5,00:10:22,5,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:40:37,045875800,216 Colin McCormac,00:06:10,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:40:19,0862106856,217 Joe Gorman,00:03:16,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:37:25,0838244899,211 Darragh Leavy,00:01:40,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:36:43,0862106856,221 Sales Pos 5,00:00:22,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:34:06,0838244899,216 Colin McCormac,00:00:39,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:33:44,0838701503,213 Abu Nihal,00:04:25,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:33:39,0858546293,211 Darragh Leavy,00:07:04,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:31:52,0838212779,221 Sales Pos 5,00:11:12,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:31:39,0862106856,216 Colin McCormac,00:03:56,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:31:21,0838701503,217 Joe Gorman,00:01:03,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:29:29,0851001285,211 Darragh Leavy,00:00:39,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:18:26,0873285628,221 Sales Pos 5,00:09:48,32,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:17:10,0858614486,216 Colin McCormac,00:01:24,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:17:03,0863496734,216 Colin McCormac,00:07:53,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:13:28,0838244899,211 Darragh Leavy,00:13:58,40,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:11:16,0872429427,221 Sales Pos 5,00:05:16,9,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:08:47,0899811579,216 Colin McCormac,00:03:43,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:02:50,0862106856,217 Joe Gorman,00:00:30,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 12:01:16,0862106856,211 Darragh Leavy,00:01:29,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:59:19,0899811579,221 Sales Pos 5,00:07:01,24,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:58:55,0862106856,216 Colin McCormac,00:00:36,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:58:18,0862106856,207 McEndoo Mark,00:00:32,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:58:05,0894184054,221 Sales Pos 5,00:05:04,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:57:37,0874407119,221 Sales Pos 5,00:06:27,5,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:57:31,0862106856,217 Joe Gorman,00:00:23,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:57:04,0862106856,208 Sales N,00:00:22,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:56:37,0862106856,221 Sales Pos 5,00:00:22,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:54:36,0894184054,216 Colin McCormac,00:00:48,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:52:03,0857582332,216 Colin McCormac,00:01:02,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:51:15,0852306126,221 Sales Pos 5,00:01:40,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:49:01,014920002,221 Sales Pos 5,00:06:22,3,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-24 11:46:50,0862106856,216 Colin McCormac,00:09:39,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:46:41,0857582332,217 Joe Gorman,00:04:44,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:45:39,0852306126,211 Darragh Leavy,00:05:32,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:30:19,0879109419,221 Sales Pos 5,00:00:30,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:29:21,0879308601,216 Colin McCormac,00:01:19,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:27:59,0879109419,216 Colin McCormac,00:01:04,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:27:08,0862118116,221 Sales Pos 5,00:03:00,7,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:25:04,0879109419,221 Sales Pos 5,00:00:34,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:22:27,0864506286,216 Colin McCormac,00:01:34,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:22:19,0872676765,217 Joe Gorman,00:06:13,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:20:54,0872678993,211 Darragh Leavy,00:01:56,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:11:31,0892297342,221 Sales Pos 5,00:01:04,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:07:20,0899779446,216 Colin McCormac,00:03:00,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:04:36,0899779446,216 Colin McCormac,00:01:06,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 11:01:59,018011003,211 Darragh Leavy,00:01:22,2,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-24 10:58:20,0872658933,221 Sales Pos 5,00:05:28,8,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:55:37,0851964548,216 Colin McCormac,00:00:24,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:52:39,0862495589,217 Joe Gorman,00:02:11,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:47:41,0851819901,211 Darragh Leavy,00:01:04,1,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-24 10:28:30,0861275621,221 Sales Pos 5,00:02:45,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:28:14,0832008192,216 Colin McCormac,00:03:16,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:26:06,0830266388,213 Abu Nihal,00:01:40,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:25:06,0896148044,221 Sales Pos 5,00:02:28,5,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 10:13:48,0877555629,221 Sales Pos 5,00:02:22,4,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 09:48:52,0830243461,216 Colin McCormac,00:04:47,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-24 09:47:03,0879059382,217 Joe Gorman,00:04:38,6,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:59:27,0873402900,211 Darragh Leavy,00:01:20,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:58:35,0873402900,221 Sales Pos 5,00:00:50,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:50:45,0873402900,216 Colin McCormac,00:07:46,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:41:08,0838806865,216 Colin McCormac,00:01:09,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:38:55,0838806865,211 Darragh Leavy,00:02:11,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:36:50,0857771387,221 Sales Pos 5,00:11:11,20,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:34:34,0894503777,216 Colin McCormac,00:02:19,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:32:46,0838806865,217 Joe Gorman,00:06:03,9,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:29:20,0838806865,211 Darragh Leavy,00:03:22,6,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:25:48,0851549563,221 Sales Pos 5,00:02:30,4,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:22:24,0864587931,216 Colin McCormac,00:01:06,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:20:25,0864587931,213 Abu Nihal,00:01:56,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 19:19:08,0851549563,211 Darragh Leavy,00:05:20,9,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:47:55,0852738638,221 Sales Pos 5,00:01:39,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:42:38,0852738638,216 Colin McCormac,00:05:14,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:31:25,0872429427,217 Joe Gorman,00:07:49,13,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:27:28,0872429427,211 Darragh Leavy,00:01:44,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:22:29,0867813000,221 Sales Pos 5,00:01:28,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:20:05,0892250188,216 Colin McCormac,00:01:01,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:19:40,0899889631,216 Colin McCormac,00:02:12,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 18:01:29,0894839386,211 Darragh Leavy,00:00:36,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 17:22:04,0830506144,221 Sales Pos 5,00:00:56,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 16:50:22,0876928241,216 Colin McCormac,00:00:32,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 15:58:20,0860460474,217 Joe Gorman,00:00:38,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 14:05:14,0894474984,211 Darragh Leavy,00:00:43,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 13:21:28,0894140224,221 Sales Pos 5,00:00:30,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 12:16:09,0872676765,216 Colin McCormac,00:00:41,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 11:39:56,0857505655,207 McEndoo Mark,00:00:20,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 11:24:04,0851693468,211 Darragh Leavy,00:01:26,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 10:54:02,0851746996,221 Sales Pos 5,00:00:25,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 09:47:43,0877402912,217 Joe Gorman,00:02:36,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-23 09:45:32,014568693,208 Sales N,00:04:13,0,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-23 09:45:18,35318692130,221 Sales Pos 5,00:04:44,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:49:21,0872045580,216 Colin McCormac,00:04:01,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:40:26,0857437172,216 Colin McCormac,00:00:27,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:32:17,0834884019,221 Sales Pos 5,00:18:14,32,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:28:26,0899875810,221 Sales Pos 5,00:02:16,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:27:27,0857867640,216 Colin McCormac,00:07:22,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:19:47,0899875810,217 Joe Gorman,00:07:59,13,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 19:09:10,0877966221,211 Darragh Leavy,00:01:12,3,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-22 19:03:30,0834884019,221 Sales Pos 5,00:15:19,26,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:52:20,0871443963,216 Colin McCormac,00:00:53,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:47:08,0876741087,216 Colin McCormac,00:00:29,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:42:13,0851693468,221 Sales Pos 5,00:04:11,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:39:05,0876474353,221 Sales Pos 5,00:11:06,13,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:35:33,0852352334,216 Colin McCormac,00:09:08,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:34:31,0838639989,217 Joe Gorman,00:04:44,7,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 18:20:07,0857747915,211 Darragh Leavy,00:01:04,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 17:12:37,0852246613,221 Sales Pos 5,00:00:26,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 17:09:58,0858680797,216 Colin McCormac,00:00:42,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 17:00:19,0858219678,216 Colin McCormac,00:00:34,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 16:59:20,0858219678,211 Darragh Leavy,00:00:30,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 16:50:35,0892192478,221 Sales Pos 5,00:00:31,1,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-22 16:18:56,0851251681,216 Colin McCormac,00:00:25,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 14:37:08,0892780422,217 Joe Gorman,00:00:35,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 14:21:39,0892098346,211 Darragh Leavy,00:01:40,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 13:56:06,0852766764,221 Sales Pos 5,00:00:59,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 13:50:31,0857454882,216 Colin McCormac,00:00:22,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 13:39:27,0857454882,213 Abu Nihal,00:00:24,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-22 12:33:35,0877487630,221 Sales Pos 5,00:00:45,0,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-22 11:56:59,0879095069,221 Sales Pos 5,00:01:03,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 19:28:13,0872909844,216 Colin McCormac,00:09:55,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 18:39:47,0872909844,217 Joe Gorman,00:01:37,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 18:39:02,0872992555,211 Darragh Leavy,00:04:59,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 18:37:52,0899808023,221 Sales Pos 5,00:03:33,5,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 18:37:14,0872992555,216 Colin McCormac,00:00:42,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 18:34:49,0872909844,216 Colin McCormac,00:04:53,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 18:02:27,0851060018,211 Darragh Leavy,00:00:23,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 15:25:42,0874187499,221 Sales Pos 5,00:02:16,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 13:06:03,0851612636,216 Colin McCormac,00:00:26,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 10:57:04,0874072405,217 Joe Gorman,00:00:33,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-21 08:12:03,014522420,211 Darragh Leavy,00:00:20,0,Logged Out,trade,3,2026-01-19
+501 Sales Queue,2026-01-20 18:44:56,0862568040,221 Sales Pos 5,00:00:30,2,Logged In,trade,3,2026-01-19
+501 Sales Queue,2026-01-20 18:44:53,0879654398,216 Colin McCormac,00:00:27,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-20 18:34:12,0879654398,213 Abu Nihal,00:02:39,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-20 14:31:50,0899862727,211 Darragh Leavy,00:00:35,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-20 10:24:03,0851244300,221 Sales Pos 5,00:00:24,1,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-20 08:10:55,0878730635,216 Colin McCormac,00:00:28,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 18:41:08,0858875779,217 Joe Gorman,00:03:01,3,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 18:29:47,0851218427,211 Darragh Leavy,00:06:46,9,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 16:51:58,0876495907,221 Sales Pos 5,00:02:04,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 15:16:22,016261612,216 Colin McCormac,00:00:43,0,Logged Out,trade,3,2026-01-19
+501 Sales Queue,2026-01-19 15:01:24,0861303242,216 Colin McCormac,00:00:57,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 13:07:19,0871635476,211 Darragh Leavy,00:00:37,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 12:54:25,0838991899,221 Sales Pos 5,00:00:20,2,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 12:42:12,016754500,216 Colin McCormac,00:00:31,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 12:36:05,016754500,217 Joe Gorman,00:00:43,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 12:02:16,0861984132,211 Darragh Leavy,00:01:56,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 12:00:42,0857321218,221 Sales Pos 5,00:00:47,0,Logged In,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 10:29:27,0871182984,216 Colin McCormac,00:00:26,0,Logged Out,retail,3,2026-01-19
+501 Sales Queue,2026-01-19 09:31:38,0876316170,209 Carey David,00:00:55,0,Logged In,retail,3,2026-01-19
 Totals,,nan,,13:13:43,6500,,retail,3,
 501 Sales Queue,2025-12-28 15:53:01,0872393721,204 Tohill Gerard,00:03:22,0,Logged Out,retail,3,2025-12-22
 501 Sales Queue,2025-12-28 15:45:47,0851711093,210 Sales SalesPos 1,00:05:44,0,Logged Out,retail,3,2025-12-22

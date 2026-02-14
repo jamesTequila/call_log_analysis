@@ -147,6 +147,63 @@ def generate_report():
     env = Environment(loader=FileSystemLoader('templates'))
     template = env.get_template('call_report.html.j2')
     
+    # REGENERATE NARRATIVE with Updated Metrics
+    metrics = results['metrics']
+    
+    # Calculate formatted dates for narrative from metrics
+    # Note: metrics has YYYY-MM-DD strings. Narrative needs DD/MM/YYYY.
+    def fmt_date(ymd_str):
+        if not ymd_str: return "N/A"
+        try:
+            return datetime.strptime(ymd_str, '%Y-%m-%d').strftime('%d/%m/%Y')
+        except: return ymd_str
+
+    week1_start_formatted = fmt_date(metrics['this_week_start'])
+    week1_end_formatted = fmt_date(metrics['this_week_end'])
+    week2_start_formatted = fmt_date(metrics['last_week_start'])
+    week2_end_formatted = fmt_date(metrics['last_week_end'])
+
+    results['narrative'] = f"""
+    Received a total of <b>{metrics['total_calls']:,}</b> calls across This Week and Last Week.
+    <br><br>
+    <b>This Week</b> ({week1_start_formatted} to {week1_end_formatted}): Received {metrics['week1_calls']:,} calls total.
+    <br>
+    - Retail: {metrics.get('week1_retail_total', 0):,} calls
+    <br>
+    - Trade: {metrics.get('week1_trade_total', 0):,} calls
+    <br>
+    - Abandoned: {metrics.get('week1_retail_abandoned', 0) + metrics.get('week1_trade_abandoned', 0):,} calls 
+      (Retail: {metrics.get('week1_retail_abandoned', 0):,}, Trade: {metrics.get('week1_trade_abandoned', 0):,})
+    <br><br>
+    <b>Last Week</b> ({week2_start_formatted} to {week2_end_formatted}): Received {metrics['week2_calls']:,} calls total.
+    <br>
+    - Retail: {metrics.get('week2_retail_total', 0):,} calls
+    <br>
+    - Trade: {metrics.get('week2_trade_total', 0):,} calls
+    <br>
+    - Abandoned: {metrics.get('week2_retail_abandoned', 0) + metrics.get('week2_trade_abandoned', 0):,} calls
+      (Retail: {metrics.get('week2_retail_abandoned', 0):,}, Trade: {metrics.get('week2_trade_abandoned', 0):,})
+    <br><br>
+    <b>Out of Hours Analysis:</b>
+    <br>
+    Operating Hours: Mon-Fri 8am-8pm, Sat 8am-6pm, Sun 10am-4pm
+    <br>
+    - <b>Total OOH Calls:</b> {metrics.get('ooh_total', 0):,} calls received outside operating hours
+    <br>
+    - <b>Before Opening:</b> {metrics.get('ooh_before_opening', 0):,} calls
+    <br>
+    - <b>After Closing:</b> {metrics.get('ooh_after_closing', 0):,} calls
+    <br><br>
+    <i>Abandoned Call Details (from abandoned logs):</i>
+    <br>
+    - <b>Agents Logged Out:</b> {metrics.get('abd_agent_logged_out', 0):,} abandoned calls when no agents were logged in
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;(Before Opening: {metrics.get('abd_logged_out_before_hours', 0):,}, 
+      During Business Hours: {metrics.get('abd_logged_out_during_hours', 0):,}, 
+      After Closing: {metrics.get('abd_logged_out_after_hours', 0):,})
+    <br>
+    - <b>Zero Polling:</b> {metrics.get('abd_zero_polling', 0):,} abandoned calls with 0 polling attempts (system couldn't reach any agent - typically when all agents busy/offline).
+    """
+
     # 6. Render Template
     print("Generating report...")
     html_output = template.render(

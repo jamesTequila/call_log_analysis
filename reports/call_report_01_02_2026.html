@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southside Call Analysis Report</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --light-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--primary-color); background: #f5f5f5; margin: 0; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 40px 30px; text-align: left; }
+        .header h1 { margin: 0; font-weight: 300; }
+        .content { padding: 30px; }
+        .section { margin-bottom: 40px; }
+        .section h2 { border-bottom: 3px solid var(--secondary-color); padding-bottom: 10px; }
+        
+        .metric-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .metric-card { background: var(--light-bg); padding: 20px; border-radius: 8px; text-align: center; border: 1px solid var(--border-color); }
+        .metric-value { font-size: 2em; font-weight: bold; color: var(--secondary-color); }
+        .metric-label { color: #666; text-transform: uppercase; font-size: 0.9em; }
+        
+        /* Data card for Journey/OOH sections */
+        .data-card { background: var(--light-bg); padding: 20px; border-radius: 8px; text-align: center; border: 1px solid var(--border-color); }
+        .data-card h3 { margin: 0 0 10px 0; font-size: 1em; color: #666; text-transform: uppercase; }
+        .data-card p.metric-value { font-size: 2em; font-weight: bold; color: var(--secondary-color); margin: 0; }
+        .data-card p.metric-label { color: #888; font-size: 0.9em; margin: 5px 0 0 0; }
+        
+        .executive-summary { background: #e8f4f8; padding: 25px; border-radius: 8px; border-left: 5px solid var(--secondary-color); }
+        
+        .chart-container { margin: 20px 0; padding: 20px; background: white; border: 1px solid var(--border-color); border-radius: 8px; }
+        
+        .footer { text-align: center; padding: 20px; color: #666; font-size: 0.9em; }
+        
+        /* Header specific styles */
+        .header { 
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); 
+            color: white; 
+            padding: 40px 30px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .header a {
+            position: absolute;
+            left: 30px;
+            height: 120px;
+        }
+        .header img {
+            height: 120px;
+        }
+        .header-text {
+            text-align: center;
+        }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://tequila-ai.com" target="_blank"> <img src="https://tequila-ai.com/wp-content/uploads/2025/06/logo-no-background.png" alt="Logo"></a>
+            <div class="header-text">
+                <h1>📞 Southside Call Analysis Report</h1>
+                <p>Weekly Performance Overview as of 01/02/2026</p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- Key Metrics - Row 1: Totals -->
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value">4,974</div>
+                    <div class="metric-label">Total Calls</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">2,598</div>
+                    <div class="metric-label">This Week Volume</div>
+                </div>
+                 <div class="metric-card">
+                    <div class="metric-value">2,376</div>
+                    <div class="metric-label">Last Week Volume</div>
+                </div>
+            </div>
+            
+            <!-- Key Metrics - Row 2: Trade -->
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value">437</div>
+                    <div class="metric-label">This Week Trade</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">422</div>
+                    <div class="metric-label">Last Week Trade</div>
+                </div>
+            </div>
+            
+            <!-- Key Metrics - Row 3: Retail -->
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value">1,862</div>
+                    <div class="metric-label">This Week Retail</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">1,704</div>
+                    <div class="metric-label">Last Week Retail</div>
+                </div>
+            </div>
+
+            <!-- Customer Type Abandonment Metrics -->
+            <div class="section">
+                <h2>📋 Abandonment by Customer Type</h2>
+                <div class="metric-grid">
+                    <!-- Week 1 Metrics -->
+                    <div class="metric-card">
+                        <div class="metric-value">274</div>
+                        <div class="metric-label">This Week Retail Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">12.8%</div>
+                        <div class="metric-label">This Week Retail Rate</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">25</div>
+                        <div class="metric-label">This Week Trade Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">5.4%</div>
+                        <div class="metric-label">This Week Trade Rate</div>
+                    </div>
+                </div>
+                <div class="metric-grid">
+                    <!-- Week 2 Metrics -->
+                    <div class="metric-card">
+                        <div class="metric-value">239</div>
+                        <div class="metric-label">Last Week Retail Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">12.3%</div>
+                        <div class="metric-label">Last Week Retail Rate</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">11</div>
+                        <div class="metric-label">Last Week Trade Abandoned</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">2.5%</div>
+                        <div class="metric-label">Last Week Trade Rate</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Executive Summary -->
+            <div class="section">
+                <h2>📊 Executive Summary</h2>
+                <div class="executive-summary">
+                    
+    Received a total of <b>4,974</b> calls across This Week and Last Week.
+    <br><br>
+    <b>This Week</b> (26/01/2026 to 01/02/2026): Received 2,598 calls total.
+    <br>
+    - Retail: 1,862 calls
+    <br>
+    - Trade: 437 calls
+    <br>
+    - Abandoned: 299 calls 
+    <br><br>
+    <b>Last Week</b> (19/01/2026 to 25/01/2026): Received 2,376 calls total.
+    <br>
+    - Retail: 1,704 calls
+    <br>
+    - Trade: 422 calls
+    <br>
+    - Abandoned: 250 calls 
+    
+                </div>
+            </div>
+            
+            <!-- Charts -->
+            <div class="section">
+                <div class="chart-container">
+                    <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.0.min.js"></script>                <div id="3c78c35c-4ad0-4659-9492-339050a0b814" class="plotly-graph-div" style="height:1200px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("3c78c35c-4ad0-4659-9492-339050a0b814")) {                    Plotly.newPlot(                        "3c78c35c-4ad0-4659-9492-339050a0b814",                        [{"customdata":[["1862","8s"],["437","8s"]],"hovertemplate":"Type: %{x}\u003cbr\u003eThis Week\u003cbr\u003eAvg Waiting Time: %{customdata[1]}\u003cbr\u003eTotal Calls: %{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#2391DC"},"name":"This Week","showlegend":false,"text":["This Week","This Week"],"textposition":"auto","x":["Retail","Trade Customer"],"y":[8.921052631578947,8.560640732265446],"type":"bar","xaxis":"x","yaxis":"y"},{"customdata":[["1704","9s"],["422","7s"]],"hovertemplate":"Type: %{x}\u003cbr\u003eLast Week\u003cbr\u003eAvg Waiting Time: %{customdata[1]}\u003cbr\u003eTotal Calls: %{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#DC6E23"},"name":"Last Week","showlegend":false,"text":["Last Week","Last Week"],"textposition":"auto","x":["Retail","Trade Customer"],"y":[9.171361502347418,7.796208530805687],"type":"bar","xaxis":"x","yaxis":"y"},{"customdata":[["1862","2m 59s"],["437","2m 25s"]],"hovertemplate":"Type: %{x}\u003cbr\u003eThis Week\u003cbr\u003eAvg Talk Time: %{customdata[1]}\u003cbr\u003eTotal Calls: %{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#2391DC"},"name":"This Week","showlegend":false,"text":["This Week","This Week"],"textposition":"auto","x":["Retail","Trade Customer"],"y":[2.984810239885428,2.426506483600305],"type":"bar","xaxis":"x2","yaxis":"y2"},{"customdata":[["1704","3m 2s"],["422","2m 20s"]],"hovertemplate":"Type: %{x}\u003cbr\u003eLast Week\u003cbr\u003eAvg Talk Time: %{customdata[1]}\u003cbr\u003eTotal Calls: %{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#DC6E23"},"name":"Last Week","showlegend":false,"text":["Last Week","Last Week"],"textposition":"auto","x":["Retail","Trade Customer"],"y":[3.040727699530516,2.334083728278041],"type":"bar","xaxis":"x2","yaxis":"y2"},{"customdata":[[374,355,15,"21s","1m 6s","2m 56s",4],[343,319,17,"23s","58s","2m 32s",7],[351,336,13,"20s","1m 59s","5m 3s",2],[411,366,42,"20s","3m 39s","20m 0s",3],[403,366,32,"21s","2m 18s","6m 14s",5],[496,332,160,"23s","4m 12s","20m 0s",4],[220,198,20,"21s","2m 6s","8m 52s",2]],"hovertemplate":"Day: %{x}\u003cbr\u003eThis Week\u003cbr\u003eAbandoned Calls: %{y}\u003cbr\u003eAnswered Calls: %{customdata[1]}\u003cbr\u003eVoicemail\u002fOther: %{customdata[6]}\u003cbr\u003eTotal Calls: %{customdata[0]}\u003cbr\u003eMin Wait: %{customdata[3]}\u003cbr\u003eAverage Wait: %{customdata[4]}\u003cbr\u003eMax Wait: %{customdata[5]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#2391DC"},"name":"This Week","showlegend":true,"x":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"y":[15,17,13,42,32,160,20],"type":"bar","xaxis":"x3","yaxis":"y3"},{"customdata":[[377,361,13,"20s","1m 31s","6m 46s",3],[289,283,6,"24s","50s","2m 39s",0],[330,318,11,"20s","2m 41s","9m 55s",1],[351,320,28,"22s","3m 28s","18m 14s",3],[387,350,33,"20s","2m 37s","11m 11s",4],[474,317,154,"22s","3m 34s","20m 0s",3],[168,161,5,"31s","52s","1m 17s",2]],"hovertemplate":"Day: %{x}\u003cbr\u003eLast Week\u003cbr\u003eAbandoned Calls: %{y}\u003cbr\u003eAnswered Calls: %{customdata[1]}\u003cbr\u003eVoicemail\u002fOther: %{customdata[6]}\u003cbr\u003eTotal Calls: %{customdata[0]}\u003cbr\u003eMin Wait: %{customdata[3]}\u003cbr\u003eAverage Wait: %{customdata[4]}\u003cbr\u003eMax Wait: %{customdata[5]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#DC6E23"},"name":"Last Week","showlegend":true,"x":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"y":[13,6,11,28,33,154,5],"type":"bar","xaxis":"x3","yaxis":"y3"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0]},"yaxis":{"anchor":"x","domain":[0.7200000000000001,1.0],"title":{"text":"Seconds"}},"xaxis2":{"anchor":"y2","domain":[0.0,1.0]},"yaxis2":{"anchor":"x2","domain":[0.36000000000000004,0.6400000000000001],"title":{"text":"Minutes"}},"xaxis3":{"anchor":"y3","domain":[0.0,1.0]},"yaxis3":{"anchor":"x3","domain":[0.0,0.28],"title":{"text":"Count"}},"annotations":[{"font":{"size":16},"showarrow":false,"text":"Average Waiting Time","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"Average Talking Time","x":0.5,"xanchor":"center","xref":"paper","y":0.6400000000000001,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"Abandoned Calls by Day of Week","x":0.5,"xanchor":"center","xref":"paper","y":0.28,"yanchor":"bottom","yref":"paper"},{"align":"left","bgcolor":"rgba(255, 255, 255, 0.8)","bordercolor":"black","borderwidth":1,"font":{"size":10},"showarrow":false,"text":"\u003cb\u003eAvg Time to Abandon:\u003c\u002fb\u003e\u003cbr\u003eWeek 26\u002f01\u002f2026: 3m 21s (299 calls)\u003cbr\u003eWeek 19\u002f01\u002f2026: 3m 10s (250 calls)","x":-0.4,"xanchor":"left","xref":"x3","y":128.0,"yanchor":"middle","yref":"y3"}],"title":{"text":"Southside Call Center Metrics","x":0.5},"legend":{"orientation":"h","yanchor":"top","y":-0.05,"xanchor":"center","x":0.5},"margin":{"l":20,"r":20,"t":60,"b":50},"showlegend":true,"barmode":"group","height":1200,"autosize":true},                        {"responsive": true, "displayModeBar": false}                    )                };            </script>        </div>
+                </div>
+            </div>
+
+            <!-- Out of Hours Analysis -->
+            <div class="section">
+                <h2>🌙 Out of Hours Analysis</h2>
+                <div class="metric-grid">
+                    <div class="data-card">
+                        <h3>Total Out of Hours Calls</h3>
+                        <p class="metric-value">48</p>
+                        <p class="metric-label">Received outside operating hours</p>
+                    </div>
+                    <div class="data-card">
+                        <h3>Before Opening</h3>
+                        <p class="metric-value">27</p>
+                        <p class="metric-label">Calls before business hours</p>
+                    </div>
+                    <div class="data-card">
+                        <h3>After Closing</h3>
+                        <p class="metric-value">21</p>
+                        <p class="metric-label">Calls after business hours</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 15px; padding: 15px; background-color: #e8f4f8; border: 1px solid #bee5eb; border-radius: 5px; color: #0c5460;">
+                    <strong>Note:</strong> Out of hours call volume is relatively low (48 calls). Operating hours: Mon-Fri 8am-8pm, Sat 8am-6pm, Sun 10am-4pm.
+                </div>
+                
+            </div>
+            
+            <!-- Abandoned Trade Customers Section -->
+            
+            
+            
+            <!-- Call Logs Table -->
+            <div class="section">
+                <h2>📋 Call Logs</h2>
+                <div style="margin-bottom: 15px; text-align: right;">
+                    <button onclick="window.location.href='call_logs_cleaned.csv'" style="background-color: var(--success-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em; margin-right: 10px;">
+                        📥 Download Cleaned CSV
+                    </button>
+                    <button onclick="window.location.href='call_logs_original.csv'" style="background-color: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em;">
+                        📥 Download Original CSV
+                    </button>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                        <thead>
+                            <tr style="background-color: var(--primary-color); color: white;">
+                                <th style="padding: 12px; text-align: left;">Week</th>
+                                <th style="padding: 12px; text-align: left;">Call ID</th>
+                                <th style="padding: 12px; text-align: left;">Call Start</th>
+                                <th style="padding: 12px; text-align: left;">From Number</th>
+                                <th style="padding: 12px; text-align: left;">Customer Type</th>
+                                <th style="padding: 12px; text-align: left;">Talking (sec)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e98-4da9-89b900004f91</td>
+                                <td style="padding: 10px;">2026-01-26 07:49:30</td>
+                                <td style="padding: 10px;">0852771389</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">0</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e99-6555-018a00004f92</td>
+                                <td style="padding: 10px;">2026-01-26 07:57:19</td>
+                                <td style="padding: 10px;">0876523494</td>
+                                <td style="padding: 10px;">Trade</td>
+                                <td style="padding: 10px;">4</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e99-6d13-7a7200004f93</td>
+                                <td style="padding: 10px;">2026-01-26 07:57:32</td>
+                                <td style="padding: 10px;">0876523494</td>
+                                <td style="padding: 10px;">Trade</td>
+                                <td style="padding: 10px;">5</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e99-768e-ec6e00004f94</td>
+                                <td style="padding: 10px;">2026-01-26 07:57:48</td>
+                                <td style="padding: 10px;">0879964029</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">5</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e99-8d10-686200004f95</td>
+                                <td style="padding: 10px;">2026-01-26 07:58:26</td>
+                                <td style="padding: 10px;">0876523494</td>
+                                <td style="padding: 10px;">Trade</td>
+                                <td style="padding: 10px;">2</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e99-d7a2-27f100004f96</td>
+                                <td style="padding: 10px;">2026-01-26 08:00:31</td>
+                                <td style="padding: 10px;">0868767882</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">404</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e99-eb23-f59c00004f97</td>
+                                <td style="padding: 10px;">2026-01-26 08:01:04</td>
+                                <td style="padding: 10px;">0878730635</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">166</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e9a-11a6-cdaf00004f98</td>
+                                <td style="padding: 10px;">2026-01-26 08:02:08</td>
+                                <td style="padding: 10px;">0876523494</td>
+                                <td style="padding: 10px;">Trade</td>
+                                <td style="padding: 10px;">230</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e9b-0d85-98fb00004f99</td>
+                                <td style="padding: 10px;">2026-01-26 08:09:11</td>
+                                <td style="padding: 10px;">0868373191</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">408</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">00000000-01dc-8e9b-de29-3d7900004f9b</td>
+                                <td style="padding: 10px;">2026-01-26 08:15:01</td>
+                                <td style="padding: 10px;">018961167</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">28</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <p style="margin-top: 10px; color: #666; font-style: italic;">Showing first 10 rows of 4425 total calls. Download CSV for complete data.</p>
+                </div>
+            </div>
+            
+            <!-- Abandoned Call Logs Table -->
+            <div class="section">
+                <h2>📋 Abandoned Call Logs</h2>
+                <div style="margin-bottom: 15px; text-align: right;">
+                    <button onclick="window.location.href='abandoned_logs_cleaned.csv'" style="background-color: var(--success-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em; margin-right: 10px;">
+                        📥 Download Cleaned CSV
+                    </button>
+                    <button onclick="window.location.href='abandoned_logs_original.csv'" style="background-color: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em;">
+                        📥 Download Original CSV
+                    </button>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                        <thead>
+                            <tr style="background-color: var(--primary-color); color: white;">
+                                <th style="padding: 12px; text-align: left;">Week</th>
+                                <th style="padding: 12px; text-align: left;">Call Time</th>
+                                <th style="padding: 12px; text-align: left;">Caller ID</th>
+                                <th style="padding: 12px; text-align: left;">Customer Type</th>
+                                <th style="padding: 12px; text-align: left;">Waiting Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 15:28:52</td>
+                                <td style="padding: 10px;">871492912</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:08:52</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 15:27:00</td>
+                                <td style="padding: 10px;">851069773</td>
+                                <td style="padding: 10px;">Trade</td>
+                                <td style="padding: 10px;">00:01:26</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 15:06:42</td>
+                                <td style="padding: 10px;">833084802</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:00:24</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 15:01:12</td>
+                                <td style="padding: 10px;">851414919</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:02:58</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 14:55:57</td>
+                                <td style="padding: 10px;">899641302</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:01:00</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 14:54:31</td>
+                                <td style="padding: 10px;">857169135</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:00:56</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 14:37:52</td>
+                                <td style="padding: 10px;">877703904</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:04:05</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 14:37:26</td>
+                                <td style="padding: 10px;">868407953</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:04:09</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: white;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 14:36:48</td>
+                                <td style="padding: 10px;">877703904</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:00:25</td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+                                <td style="padding: 10px;">Week 1</td>
+                                <td style="padding: 10px;">2026-02-01 14:16:35</td>
+                                <td style="padding: 10px;">877977548</td>
+                                <td style="padding: 10px;">Retail</td>
+                                <td style="padding: 10px;">00:00:24</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <p style="margin-top: 10px; color: #666; font-style: italic;">Showing first 10 rows of 549 total abandoned calls. Download CSV for complete data.</p>
+                </div>
+
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+        <p>&copy; 2025 Tequila AI Ltd.</p>
+    </div>
+</body>
+</html>
